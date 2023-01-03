@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:id="@+id/ll_root" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/view_margin_small" android:layout_marginStart="@dimen/view_margin_small" android:layout_marginEnd="@dimen/view_margin_small">
+    <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.comeback.data.widget.RatioImageView android:id="@+id/iv_cover" android:layout_width="match_parent" android:layout_height="wrap_content" android:scaleType="centerCrop" app:radius="@dimen/view_margin_small" app:ratio="1.4"/>
+        <ImageView android:layout_gravity="end" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/view_margin_small" android:src="@mipmap/icon_vip"/>
+        <TextView android:textSize="@dimen/text_detail" android:textColor="@color/white" android:layout_gravity="end|bottom" android:id="@+id/tv_duration" android:background="@drawable/bg_radius_trans" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/view_margin_normal" android:paddingStart="@dimen/view_margin_normal" android:paddingEnd="@dimen/view_margin_normal" android:layout_marginEnd="@dimen/view_margin_normal"/>
+    </FrameLayout>
+    <TextView android:textSize="@dimen/text_title" android:textColor="@color/basic_primary_text" android:id="@+id/tv_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/view_margin_small" android:singleLine="true"/>
+    <TextView android:textSize="@dimen/text_detail" android:textColor="@color/basic_third_text" android:id="@+id/tv_intro" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/view_margin_normal" android:singleLine="true"/>
+</LinearLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/include_divide_line" />
+    <com.google.android.material.tabs.TabLayout android:id="@id/tab1" android:layout_width="fill_parent" android:layout_height="36.0dip" android:layout_marginTop="@dimen/view_margin_small" android:layout_marginBottom="@dimen/view_margin_small" app:tabBackground="@drawable/selector_abb" app:tabIndicatorColor="@null" app:tabMode="scrollable" app:tabSelectedTextColor="@color/kmColorAccent" app:tabTextColor="@color/basic_third_text" />
+    <com.google.android.material.tabs.TabLayout android:id="@id/tab2" android:layout_width="fill_parent" android:layout_height="36.0dip" android:layout_marginTop="@dimen/view_margin_small" android:layout_marginBottom="@dimen/view_margin_small" app:tabBackground="@drawable/selector_abb" app:tabIndicatorColor="@null" app:tabMode="scrollable" app:tabSelectedTextColor="@color/kmColorAccent" app:tabTextColor="@color/basic_third_text" />
+    <com.google.android.material.tabs.TabLayout android:id="@id/tab3" android:layout_width="fill_parent" android:layout_height="36.0dip" android:layout_marginTop="@dimen/view_margin_small" android:layout_marginBottom="@dimen/view_margin_small" app:tabBackground="@drawable/selector_abb" app:tabIndicatorColor="@null" app:tabMode="scrollable" app:tabSelectedTextColor="@color/kmColorAccent" app:tabTextColor="@color/basic_third_text" />
+    <com.google.android.material.tabs.TabLayout android:id="@id/tab4" android:layout_width="fill_parent" android:layout_height="36.0dip" android:layout_marginTop="@dimen/view_margin_small" android:layout_marginBottom="@dimen/view_margin_small" app:tabBackground="@drawable/selector_abb" app:tabIndicatorColor="@null" app:tabMode="scrollable" app:tabSelectedTextColor="@color/kmColorAccent" app:tabTextColor="@color/basic_third_text" />
+    <include layout="@layout/base_refresh_recycler" />
+</LinearLayout>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:textSize="20sp" android:textColor="@color/basic_primary_text" android:gravity="center" android:background="@color/white" android:layout_width="match_parent" android:layout_height="48dp" android:text="发现"/>
+    <View android:background="#cecece" android:layout_width="match_parent" android:layout_height="1px"/>
+    <LinearLayout android:orientation="horizontal" android:background="@color/white" android:paddingTop="24dp" android:paddingBottom="24dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/ll_read" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/maomi_read"/>
+            <TextView android:textSize="16sp" android:textColor="@color/basic_primary_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:text="看小说"/>
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/ll_listener" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/maomi_listener"/>
+            <TextView android:textSize="16sp" android:textColor="@color/basic_primary_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:text="听小说"/>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:id="@+id/ll_more" android:background="@color/white" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp">
+        <TextView android:textSize="20sp" android:textColor="@color/basic_primary_text" android:paddingTop="8dp" android:paddingBottom="8dp" android:layout_width="0dp" android:layout_height="wrap_content" android:text="精选动漫" android:layout_weight="1" android:paddingStart="16dp"/>
+        <TextView android:textSize="12sp" android:textColor="@color/basic_primary_text" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:background="@drawable/bg_radius_grey_stoke" android:paddingTop="2dp" android:paddingBottom="2dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="查看全部" android:drawableRight="@mipmap/ic_right_primary" android:drawablePadding="4dp" android:paddingStart="8dp" android:paddingEnd="8dp" android:layout_marginEnd="8dp" android:drawableTint="@color/basic_primary_text"/>
+    </LinearLayout>
+    <androidx.recyclerview.widget.RecyclerView android:id="@+id/rv_list" android:background="@color/white" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="8dp" android:paddingEnd="8dp"/>
+</LinearLayout>

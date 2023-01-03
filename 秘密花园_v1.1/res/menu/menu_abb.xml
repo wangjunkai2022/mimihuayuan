@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@mipmap/abb_home" android:id="@id/navigation_home" android:title="主页" />
+    <item android:icon="@mipmap/abb_hot" android:id="@id/navigation_hot" android:title="热点" />
+    <item android:icon="@mipmap/abb_search" android:id="@id/navigation_search" android:title="搜索" />
+    <item android:icon="@mipmap/abb_me" android:id="@id/navigation_me" android:title="我的" />
+</menu>

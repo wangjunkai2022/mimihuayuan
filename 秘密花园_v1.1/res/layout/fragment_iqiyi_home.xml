@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/base_refresh_recycler" />
+    <ImageView android:layout_gravity="end" android:id="@id/iv_search" android:padding="@dimen/view_margin_normal" android:layout_width="48.0dip" android:layout_height="48.0dip" android:src="@drawable/icon_search2" android:layout_marginEnd="@dimen/view_margin_large" />
+</FrameLayout>

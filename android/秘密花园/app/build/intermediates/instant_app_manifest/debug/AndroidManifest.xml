@@ -1,0 +1,413 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.comeback.secret.garden"
+    platformBuildVersionCode="29"
+    platformBuildVersionName="10"
+    android:compileSdkVersion="29"
+    android:compileSdkVersionCodename="10"
+    android:targetSandboxVersion="2"
+    android:versionCode="10"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="21"
+        android:targetSdkVersion="29" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:name="com.comeback.data.App"
+        android:allowBackup="true"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:debuggable="true"
+        android:icon="@mipmap/icon_secret_garden"
+        android:label="@string/app_name"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@mipmap/icon_secret_garden"
+        android:supportsRtl="true"
+        android:testOnly="true"
+        android:theme="@style/AppTheme.ToolBar" >
+        <activity
+            android:name="com.comeback.data.ui.main.MainActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:hardwareAccelerated="true"
+            android:theme="@style/AppTheme.ToolBar" />
+        <activity
+            android:name="com.comeback.data.ui.main.SecretGardenActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:hardwareAccelerated="true"
+            android:theme="@style/AppTheme.ToolBar" />
+        <activity android:name="com.comeback.data.ui.main.NoticeActivity" />
+        <activity android:name="com.comeback.data.ui.main.QuestionActivity" />
+        <activity android:name="com.comeback.data.ui.main.UpdateActivity" />
+        <activity android:name="com.comeback.data.ui.main.CollectActivity" />
+        <activity android:name="com.comeback.data.ui.main.DownloadActivity" />
+        <activity android:name="com.comeback.data.ui.main.AppActivity" />
+        <activity
+            android:name="com.comeback.data.ui.main.AddCollectActivity"
+            android:windowSoftInputMode="adjustResize" />
+        <activity android:name="com.comeback.data.ui.main.ADLauncherActivity" />
+        <activity android:name="com.comeback.data.ui.main.LauncherActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.comeback.data.ui.test.TestExoActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:hardwareAccelerated="true" />
+        <activity android:name="com.comeback.data.ui.aimeiju.AMJLauncherActivity" />
+        <activity android:name="com.comeback.data.ui.aimeiju.AimeijuActivity" />
+        <activity android:name="com.comeback.data.ui.aimeiju.TopicActivity" />
+        <activity android:name="com.comeback.data.ui.aimeiju.SearchActivity" />
+        <activity android:name="com.comeback.data.ui.aimeiju.SearchResultActivity" />
+        <activity
+            android:name="com.comeback.data.ui.aimeiju.MovieDetailActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:hardwareAccelerated="true" />
+        <activity
+            android:name="com.comeback.data.ui.test.TiktopActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:hardwareAccelerated="true" />
+        <activity android:name="com.comeback.data.ui.fengliu.FengliuActivity" />
+        <activity android:name="com.comeback.data.ui.fengliu.MyFengliuActivity" />
+        <activity android:name="com.comeback.data.ui.fengliu.Fengliu2Activity" />
+        <activity android:name="com.comeback.data.ui.fengliu.InfoActivity" />
+        <activity android:name="com.comeback.data.ui.fengliu.Info2Activity" />
+        <activity android:name="com.comeback.data.ui.km.KmLaunchActivity" />
+        <activity android:name="com.comeback.data.ui.km.MainActivity" />
+        <activity android:name="com.comeback.data.ui.km.UserCenterActivity" />
+        <activity android:name="com.comeback.data.ui.km.FollowListActivity" />
+        <activity android:name="com.comeback.data.ui.km.CollectListActivity" />
+        <activity android:name="com.comeback.data.ui.km.PicActivity" />
+        <activity
+            android:name="com.comeback.data.ui.km.VideoPlayActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:hardwareAccelerated="true" />
+        <activity android:name="com.comeback.data.ui.km2.Km2LaunchActivity" />
+        <activity android:name="com.comeback.data.ui.km2.Km2Activity" />
+        <activity android:name="com.comeback.data.ui.km2.UserCenterActivity" />
+        <activity android:name="com.comeback.data.ui.km2.FollowListActivity" />
+        <activity android:name="com.comeback.data.ui.km2.CollectListActivity" />
+        <activity android:name="com.comeback.data.ui.km2.MMActivity" />
+        <activity android:name="com.comeback.data.ui.km2.MMDetailActivity" />
+        <activity android:name="com.comeback.data.ui.km2.AreaChooseActivity" />
+        <activity
+            android:name="com.comeback.data.ui.km2.VideoPlayActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:hardwareAccelerated="true" />
+        <activity android:name="com.comeback.data.ui.movieCloud.VideoSearchActivity" />
+        <activity
+            android:name="com.comeback.data.ui.movieCloud.PlayActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:hardwareAccelerated="true" />
+        <activity
+            android:name="com.comeback.data.ui.H5.H5Activity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity android:name="com.comeback.data.ui.maomi.MmLaunchActivity" />
+        <activity android:name="com.comeback.data.ui.maomi.MainActivity" />
+        <activity
+            android:name="com.comeback.data.ui.maomi.MovieDetailActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:hardwareAccelerated="true" />
+        <activity android:name="com.comeback.data.ui.maomi.SearchActivity" />
+        <activity android:name="com.comeback.data.ui.maomi.SpecialDetailActivity" />
+        <activity android:name="com.comeback.data.ui.maomi.NovelActivity" />
+        <activity android:name="com.comeback.data.ui.maomi.NovelReadActivity" />
+        <activity android:name="com.comeback.data.ui.maomi.VoiceAnchorSpecialActivity" />
+        <activity android:name="com.comeback.data.ui.maomi.VoiceAnchorDetailActivity" />
+        <activity android:name="com.comeback.data.ui.maomi.CartoonActivity" />
+        <activity android:name="com.comeback.data.ui.maomi.CartoonListActivity" />
+        <activity android:name="com.comeback.data.ui.maomi.CartoonDetailActivity" />
+        <activity android:name="com.comeback.data.ui.maomi.CartoonWatchActivity" />
+        <activity
+            android:name="com.comeback.data.ui.maomi.VoicePlayActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:hardwareAccelerated="true" />
+        <activity android:name="com.comeback.data.ui.maomi.VoiceActivity" />
+        <activity android:name="com.comeback.data.ui.hgl.MyLiveActivity" />
+        <activity android:name="com.comeback.data.ui.hgl.LiveListActivity" />
+        <activity
+            android:name="com.comeback.data.ui.hgl.LiveActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:hardwareAccelerated="true" />
+        <activity android:name="com.comeback.data.ui.xj.XJLaunchActivity" />
+        <activity android:name="com.comeback.data.ui.xj.MainActivity" />
+        <activity
+            android:name="com.comeback.data.ui.xj.PlayActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:hardwareAccelerated="true" />
+        <activity android:name="com.comeback.data.ui.xj.ShortActivity" />
+        <activity android:name="com.comeback.data.ui.xj.SpecialDetailActivity" />
+        <activity android:name="com.comeback.data.ui.xj.SearchActivity" />
+        <activity android:name="com.comeback.data.ui.xj.ScreenActivity" />
+        <activity
+            android:name="com.comeback.data.ui.dn.DNActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:hardwareAccelerated="true" />
+        <activity android:name="com.comeback.data.ui.dn.SearchActivity" />
+        <activity android:name="com.comeback.data.ui.dn.UserActivity" />
+        <activity
+            android:name="com.comeback.data.ui.dn.VideoListActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:hardwareAccelerated="true" />
+        <activity android:name="com.comeback.data.ui.sex8.Sex8Activity" />
+        <activity android:name="com.comeback.data.ui.sex8.ui.LouFengActivity" />
+        <activity android:name="com.comeback.data.ui.sex8.ui.LouFengDetailActivity" />
+        <activity android:name="com.comeback.data.ui.sex8.ui.YXActivity" />
+        <activity android:name="com.comeback.data.ui.sex8.ui.YXDetailActivity" />
+        <activity android:name="com.comeback.data.ui.sex8.ui.YXAuthorDetailActivity" />
+        <activity
+            android:name="com.comeback.data.ui.sex8.ui.YXPlayActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:hardwareAccelerated="true" />
+        <activity
+            android:name="com.comeback.data.ui.tv91.MainActivity"
+            android:windowSoftInputMode="adjustPan" />
+        <activity android:name="com.comeback.data.ui.tv91.Tv91LauncherActivity" />
+        <activity
+            android:name="com.comeback.data.ui.tv91.PlayActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:hardwareAccelerated="true" />
+        <activity android:name="com.comeback.data.ui.tv91.VideoBrowseActivity" />
+        <activity android:name="com.comeback.data.ui.tv91.SearchActivity" />
+        <activity android:name="com.comeback.data.ui.lutube.LutubeLaunchActivity" />
+        <activity android:name="com.comeback.data.ui.lutube.MainActivity" />
+        <activity android:name="com.comeback.data.ui.lutube.ActorDetailActivity" />
+        <activity android:name="com.comeback.data.ui.lutube.VideoListActivity" />
+        <activity android:name="com.comeback.data.ui.lutube.SearchResultActivity" />
+        <activity android:name="com.comeback.data.ui.lutube.SearchActivity" />
+        <activity
+            android:name="com.comeback.data.ui.lutube.VideoPlayActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:hardwareAccelerated="true" />
+        <activity android:name="com.comeback.data.ui.gkj.GkjLauncherActivity" />
+        <activity android:name="com.comeback.data.ui.gkj.GKJActivity" />
+        <activity android:name="com.comeback.data.ui.gkj.ComicDetailActivity" />
+        <activity android:name="com.comeback.data.ui.gkj.ComicReadActivity" />
+        <activity android:name="com.comeback.data.ui.gkj.CgReadActivity" />
+        <activity android:name="com.comeback.data.ui.gkj.SearchActivity" />
+        <activity android:name="com.comeback.data.ui.gkj.SearchResultActivity" />
+        <activity android:name="com.comeback.data.ui.gkj.ScreenActivity" />
+        <activity android:name="com.comeback.data.ui.gkj.SpecialActivity" />
+        <activity android:name="com.comeback.data.ui.gkj.RankActivity" />
+        <activity
+            android:name="com.comeback.data.ui.gkj.PlayActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:hardwareAccelerated="true" />
+        <activity android:name="com.comeback.data.ui.iqiyi.IQYLaunchActivity" />
+        <activity android:name="com.comeback.data.ui.iqiyi.IQYMainActivity" />
+        <activity android:name="com.comeback.data.ui.iqiyi.CategoryActivity" />
+        <activity android:name="com.comeback.data.ui.iqiyi.SearchActivity" />
+        <activity android:name="com.comeback.data.ui.iqiyi.VideoListActivity" />
+        <activity
+            android:name="com.comeback.data.ui.iqiyi.UserCenterActivity"
+            android:launchMode="singleTop" />
+        <activity android:name="com.comeback.data.ui.fulao2.FuLao2LaunchActivity" />
+        <activity android:name="com.comeback.data.ui.fulao2.FuLao2Launch2Activity" />
+        <activity android:name="com.comeback.data.ui.fulao2.FuLao2Activity" />
+        <activity android:name="com.comeback.data.ui.fulao2.RankActivity" />
+        <activity android:name="com.comeback.data.ui.fulao2.SearchResultActivity" />
+        <activity android:name="com.comeback.data.ui.fulao2.ActorDetailActivity" />
+        <activity android:name="com.comeback.data.ui.fulao2.TypeDetailActivity" />
+        <activity android:name="com.comeback.data.ui.fulao2.SearchActivity" />
+        <activity android:name="com.comeback.data.ui.fulao2.ScreenActivity" />
+        <activity
+            android:name="com.comeback.data.ui.fulao2.PlayActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:hardwareAccelerated="true" />
+        <activity
+            android:name="com.comeback.data.ui.hg.HGBrowseActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity
+            android:name="com.comeback.data.ui.hg.HGMovieDetailActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:launchMode="singleTop"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity android:name="com.comeback.data.ui.test.TestActivity" />
+        <activity android:name="com.comeback.data.ui.slf.SlfLauncherActivity" />
+        <activity android:name="com.comeback.data.ui.slf.SlfActivity" />
+        <activity android:name="com.comeback.data.ui.slf.ComicDetailActivity" />
+        <activity android:name="com.comeback.data.ui.slf.ComicReadActivity" />
+        <activity android:name="com.comeback.data.ui.slf.ImageReadActivity" />
+        <activity android:name="com.comeback.data.ui.slf.NovelReadActivity" />
+        <activity android:name="com.comeback.data.ui.slf.SearchActivity" />
+        <activity android:name="com.comeback.data.ui.slf.RankActivity" />
+        <activity android:name="com.comeback.data.ui.slf.SpecialActivity" />
+        <activity android:name="com.comeback.data.ui.slf.CatIdActivity" />
+        <activity android:name="com.comeback.data.ui.slf.HistoryActivity" />
+        <activity
+            android:name="com.comeback.data.ui.slf.VideoDetailActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:hardwareAccelerated="true" />
+        <activity android:name="com.comeback.data.ui.xiami.XMLauncherActivity" />
+        <activity android:name="com.comeback.data.ui.xiami.MainActivity" />
+        <activity android:name="com.comeback.data.ui.xiami.ImageReadActivity" />
+        <activity android:name="com.comeback.data.ui.xiami.NovelReadActivity" />
+        <activity android:name="com.comeback.data.ui.xiami.SpecialDetailActivity" />
+        <activity android:name="com.comeback.data.ui.xiami.SearchActivity" />
+        <activity
+            android:name="com.comeback.data.ui.xiami.VideoPlayActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:hardwareAccelerated="true" />
+        <activity android:name="com.comeback.data.ui.isiyu.IsiyuLaunchActivity" />
+        <activity android:name="com.comeback.data.ui.isiyu.MainActivity" />
+        <activity android:name="com.comeback.data.ui.isiyu.SpecialDetailActivity" />
+        <activity android:name="com.comeback.data.ui.isiyu.SearchActivity" />
+        <activity
+            android:name="com.comeback.data.ui.isiyu.MoviePlayActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:hardwareAccelerated="true"
+            android:launchMode="singleTop" />
+        <activity android:name="com.comeback.data.ui.avbobo.AvboboLaunchActivity" />
+        <activity android:name="com.comeback.data.ui.avbobo.MainActivity" />
+        <activity android:name="com.comeback.data.ui.avbobo.SearchResultActivity" />
+        <activity
+            android:name="com.comeback.data.ui.avbobo.MoviePlayActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:hardwareAccelerated="true"
+            android:launchMode="singleTop" />
+        <activity android:name="com.comeback.data.ui.cucumber.CucumberLauncherActivity" />
+        <activity android:name="com.comeback.data.ui.cucumber.CucumberActivity" />
+        <activity android:name="com.comeback.data.ui.cucumber.ColumnDetailActivity" />
+        <activity android:name="com.comeback.data.ui.cucumber.ColumnMoreActivity" />
+        <activity android:name="com.comeback.data.ui.cucumber.ActorDetailActivity" />
+        <activity android:name="com.comeback.data.ui.cucumber.ActorActivity" />
+        <activity android:name="com.comeback.data.ui.cucumber.SearchResultActivity" />
+        <activity android:name="com.comeback.data.ui.cucumber.CollectActivity" />
+        <activity android:name="com.comeback.data.ui.cucumber.UserDetailActivity" />
+        <activity
+            android:name="com.comeback.data.ui.cucumber.MovieDetailActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:hardwareAccelerated="true" />
+        <activity
+            android:name="com.comeback.data.ui.cucumber.CucumberShortActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:hardwareAccelerated="true" />
+        <activity
+            android:name="com.comeback.data.ui.cucumber.CucumberShortListActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:hardwareAccelerated="true" />
+        <activity
+            android:name="com.comeback.data.ui.commom.PlayActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:hardwareAccelerated="true"
+            android:launchMode="singleTop" />
+        <activity android:name="com.comeback.data.ui.commom.PicBrowseActivity" />
+        <activity
+            android:name="com.comeback.data.ui.commom.CachePlayActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:hardwareAccelerated="true" />
+        <activity
+            android:name="com.comeback.data.ui.commom.LocalPlayActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:hardwareAccelerated="true" />
+        <activity android:name="com.comeback.data.ui.lnkl.LNKLActivity" />
+        <activity android:name="com.comeback.data.ui.lnkl.LNKLDetailActivity" />
+        <activity android:name="com.comeback.data.ui.ba.BaLauncherActivity" />
+        <activity android:name="com.comeback.data.ui.ba.BaActivity" />
+        <activity android:name="com.comeback.data.ui.ba.ComicReadActivity" />
+        <activity android:name="com.comeback.data.ui.ds.DsActivity" />
+        <activity android:name="com.comeback.data.ui.ds.ComicReadActivity" />
+        <activity android:name="com.comeback.data.ui.ds.SearchActivity" />
+        <activity android:name="com.comeback.data.ui.ds.TagActivity" />
+        <activity android:name="com.comeback.data.ui.ds.RankActivity" />
+        <activity android:name="com.comeback.data.ui.bale.BaleActivity" />
+        <activity android:name="com.comeback.data.ui.bale.TagSearchActivity" />
+        <activity android:name="com.comeback.data.ui.bale.ActorDetailActivity" />
+        <activity android:name="com.comeback.data.ui.bale.ScreenActivity" />
+        <activity android:name="com.comeback.data.ui.bale.SearchActivity" />
+        <activity android:name="com.comeback.data.ui.bale.SearchResultActivity" />
+        <activity android:name="com.comeback.data.ui.bale.PlayActivity" />
+        <activity android:name="com.comeback.data.ui.mimei.MimeiLauncherActivity" />
+        <activity android:name="com.comeback.data.ui.mimei.MimeiActivity" />
+        <activity android:name="com.comeback.data.ui.mimei.ComicReadActivity" />
+        <activity android:name="com.comeback.data.ui.mimei.ComicTypeActivity" />
+        <activity android:name="com.comeback.data.ui.mimei.NovelReadActivity" />
+        <activity android:name="com.comeback.data.ui.mimei.SearchActivity" />
+        <activity android:name="com.comeback.data.ui.mimei.SearchResultActivity" />
+        <activity android:name="com.comeback.data.ui.xhl.XHLBrowseActivity" />
+        <activity android:name="com.comeback.data.ui.xhl.InfoActivity" />
+        <activity android:name="com.comeback.data.ui.hgdd.HGDDBrowseActivity" />
+        <activity android:name="com.comeback.data.ui.xiuxiu.XXBrowseActivity" />
+        <activity android:name="com.comeback.data.ui.xiuxiu.InfoActivity" />
+        <activity android:name="com.comeback.data.ui.live.LiveChanelActivity" />
+        <activity android:name="com.comeback.data.ui.live.LiveListActivity" />
+        <activity android:name="com.comeback.data.ui.jav.JavActivity" />
+        <activity android:name="com.comeback.data.ui.jav.ActorDetailActivity" />
+        <activity android:name="com.comeback.data.ui.jav.VideoDetailActivity" />
+        <activity android:name="com.comeback.data.ui.jav.SearchResultActivity" />
+        <activity android:name="com.comeback.data.ui.tomato.TomatoLaunchActivity" />
+        <activity android:name="com.comeback.data.ui.tomato.TomatoActivity" />
+        <activity android:name="com.comeback.data.ui.jhlf.JHLFActivity" />
+        <activity android:name="com.comeback.data.ui.jhlf.FengliuActivity" />
+        <activity android:name="com.comeback.data.ui.jhlf.InfoActivity" />
+        <activity android:name="com.comeback.data.ui.jhlf.SearchResultActivity" />
+        <activity android:name="com.comeback.data.ui.jhlf.DownloadActivity" />
+        <activity android:name="com.comeback.data.ui.senlin.ZYBrowseActivity" />
+        <activity android:name="com.comeback.data.ui.senlin.SenLinActivity" />
+        <activity android:name="com.comeback.data.ui.senlin.VideoDetailActivity" />
+        <activity
+            android:name="com.comeback.data.ui.senlin.PlayActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:hardwareAccelerated="true" />
+        <activity android:name="com.comeback.data.ui.cm.CmActivity" />
+        <activity android:name="com.comeback.data.ui.cm.ScreenActivity" />
+        <activity android:name="com.comeback.data.ui.cm.SearchActivity" />
+        <activity android:name="com.comeback.data.ui.cm.ActorDetailActivity" />
+        <activity android:name="com.comeback.data.ui.cm.SearchResultActivity" />
+        <activity
+            android:name="com.comeback.data.ui.cm.PlayActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:hardwareAccelerated="true" />
+        <activity android:name="com.comeback.data.ui.hm.HmLauncherActivity" />
+        <activity android:name="com.comeback.data.ui.hm.MainActivity" />
+        <activity android:name="com.comeback.data.ui.hm.DetailActivity" />
+        <activity android:name="com.comeback.data.ui.hm.NovelReadActivity" />
+        <activity android:name="com.comeback.data.ui.hm.SearchActivity" />
+        <activity android:name="com.comeback.data.ui.nana.NanaLaunchActivity" />
+        <activity android:name="com.comeback.data.ui.nana.MainActivity" />
+        <activity android:name="com.comeback.data.ui.nana.TypeDetailActivity" />
+        <activity android:name="com.comeback.data.ui.nana.SearchResultActivity" />
+        <activity android:name="com.comeback.data.ui.nana.ActorDetailActivity" />
+        <activity android:name="com.comeback.data.ui.nana.SearchActivity" />
+        <activity
+            android:name="com.comeback.data.ui.nana.MovieDetailActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:hardwareAccelerated="true" />
+        <activity android:name="com.comeback.data.ui.md.MdActivity" />
+        <activity android:name="com.comeback.data.ui.md.ChanelActivity" />
+        <activity android:name="com.comeback.data.ui.ins.InsActivity" />
+        <activity android:name="com.comeback.data.ui.ins.InsLaunchActivity" />
+        <activity android:name="com.comeback.data.ui.ins.UserCenterActivity" />
+        <activity android:name="com.comeback.data.ui.gdian.GDianActivity" />
+        <activity
+            android:name="com.comeback.data.ui.gdian.PlayActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:hardwareAccelerated="true" />
+        <activity android:name="com.comeback.data.ui.gdian.ImageReadActivity" />
+        <activity android:name="com.comeback.data.ui.gdian.NovelActivity" />
+        <activity android:name="com.comeback.data.ui.gdian.NovelReadActivity" />
+        <activity android:name="com.comeback.data.ui.gdian.SearchActivity" />
+        <activity android:name="com.comeback.data.ui.gdian.SearchResultActivity" />
+
+        <meta-data
+            android:name="com.comeback.data.net.glide.OkHttpAppGlideModule"
+            android:value="AppGlideModule" />
+        <meta-data
+            android:name="com.bumptech.glide.integration.okhttp3.OkHttpGlideModule"
+            android:value="GlideModule" />
+    </application>
+
+</manifest>

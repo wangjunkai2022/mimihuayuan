@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/selector_slf_cartoon" android:id="@+id/navigation_cartoon" android:title="漫画"/>
+    <item android:icon="@drawable/selector_slf_video" android:id="@+id/navigation_video" android:title="动漫"/>
+    <item android:icon="@drawable/selector_slf_image" android:id="@+id/navigation_image" android:title="美女"/>
+    <item android:icon="@drawable/selector_slf_novel" android:id="@+id/navigation_novel" android:title="小说"/>
+    <item android:icon="@drawable/selector_slf_me" android:id="@+id/navigation_me" android:title="我"/>
+</menu>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/selector_fulao2_uncensored" android:id="@id/navigation_uncover" android:title="无码" />
+    <item android:icon="@drawable/selector_fulao2_censored" android:id="@id/navigation_cover" android:title="有码" />
+    <item android:icon="@drawable/selector_fulao2_category" android:id="@id/navigation_discover" android:title="发现" />
+    <item android:icon="@drawable/selector_fulao2_favorite" android:id="@id/navigation_collect" android:title="收藏" />
+    <item android:icon="@drawable/selector_fulao2_me" android:id="@id/navigation_me" android:title="我的" />
+</menu>

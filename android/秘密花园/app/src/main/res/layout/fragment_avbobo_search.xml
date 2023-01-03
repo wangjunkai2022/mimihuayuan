@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:background="@color/white" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/rl_title" android:paddingTop="@dimen/view_margin_normal" android:paddingBottom="@dimen/view_margin_normal" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <EditText android:textSize="13sp" android:textColor="@color/basic_primary_text" android:textColorHint="@color/basic_third_text" android:id="@+id/search_input" android:background="@drawable/bg_radius8_grey2" android:paddingLeft="@dimen/view_margin_normal" android:paddingRight="@dimen/view_margin_normal" android:layout_width="0dp" android:layout_height="36dp" android:layout_marginLeft="15dp" android:hint="输入关键词查找片源" android:singleLine="true" android:drawableLeft="@drawable/icon_search5" android:drawablePadding="7dp" android:layout_weight="1" android:layout_centerVertical="true" android:imeOptions="actionSearch" android:textCursorDrawable="@drawable/cursor_drawable_orange"/>
+        <TextView android:textSize="18sp" android:textColor="@color/basic_primary_text" android:id="@+id/tv_search" android:background="@null" android:paddingTop="@dimen/view_margin_normal" android:paddingBottom="@dimen/view_margin_normal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="搜索" android:paddingStart="@dimen/view_margin_large" android:paddingEnd="@dimen/view_margin_large"/>
+    </LinearLayout>
+    <include layout="@layout/include_divide_line"/>
+    <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.google.android.material.tabs.TabLayout android:id="@+id/tab_layout" android:layout_width="match_parent" android:layout_height="wrap_content" app:tabGravity="1" app:tabIndicatorHeight="0dp" app:tabMode="1" app:tabSelectedTextColor="#ab47bc" app:tabTextAppearance="@style/TabLayoutTextAppearance_18" app:tabTextColor="@color/basic_secondary_text"/>
+    </FrameLayout>
+    <com.comeback.data.widget.CustomViewPager android:id="@+id/view_pager" android:layout_width="match_parent" android:layout_height="match_parent"/>
+</LinearLayout>

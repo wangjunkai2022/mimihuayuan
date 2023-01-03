@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="#ff140123" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:layout_width="fill_parent" android:layout_height="25.0dip" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/rl_userinfo" android:layout_width="fill_parent" android:layout_height="90.0dip" android:layout_marginLeft="10.0dip" android:layout_marginTop="24.0dip">
+            <RelativeLayout android:layout_width="90.0dip" android:layout_height="fill_parent">
+                <ImageView android:id="@id/image_thumb" android:layout_width="fill_parent" android:layout_height="80.0dip" />
+                <ImageView android:id="@id/image_vip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip">
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="18.0sp" android:textStyle="bold" android:textColor="@color/white" android:ellipsize="end" android:id="@id/tv_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+                    <ImageView android:id="@id/image_sex" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" />
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="7.0dip">
+                    <TextView android:textSize="10.0sp" android:textColor="@color/basic_third_text" android:gravity="center" android:id="@id/button_collect" android:background="@drawable/shape_index_tag_bg" android:layout_width="65.0dip" android:layout_height="20.0dip" android:layout_marginRight="15.0dip" android:text="关注" />
+                    <TextView android:textSize="10.0sp" android:textColor="@color/white" android:gravity="center" android:id="@id/text_chat_btn" android:background="@drawable/shape_button_bg" android:layout_width="65.0dip" android:layout_height="20.0dip" android:text="私信" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <View android:background="#ffaaaaaa" android:layout_width="fill_parent" android:layout_height="0.30000007dip" android:layout_marginTop="@dimen/view_margin_small" android:layout_marginBottom="@dimen/view_margin_small" android:layout_marginStart="@dimen/view_margin_large" android:layout_marginEnd="@dimen/view_margin_large" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/linaer_data" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_below="@id/rl_userinfo">
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip">
+                <TextView android:textSize="15.0sp" android:textColor="@color/white" android:id="@id/text_fensi_num" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0" />
+                <TextView android:textSize="12.0sp" android:textColor="#ffbfc0da" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:text="粉丝" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="30.0dip">
+                <TextView android:textSize="15.0sp" android:textColor="@color/white" android:id="@id/text_collect_num" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0" />
+                <TextView android:textSize="12.0sp" android:textColor="#ffbfc0da" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:text="关注" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="30.0dip">
+                <TextView android:textSize="15.0sp" android:textColor="@color/white" android:id="@id/text_zan_num" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0" />
+                <TextView android:textSize="12.0sp" android:textColor="#ffbfc0da" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:text="被赞" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <com.comeback.data.widget.CustomViewPager android:id="@id/view_pager" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.google.android.material.tabs.TabLayout android:id="@id/tab_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" app:tabGravity="center" app:tabIndicatorColor="@color/white" app:tabMode="fixed" app:tabSelectedTextColor="@color/white" app:tabTextColor="@color/basic_third_text" />
+    </com.comeback.data.widget.CustomViewPager>
+</LinearLayout>

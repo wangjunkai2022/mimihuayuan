@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.comeback.data.widget.RatioFrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/fl_root" android:layout_width="match_parent" android:layout_height="wrap_content" app:ratio="1.4">
+    <com.comeback.data.widget.RatioImageView android:id="@+id/iv_img" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop" app:ratio="1.4"/>
+    <TextView android:textColor="@color/basic_primary_text" android:gravity="center" android:layout_gravity="bottom" android:id="@+id/tv_title" android:background="#99ffffff" android:paddingTop="@dimen/view_margin_large" android:paddingBottom="@dimen/view_margin_large" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="抓毛毛"/>
+</com.comeback.data.widget.RatioFrameLayout>

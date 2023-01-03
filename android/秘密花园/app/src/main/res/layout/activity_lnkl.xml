@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@+id/ll_type" android:background="@color/white" android:layout_width="match_parent" android:layout_height="48dp">
+        <TextView android:textSize="20sp" android:textColor="@color/basic_primary_text" android:gravity="center" android:layout_gravity="center_vertical" android:id="@+id/tv_type" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="日本无码" android:layout_marginStart="@dimen/view_margin_normal"/>
+        <ImageView android:layout_gravity="center_vertical" android:padding="@dimen/view_margin_normal" android:layout_width="36dp" android:layout_height="36dp" android:src="@mipmap/ic_arrow_left" android:tint="@color/basic_primary_text" android:rotation="270"/>
+    </LinearLayout>
+    <include layout="@layout/base_refresh_recycler"/>
+</LinearLayout>

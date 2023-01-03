@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:textSize="20sp" android:textColor="@color/white" android:gravity="center" android:background="#1e1e1e" android:layout_width="match_parent" android:layout_height="48dp" android:text="类别"/>
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:layout_width="20dp" android:layout_height="20dp" android:layout_marginTop="12dp" android:src="@mipmap/icon_search_xj" android:layout_marginStart="@dimen/view_margin_large"/>
+        <EditText android:textSize="@dimen/text_title" android:textColor="@color/white" android:textColorHint="@color/basic_secondary_text" android:id="@+id/et_search" android:background="@drawable/bg_et_grey" android:layout_width="match_parent" android:layout_height="48dp" android:hint="搜寻" android:textCursorDrawable="@drawable/cursor_drawable_pink" android:paddingStart="@dimen/view_margin_normal" android:layout_marginEnd="@dimen/view_margin_normal"/>
+        <ImageView android:layout_gravity="center_vertical" android:id="@+id/iv_cancel" android:visibility="gone" android:layout_width="40dp" android:layout_height="40dp" android:src="@mipmap/ic_cancel" android:paddingStart="@dimen/view_margin_normal" android:paddingEnd="@dimen/view_margin_normal" android:layout_marginStart="-48dp"/>
+    </LinearLayout>
+    <androidx.recyclerview.widget.RecyclerView android:id="@+id/rv_list" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+</LinearLayout>

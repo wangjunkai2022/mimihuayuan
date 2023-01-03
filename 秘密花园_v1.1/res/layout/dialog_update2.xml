@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:background="@drawable/bg_radius8_white" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="18.0sp" android:textStyle="bold" android:textColor="@color/basic_primary_text" android:layout_gravity="center_horizontal" android:id="@id/tv_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/view_margin_xlarge" />
+        <TextView android:scrollbarStyle="insideInset" android:textSize="@dimen/text_detail" android:textColor="@color/basic_primary_text" android:textColorLink="@color/gkj_color2" android:autoLink="all" android:layout_gravity="center_horizontal" android:id="@id/tv_message" android:scrollbars="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/view_margin_large" android:layout_marginBottom="@dimen/view_margin_xlarge" android:maxHeight="250.0dip" android:lineSpacingExtra="@dimen/view_margin_small" android:paddingStart="@dimen/view_margin_xlarge" android:paddingEnd="@dimen/view_margin_xlarge" />
+        <include layout="@layout/include_divide_line" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/text_title" android:textColor="@color/basic_third_text" android:gravity="center" android:id="@id/tv_cancel" android:padding="@dimen/view_margin_large" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="取消" android:layout_weight="1.0" />
+            <View android:layout_gravity="center_vertical" android:id="@id/view_divide" android:background="#ffd2d2d2" android:layout_width="1.0px" android:layout_height="28.0dip" />
+            <TextView android:textSize="@dimen/text_title" android:textColor="@color/gkj_color2" android:gravity="center" android:id="@id/tv_confirm" android:padding="@dimen/view_margin_large" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="确定" android:layout_weight="1.0" />
+        </LinearLayout>
+        <include layout="@layout/include_divide_line" />
+        <TextView android:textSize="@dimen/text_title" android:textColor="@color/basic_third_text" android:gravity="center" android:id="@id/tv_confirm2" android:padding="@dimen/view_margin_large" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="备用链接1" />
+        <include layout="@layout/include_divide_line" />
+        <TextView android:textSize="@dimen/text_title" android:textColor="@color/basic_third_text" android:gravity="center" android:id="@id/tv_confirm3" android:padding="@dimen/view_margin_large" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="备用链接2" />
+        <include layout="@layout/include_divide_line" />
+        <TextView android:textSize="@dimen/text_title" android:textColor="@color/basic_third_text" android:gravity="center" android:id="@id/tv_confirm4" android:padding="@dimen/view_margin_large" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="备用链接3" />
+    </LinearLayout>
+</ScrollView>

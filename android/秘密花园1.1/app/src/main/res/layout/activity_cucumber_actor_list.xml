@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:background="@color/white" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="18sp" android:textColor="@color/basic_primary_text" android:gravity="center" android:layout_width="match_parent" android:layout_height="40dp" android:text="人气女优列表"/>
+        <com.google.android.material.tabs.TabLayout android:id="@+id/tab1" android:layout_width="match_parent" android:layout_height="32dp" android:layout_marginStart="@dimen/view_margin_normal" android:layout_marginEnd="@dimen/view_margin_normal" app:tabBackground="@drawable/selector_cucumber_rank3" app:tabIndicatorColor="@null" app:tabMode="0" app:tabSelectedTextColor="@color/basic_primary_text" app:tabTextColor="@color/basic_third_text"/>
+        <com.google.android.material.tabs.TabLayout android:id="@+id/tab2" android:background="@color/white" android:layout_width="match_parent" android:layout_height="32dp" android:layout_marginTop="@dimen/view_margin_large" android:layout_marginBottom="@dimen/view_margin_large" android:layout_marginStart="@dimen/view_margin_normal" android:layout_marginEnd="@dimen/view_margin_normal" app:tabBackground="@drawable/selector_cucumber_rank3" app:tabIndicatorColor="@null" app:tabIndicatorHeight="0dp" app:tabMode="0" app:tabSelectedTextColor="@color/basic_primary_text" app:tabTextAppearance="@style/TabLayoutTextAppearance_14" app:tabTextColor="@color/basic_third_text"/>
+    </LinearLayout>
+    <include layout="@layout/base_refresh_recycler"/>
+</LinearLayout>

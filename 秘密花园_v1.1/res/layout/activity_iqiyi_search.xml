@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="#ff0f1224" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <EditText android:textSize="@dimen/text_detail" android:id="@id/et_search" android:background="@drawable/bg_radius_grey" android:paddingTop="@dimen/view_margin_normal" android:paddingBottom="@dimen/view_margin_normal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/view_margin_normal" android:layout_marginBottom="@dimen/view_margin_normal" android:hint="不许动，我要搜身" android:singleLine="true" android:drawableLeft="@mipmap/icon_search_xj" android:drawablePadding="@dimen/view_margin_normal" android:layout_weight="1.0" android:imeOptions="actionSearch" android:textCursorDrawable="@drawable/cursor_drawable_orange" android:paddingStart="@dimen/view_margin_large" android:layout_marginStart="@dimen/view_margin_large" android:layout_marginEnd="@dimen/view_margin_large" />
+        <ImageView android:layout_gravity="end" android:id="@id/iv_cancel" android:padding="12.0dip" android:visibility="gone" android:layout_width="48.0dip" android:layout_height="48.0dip" android:src="@mipmap/ic_cancel" android:tint="@color/basic_secondary_text" android:layout_marginEnd="@dimen/view_margin_large" />
+    </FrameLayout>
+    <include layout="@layout/base_refresh_recycler" />
+</LinearLayout>

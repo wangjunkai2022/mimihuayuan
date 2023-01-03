@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.tencent.smtt.sdk.WebView android:id="@id/web_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ProgressBar android:id="@id/progress_bar" android:layout_width="fill_parent" android:layout_height="1.0dip" android:max="100" android:progress="0" android:progressDrawable="@drawable/progress_bar" style="?android:progressBarStyleHorizontal" />
+    <FrameLayout android:layout_gravity="end|bottom|center" android:id="@id/fl_show" android:visibility="gone" android:layout_width="64.0dip" android:layout_height="64.0dip" android:layout_margin="@dimen/view_margin_xlarge">
+        <com.comeback.data.widget.RatioImageView android:layout_width="64.0dip" android:layout_height="64.0dip" android:src="@color/hgColorAccent" app:radius="100.0dip" />
+        <TextView android:textSize="@dimen/text_title" android:textColor="@color/basic_primary_text" android:gravity="center" android:layout_width="64.0dip" android:layout_height="64.0dip" android:text="破解" />
+    </FrameLayout>
+    <FrameLayout android:layout_gravity="center" android:id="@id/fl_progress" android:background="@drawable/bg_xj_trans30" android:padding="@dimen/view_margin_large" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.wang.avi.AVLoadingIndicatorView android:layout_gravity="center_horizontal" android:id="@id/loading" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/view_margin_xlarge" app:indicatorName="BallTrianglePathIndicator" />
+        <TextView android:textSize="@dimen/text_detail" android:textColor="@color/white" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/view_margin_xlarge" android:text="正在破解楼风信息..." />
+    </FrameLayout>
+</FrameLayout>

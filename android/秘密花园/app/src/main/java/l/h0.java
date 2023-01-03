@@ -1,0 +1,293 @@
+package l;
+
+import i.b0;
+import i.f;
+import i.g0;
+import i.i0;
+import i.x;
+import java.lang.annotation.Annotation;
+import java.lang.invoke.MethodHandles;
+import java.lang.reflect.Constructor;
+import java.lang.reflect.InvocationHandler;
+import java.lang.reflect.Method;
+import java.lang.reflect.Modifier;
+import java.lang.reflect.Proxy;
+import java.lang.reflect.Type;
+import java.util.ArrayDeque;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.List;
+import java.util.Map;
+import java.util.Objects;
+import java.util.concurrent.ConcurrentHashMap;
+import java.util.concurrent.Executor;
+import l.c;
+import l.e;
+import l.l;
+
+/* compiled from: Retrofit.java */
+/* loaded from: classes2.dex */
+public final class h0 {
+    public final Map<Method, i0<?>> a = new ConcurrentHashMap();
+    public final f.a b;
+
+    /* renamed from: c  reason: collision with root package name */
+    public final x f7186c;
+
+    /* renamed from: d  reason: collision with root package name */
+    public final List<l.a> f7187d;
+
+    /* renamed from: e  reason: collision with root package name */
+    public final List<e.a> f7188e;
+
+    /* renamed from: f  reason: collision with root package name */
+    public final boolean f7189f;
+
+    /* compiled from: Retrofit.java */
+    /* loaded from: classes2.dex */
+    public class a implements InvocationHandler {
+        public final d0 a = d0.b;
+        public final Object[] b = new Object[0];
+
+        /* renamed from: c  reason: collision with root package name */
+        public final /* synthetic */ Class f7190c;
+
+        public a(Class cls) {
+            this.f7190c = cls;
+        }
+
+        @Override // java.lang.reflect.InvocationHandler
+        public Object invoke(Object obj, Method method, Object[] objArr) throws Throwable {
+            if (method.getDeclaringClass() == Object.class) {
+                return method.invoke(this, objArr);
+            }
+            if (this.a.a && method.isDefault()) {
+                d0 d0Var = this.a;
+                Class<?> cls = this.f7190c;
+                if (d0Var != null) {
+                    Constructor declaredConstructor = MethodHandles.Lookup.class.getDeclaredConstructor(Class.class, Integer.TYPE);
+                    declaredConstructor.setAccessible(true);
+                    return ((MethodHandles.Lookup) declaredConstructor.newInstance(cls, -1)).unreflectSpecial(method, cls).bindTo(obj).invokeWithArguments(objArr);
+                }
+                throw null;
+            }
+            i0<?> c2 = h0.this.c(method);
+            if (objArr == null) {
+                objArr = this.b;
+            }
+            o oVar = (o) c2;
+            return oVar.b(new y(oVar.a, objArr, oVar.b, oVar.f7208c), objArr);
+        }
+    }
+
+    /* compiled from: Retrofit.java */
+    /* loaded from: classes2.dex */
+    public static final class b {
+        public final d0 a;
+        public f.a b;
+
+        /* renamed from: c  reason: collision with root package name */
+        public x f7192c;
+
+        /* renamed from: d  reason: collision with root package name */
+        public final List<l.a> f7193d = new ArrayList();
+
+        /* renamed from: e  reason: collision with root package name */
+        public final List<e.a> f7194e = new ArrayList();
+
+        public b() {
+            d0 d0Var = d0.b;
+            this.a = d0Var;
+        }
+
+        public b a(String str) {
+            Objects.requireNonNull(str, "baseUrl == null");
+            x f2 = x.f(str);
+            Objects.requireNonNull(f2, "baseUrl == null");
+            List<String> list = f2.f6776g;
+            if ("".equals(list.get(list.size() - 1))) {
+                this.f7192c = f2;
+                return this;
+            }
+            throw new IllegalArgumentException("baseUrl must end in /: " + f2);
+        }
+
+        public h0 b() {
+            List list;
+            List list2;
+            if (this.f7192c != null) {
+                f.a aVar = this.b;
+                if (aVar == null) {
+                    aVar = new b0();
+                }
+                Executor a = this.a.a();
+                ArrayList arrayList = new ArrayList(this.f7194e);
+                d0 d0Var = this.a;
+                m mVar = new m(a);
+                if (d0Var.a) {
+                    list = Arrays.asList(i.a, mVar);
+                } else {
+                    list = Collections.singletonList(mVar);
+                }
+                arrayList.addAll(list);
+                ArrayList arrayList2 = new ArrayList(this.f7193d.size() + 1 + (this.a.a ? 1 : 0));
+                arrayList2.add(new c());
+                arrayList2.addAll(this.f7193d);
+                if (this.a.a) {
+                    list2 = Collections.singletonList(z.a);
+                } else {
+                    list2 = Collections.emptyList();
+                }
+                arrayList2.addAll(list2);
+                return new h0(aVar, this.f7192c, Collections.unmodifiableList(arrayList2), Collections.unmodifiableList(arrayList), a, false);
+            }
+            throw new IllegalStateException("Base URL required.");
+        }
+
+        public b c(b0 b0Var) {
+            this.b = (f.a) Objects.requireNonNull((f.a) Objects.requireNonNull(b0Var, "client == null"), "factory == null");
+            return this;
+        }
+    }
+
+    public h0(f.a aVar, x xVar, List<l.a> list, List<e.a> list2, Executor executor, boolean z) {
+        this.b = aVar;
+        this.f7186c = xVar;
+        this.f7187d = list;
+        this.f7188e = list2;
+        this.f7189f = z;
+    }
+
+    public e<?, ?> a(Type type, Annotation[] annotationArr) {
+        Objects.requireNonNull(type, "returnType == null");
+        Objects.requireNonNull(annotationArr, "annotations == null");
+        int indexOf = this.f7188e.indexOf(null) + 1;
+        int size = this.f7188e.size();
+        for (int i2 = indexOf; i2 < size; i2++) {
+            e<?, ?> a2 = this.f7188e.get(i2).a(type, annotationArr, this);
+            if (a2 != null) {
+                return a2;
+            }
+        }
+        StringBuilder sb = new StringBuilder("Could not locate call adapter for ");
+        sb.append(type);
+        sb.append(".\n");
+        sb.append("  Tried:");
+        int size2 = this.f7188e.size();
+        while (indexOf < size2) {
+            sb.append("\n   * ");
+            sb.append(this.f7188e.get(indexOf).getClass().getName());
+            indexOf++;
+        }
+        throw new IllegalArgumentException(sb.toString());
+    }
+
+    public <T> T b(Class<T> cls) {
+        if (cls.isInterface()) {
+            ArrayDeque arrayDeque = new ArrayDeque(1);
+            arrayDeque.add(cls);
+            while (!arrayDeque.isEmpty()) {
+                Class<T> cls2 = (Class) arrayDeque.removeFirst();
+                if (cls2.getTypeParameters().length != 0) {
+                    StringBuilder sb = new StringBuilder("Type parameters are unsupported on ");
+                    sb.append(cls2.getName());
+                    if (cls2 != cls) {
+                        sb.append(" which is an interface of ");
+                        sb.append(cls.getName());
+                    }
+                    throw new IllegalArgumentException(sb.toString());
+                }
+                Collections.addAll(arrayDeque, cls2.getInterfaces());
+            }
+            if (this.f7189f) {
+                d0 d0Var = d0.b;
+                Method[] declaredMethods = cls.getDeclaredMethods();
+                for (Method method : declaredMethods) {
+                    if (!(d0Var.a && method.isDefault()) && !Modifier.isStatic(method.getModifiers())) {
+                        c(method);
+                    }
+                }
+            }
+            return (T) Proxy.newProxyInstance(cls.getClassLoader(), new Class[]{cls}, new a(cls));
+        }
+        throw new IllegalArgumentException("API declarations must be interfaces.");
+    }
+
+    public i0<?> c(Method method) {
+        i0<?> i0Var;
+        i0<?> i0Var2 = this.a.get(method);
+        if (i0Var2 != null) {
+            return i0Var2;
+        }
+        synchronized (this.a) {
+            i0Var = this.a.get(method);
+            if (i0Var == null) {
+                i0Var = i0.a(this, method);
+                this.a.put(method, i0Var);
+            }
+        }
+        return i0Var;
+    }
+
+    public <T> l<T, g0> d(Type type, Annotation[] annotationArr, Annotation[] annotationArr2) {
+        Objects.requireNonNull(type, "type == null");
+        Objects.requireNonNull(annotationArr, "parameterAnnotations == null");
+        Objects.requireNonNull(annotationArr2, "methodAnnotations == null");
+        int indexOf = this.f7187d.indexOf(null) + 1;
+        int size = this.f7187d.size();
+        for (int i2 = indexOf; i2 < size; i2++) {
+            l<T, g0> lVar = (l<T, g0>) this.f7187d.get(i2).a(type, annotationArr, annotationArr2, this);
+            if (lVar != null) {
+                return lVar;
+            }
+        }
+        StringBuilder sb = new StringBuilder("Could not locate RequestBody converter for ");
+        sb.append(type);
+        sb.append(".\n");
+        sb.append("  Tried:");
+        int size2 = this.f7187d.size();
+        while (indexOf < size2) {
+            sb.append("\n   * ");
+            sb.append(this.f7187d.get(indexOf).getClass().getName());
+            indexOf++;
+        }
+        throw new IllegalArgumentException(sb.toString());
+    }
+
+    public <T> l<i0, T> e(Type type, Annotation[] annotationArr) {
+        Objects.requireNonNull(type, "type == null");
+        Objects.requireNonNull(annotationArr, "annotations == null");
+        int indexOf = this.f7187d.indexOf(null) + 1;
+        int size = this.f7187d.size();
+        for (int i2 = indexOf; i2 < size; i2++) {
+            l<i0, T> lVar = (l<i0, T>) this.f7187d.get(i2).b(type, annotationArr, this);
+            if (lVar != null) {
+                return lVar;
+            }
+        }
+        StringBuilder sb = new StringBuilder("Could not locate ResponseBody converter for ");
+        sb.append(type);
+        sb.append(".\n");
+        sb.append("  Tried:");
+        int size2 = this.f7187d.size();
+        while (indexOf < size2) {
+            sb.append("\n   * ");
+            sb.append(this.f7187d.get(indexOf).getClass().getName());
+            indexOf++;
+        }
+        throw new IllegalArgumentException(sb.toString());
+    }
+
+    public <T> l<T, String> f(Type type, Annotation[] annotationArr) {
+        Objects.requireNonNull(type, "type == null");
+        Objects.requireNonNull(annotationArr, "annotations == null");
+        int size = this.f7187d.size();
+        for (int i2 = 0; i2 < size; i2++) {
+            if (this.f7187d.get(i2) == null) {
+                throw null;
+            }
+        }
+        return c.d.a;
+    }
+}

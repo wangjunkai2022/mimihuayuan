@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal" android:background="#ff009688" android:layout_width="match_parent" android:layout_height="90dp" android:layout_marginTop="@dimen/view_margin_normal">
+    <LinearLayout android:orientation="vertical" android:padding="@dimen/view_margin_normal" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1">
+        <TextView android:textSize="@dimen/text_title" android:textColor="@color/white" android:id="@+id/tv_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="asdadasdasadasdasdasdasdasdasd"/>
+        <TextView android:textSize="@dimen/text_detail" android:textColor="@color/basic_third_text" android:gravity="center_vertical" android:id="@+id/tv_link" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    </LinearLayout>
+    <TextView android:textSize="20sp" android:textColor="@color/white" android:gravity="center" android:id="@+id/tv_copy" android:background="@color/javAccent" android:layout_width="80dp" android:layout_height="match_parent" android:text="複製"/>
+</LinearLayout>

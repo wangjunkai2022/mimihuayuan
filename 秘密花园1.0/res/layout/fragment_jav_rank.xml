@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="56.0dip" android:layout_marginTop="@dimen/view_margin_xlarge" android:paddingStart="@dimen/view_margin_large" android:paddingEnd="@dimen/view_margin_large">
+        <TextView android:textSize="20.0sp" android:textColor="@color/basic_primary_text" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="排行榜" android:layout_weight="1.0" />
+        <ImageView android:id="@id/iv_search" android:paddingTop="@dimen/view_margin_large" android:paddingBottom="@dimen/view_margin_large" android:visibility="gone" android:layout_width="56.0dip" android:layout_height="56.0dip" android:src="@drawable/icon_search5" android:paddingStart="@dimen/view_margin_large" />
+    </LinearLayout>
+    <com.comeback.data.widget.CustomViewPager android:id="@id/view_pager" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.google.android.material.tabs.TabLayout android:id="@id/tab_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" app:tabIndicatorColor="@color/javAccent" app:tabMode="scrollable" app:tabSelectedTextColor="@color/javAccent" app:tabTextColor="@color/basic_secondary_text" />
+    </com.comeback.data.widget.CustomViewPager>
+</LinearLayout>

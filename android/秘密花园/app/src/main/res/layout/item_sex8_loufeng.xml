@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/view_margin_small" app:cardCornerRadius="4dp" app:cardElevation="@dimen/view_margin_small">
+    <LinearLayout android:orientation="vertical" android:id="@+id/ll_root" android:background="@color/white" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.comeback.data.widget.RatioImageView android:id="@+id/iv_head" android:layout_width="match_parent" android:layout_height="wrap_content" android:scaleType="centerCrop" app:ratio="1.2"/>
+        <TextView android:textSize="10sp" android:textColor="@color/basic_primary_text" android:gravity="center_horizontal" android:id="@+id/tv_name" android:layout_width="match_parent" android:layout_height="wrap_content" android:singleLine="true"/>
+        <TextView android:textSize="10sp" android:textColor="@color/basic_secondary_text" android:gravity="center_horizontal" android:id="@+id/tv_area" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="2dp"/>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

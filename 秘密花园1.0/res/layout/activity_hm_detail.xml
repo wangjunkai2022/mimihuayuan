@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/view_margin_small">
+            <com.comeback.data.widget.RatioImageView android:id="@id/iv_img" android:layout_width="120.0dip" android:layout_height="wrap_content" android:layout_margin="@dimen/view_margin_small" android:transitionName="ImageHeader" app:radius="8.0dip" app:ratio="1.38" />
+            <LinearLayout android:orientation="vertical" android:paddingTop="@dimen/view_margin_normal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/view_margin_large" android:paddingEnd="@dimen/view_margin_large">
+                <TextView android:textSize="24.0sp" android:textColor="@color/gkj_color4" android:id="@id/tv_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="今晚就决定吃你了" android:maxLines="1" />
+                <TextView android:textSize="@dimen/text_detail" android:textColor="@color/basic_primary_text" android:ellipsize="end" android:id="@id/tv_author" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/view_margin_normal" android:text="作者：权模洋|活火山" android:maxLines="1" />
+                <TextView android:textSize="@dimen/text_detail" android:textColor="@color/basic_primary_text" android:ellipsize="end" android:id="@id/tv_update" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/view_margin_normal" android:text="更新：10-13 12:47  第46話-介意我把第一次給你嗎" android:maxLines="1" />
+                <TextView android:textSize="@dimen/text_detail" android:textColor="@color/basic_third_text" android:ellipsize="end" android:id="@id/tv_desc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/view_margin_normal" android:text="    身为餐饮管理系资优生，却因为只在意吃跟做菜导致体型肥胖的王修豪，在经历一次重大冲击事件减肥成功後，开始对料理女人上瘾…「今晚就决定吃妳了!」" android:maxLines="4" />
+            </LinearLayout>
+        </LinearLayout>
+        <ImageView android:layout_gravity="end" android:id="@id/iv_like" android:padding="@dimen/view_margin_normal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/view_margin_normal" android:src="@mipmap/ic_km_like_normal" />
+    </FrameLayout>
+    <TextView android:textSize="20.0sp" android:textColor="@color/basic_primary_text" android:id="@id/tv_state" android:background="@color/white" android:paddingTop="@dimen/view_margin_normal" android:paddingBottom="@dimen/view_margin_normal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" android:paddingStart="@dimen/view_margin_normal" android:paddingEnd="@dimen/view_margin_normal" />
+    <include layout="@layout/base_refresh_recycler" />
+</LinearLayout>

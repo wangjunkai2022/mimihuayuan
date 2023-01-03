@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/view_margin_normal" android:layout_marginBottom="@dimen/view_margin_normal" android:paddingStart="@dimen/view_margin_large" android:paddingEnd="@dimen/view_margin_large">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="接口服务器:"/>
+        <TextView android:id="@+id/tv_host" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="https://papi-al.boerman.cn"/>
+        <View android:layout_width="0dp" android:layout_height="0dp" android:layout_weight="1"/>
+        <TextView android:textColor="@color/white" android:id="@+id/tv_host_change" android:background="@drawable/bg_radius4_red" android:paddingTop="@dimen/view_margin_small" android:paddingBottom="@dimen/view_margin_small" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="切换" android:paddingStart="@dimen/view_margin_large" android:paddingEnd="@dimen/view_margin_large"/>
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/view_margin_normal" android:layout_marginBottom="@dimen/view_margin_normal" android:paddingStart="@dimen/view_margin_large" android:paddingEnd="@dimen/view_margin_large">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="图片服务器:"/>
+        <TextView android:id="@+id/tv_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="https://sspimg.boerman.cn"/>
+        <View android:layout_width="0dp" android:layout_height="0dp" android:layout_weight="1"/>
+        <TextView android:textColor="@color/white" android:id="@+id/tv_image_change" android:background="@drawable/bg_radius4_red" android:paddingTop="@dimen/view_margin_small" android:paddingBottom="@dimen/view_margin_small" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="切换" android:paddingStart="@dimen/view_margin_large" android:paddingEnd="@dimen/view_margin_large"/>
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/view_margin_normal" android:layout_marginBottom="@dimen/view_margin_normal" android:paddingStart="@dimen/view_margin_large" android:paddingEnd="@dimen/view_margin_large">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="视频服务器:"/>
+        <TextView android:id="@+id/tv_stream" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="https://ptv-ws.scyamm.cn"/>
+        <View android:layout_width="0dp" android:layout_height="0dp" android:layout_weight="1"/>
+        <TextView android:textColor="@color/white" android:id="@+id/tv_stream_change" android:background="@drawable/bg_radius4_red" android:paddingTop="@dimen/view_margin_small" android:paddingBottom="@dimen/view_margin_small" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="切换" android:paddingStart="@dimen/view_margin_large" android:paddingEnd="@dimen/view_margin_large"/>
+    </LinearLayout>
+    <View android:layout_width="wrap_content" android:layout_height="40dp"/>
+    <TextView android:textColor="@color/white" android:id="@+id/tv_refresh" android:background="@drawable/bg_radius4_red" android:paddingTop="@dimen/view_margin_normal" android:paddingBottom="@dimen/view_margin_normal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="更新服务器配置" android:paddingStart="@dimen/view_margin_large" android:paddingEnd="@dimen/view_margin_large"/>
+    <TextView android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/view_margin_xlarge" android:text="tips\10页面刷新不出来就切换接口服务器\10图片加载不出来就切换图片服务器\10视频播放不了就切换视频服务器\10都不行就先更新配置再切换\10部分没有破解的服务器会访问失败" android:lineSpacingExtra="@dimen/view_margin_small"/>
+</LinearLayout>

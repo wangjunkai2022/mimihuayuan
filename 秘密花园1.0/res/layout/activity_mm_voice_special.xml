@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.comeback.data.widget.RatioImageView android:id="@id/iv_header" android:layout_width="120.0dip" android:layout_height="120.0dip" android:layout_marginTop="@dimen/view_margin_xlarge" android:scaleType="centerCrop" />
+    <TextView android:textSize="20.0sp" android:textColor="@color/basic_primary_text" android:id="@id/tv_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/view_margin_normal" android:singleLine="true" android:layout_marginStart="@dimen/view_margin_xlarge" android:layout_marginEnd="@dimen/view_margin_xlarge" />
+    <include layout="@layout/base_refresh_recycler" />
+</LinearLayout>

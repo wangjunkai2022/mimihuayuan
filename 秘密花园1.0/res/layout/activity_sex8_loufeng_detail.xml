@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:layout_gravity="center_vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="88.0dip" />
+    <FrameLayout android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="-64.0dip">
+        <ImageView android:layout_gravity="center_horizontal" android:id="@id/iv_head" android:layout_width="128.0dip" android:layout_height="128.0dip" android:transitionName="ImageHeader" />
+    </FrameLayout>
+    <com.google.android.material.tabs.TabLayout android:id="@id/tab_layout" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content" app:tabGravity="fill" app:tabIndicatorColor="@null" app:tabMode="fixed" app:tabSelectedTextColor="@color/kmColorAccent" app:tabTextColor="@color/basic_secondary_text" />
+    <androidx.core.widget.NestedScrollView android:id="@id/scrollView" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:padding="@dimen/view_margin_large" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textColor="@color/kmColorAccent" android:id="@id/tv_area" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/view_margin_large" />
+            <TextView android:textColor="@color/basic_primary_text" android:id="@id/tv_time" android:paddingTop="@dimen/view_margin_normal" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <TextView android:textColor="@color/basic_primary_text" android:id="@id/tv_count" android:paddingTop="@dimen/view_margin_normal" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <TextView android:textColor="@color/basic_primary_text" android:id="@id/tv_price" android:paddingTop="@dimen/view_margin_normal" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <TextView android:textColor="@color/basic_primary_text" android:id="@id/tv_wechat" android:paddingTop="@dimen/view_margin_normal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textIsSelectable="true" />
+            <TextView android:textColor="@color/basic_primary_text" android:id="@id/tv_qq" android:paddingTop="@dimen/view_margin_normal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textIsSelectable="true" />
+            <TextView android:textColor="@color/basic_primary_text" android:id="@id/tv_phone" android:paddingTop="@dimen/view_margin_normal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textIsSelectable="true" />
+            <TextView android:textSize="@dimen/text_detail" android:textColor="@color/basic_secondary_text" android:id="@id/tv_detail" android:paddingTop="@dimen/view_margin_normal" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/rv_list" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/rl_root" android:background="@color/white" android:paddingTop="@dimen/view_margin_normal" android:paddingBottom="@dimen/view_margin_normal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="1.0px" android:paddingStart="@dimen/view_margin_large" android:paddingEnd="@dimen/view_margin_large"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textColor="@color/basic_primary_text" android:id="@id/tv_name" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <TextView android:id="@id/tv_play_count" android:layout_width="100.0dip" android:layout_height="wrap_content" android:layout_marginTop="@dimen/view_margin_normal" android:drawableLeft="@mipmap/ic_play1" android:drawablePadding="@dimen/view_margin_small" android:layout_below="@id/tv_name" />
+    <TextView android:id="@id/tv_long" android:layout_width="100.0dip" android:layout_height="wrap_content" android:layout_marginTop="@dimen/view_margin_normal" android:drawableLeft="@mipmap/ic_time" android:drawablePadding="@dimen/view_margin_small" android:layout_toRightOf="@id/tv_play_count" android:layout_below="@id/tv_name" />
+</RelativeLayout>

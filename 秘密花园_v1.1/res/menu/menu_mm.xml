@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/maomi_video" android:id="@id/navigation_video" android:title="影视" />
+    <item android:icon="@drawable/maomi_short" android:id="@id/navigation_short" android:title="原创" />
+    <item android:icon="@drawable/maomi_discove" android:id="@id/navigation_discover" android:title="发现" />
+</menu>

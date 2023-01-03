@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/ll_root" android:paddingTop="@dimen/view_margin_small" android:paddingBottom="@dimen/view_margin_small" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/view_margin_normal" android:paddingEnd="@dimen/view_margin_normal"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.comeback.data.widget.RatioImageView android:id="@id/iv_img" android:layout_width="fill_parent" android:layout_height="wrap_content" android:scaleType="centerCrop" app:radius="@dimen/view_margin_normal" app:ratio="0.57" />
+        <TextView android:textSize="@dimen/text_detail" android:textColor="@color/white" android:layout_gravity="end|bottom|center" android:id="@id/tv_duration" android:background="@drawable/bg_radius_trans" android:paddingTop="@dimen/view_margin_small" android:paddingBottom="@dimen/view_margin_small" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/view_margin_normal" android:text="05:00" android:paddingStart="@dimen/view_margin_normal" android:paddingEnd="@dimen/view_margin_normal" />
+    </FrameLayout>
+    <TextView android:textSize="@dimen/text_title" android:textStyle="bold" android:textColor="@color/basic_primary_text" android:layout_gravity="center_horizontal" android:id="@id/tv_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/view_margin_normal" android:text="被抓奶子的感觉好舒服" android:singleLine="true" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/ll_user" android:paddingTop="@dimen/view_margin_normal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/iv_head" android:layout_width="28.0dip" android:layout_height="28.0dip" android:src="#ffcccccc" />
+        <TextView android:textSize="@dimen/text_title" android:textColor="@color/basic_primary_text" android:id="@id/tv_user" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="SRoom" android:singleLine="true" android:layout_marginStart="@dimen/view_margin_normal" />
+    </LinearLayout>
+</LinearLayout>

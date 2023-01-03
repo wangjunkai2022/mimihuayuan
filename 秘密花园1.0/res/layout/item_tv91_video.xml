@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/view_margin_normal" android:layout_marginBottom="@dimen/view_margin_normal" android:layout_marginStart="@dimen/view_margin_large" android:layout_marginEnd="@dimen/view_margin_large" app:cardCornerRadius="@dimen/view_margin_normal" app:cardElevation="@dimen/view_margin_small"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.comeback.data.widget.RatioFrameLayout android:id="@id/fl_root" android:background="#ff363636" android:layout_width="fill_parent" android:layout_height="wrap_content" app:ratio="0.5">
+            <com.comeback.data.widget.RatioImageView android:id="@id/iv_img" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" app:ratio="0.5" />
+            <TextView android:textSize="@dimen/text_title" android:textColor="@color/white" android:gravity="bottom" android:layout_gravity="bottom" android:id="@id/tv_name" android:background="@drawable/bg_jianbian" android:padding="@dimen/view_margin_normal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:maxLines="2" />
+            <TextView android:textSize="10.0sp" android:textColor="@color/white" android:layout_gravity="end" android:id="@id/tv_time" android:padding="@dimen/view_margin_normal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+        </com.comeback.data.widget.RatioFrameLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

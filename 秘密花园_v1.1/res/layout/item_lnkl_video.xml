@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/view_margin_normal" app:cardCornerRadius="@dimen/view_margin_normal"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/ll_root" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.comeback.data.widget.RatioImageView android:id="@id/iv_cover" android:layout_width="fill_parent" android:layout_height="wrap_content" android:scaleType="centerCrop" app:ratio="0.6" />
+        <TextView android:textSize="@dimen/text_detail" android:textColor="@color/basic_secondary_text" android:id="@id/tv_time" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/view_margin_small" android:singleLine="true" android:layout_marginStart="@dimen/view_margin_normal" android:layout_marginEnd="@dimen/view_margin_normal" />
+        <TextView android:textSize="@dimen/text_title" android:textColor="@color/basic_primary_text" android:id="@id/tv_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/view_margin_small" android:singleLine="true" android:layout_marginStart="@dimen/view_margin_normal" android:layout_marginEnd="@dimen/view_margin_normal" />
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

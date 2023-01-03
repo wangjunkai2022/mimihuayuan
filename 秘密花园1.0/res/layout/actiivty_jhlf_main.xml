@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_gravity="center" android:id="@id/fl_progress" android:background="@drawable/bg_xj_trans30" android:padding="@dimen/view_margin_large" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.wang.avi.AVLoadingIndicatorView android:layout_gravity="center_horizontal" android:id="@id/loading" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/view_margin_xlarge" app:indicatorName="BallTrianglePathIndicator" />
+        <TextView android:textSize="@dimen/text_detail" android:textColor="@color/white" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/view_margin_xlarge" android:text="正在获取配置..." />
+    </FrameLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="20.0sp" android:textStyle="bold" android:textColor="@color/basic_primary_text" android:id="@id/tv_title" android:background="@color/white" android:padding="@dimen/view_margin_large" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="推荐游戏" />
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/rv_ad" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/rv_List" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/view_margin_normal" />
+    </LinearLayout>
+</FrameLayout>

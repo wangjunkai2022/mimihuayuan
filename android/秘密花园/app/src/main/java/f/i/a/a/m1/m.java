@@ -1,0 +1,76 @@
+package f.i.a.a.m1;
+
+import android.os.Handler;
+import c.a.a.b.g.h;
+import f.i.a.a.m1.m;
+import java.util.Iterator;
+import java.util.concurrent.CopyOnWriteArrayList;
+
+/* compiled from: EventDispatcher.java */
+/* loaded from: classes.dex */
+public final class m<T> {
+    public final CopyOnWriteArrayList<b<T>> a = new CopyOnWriteArrayList<>();
+
+    /* compiled from: EventDispatcher.java */
+    /* loaded from: classes.dex */
+    public interface a<T> {
+        void a(T t);
+    }
+
+    /* compiled from: EventDispatcher.java */
+    /* loaded from: classes.dex */
+    public static final class b<T> {
+        public final Handler a;
+        public final T b;
+
+        /* renamed from: c  reason: collision with root package name */
+        public boolean f5681c;
+
+        public b(Handler handler, T t) {
+            this.a = handler;
+            this.b = t;
+        }
+
+        public /* synthetic */ void a(a aVar) {
+            if (!this.f5681c) {
+                aVar.a(this.b);
+            }
+        }
+    }
+
+    public void a(Handler handler, T t) {
+        h.m((handler == null || t == null) ? false : true);
+        c(t);
+        this.a.add(new b<>(handler, t));
+    }
+
+    public void b(a<T> aVar) {
+        Iterator<b<T>> it = this.a.iterator();
+        while (it.hasNext()) {
+            b<T> next = it.next();
+            next.a.post(new Runnable(aVar) { // from class: f.i.a.a.m1.a
+                public final /* synthetic */ m.a b;
+
+                {
+                    this.b = r2;
+                }
+
+                @Override // java.lang.Runnable
+                public final void run() {
+                    m.b.this.a(this.b);
+                }
+            });
+        }
+    }
+
+    public void c(T t) {
+        Iterator<b<T>> it = this.a.iterator();
+        while (it.hasNext()) {
+            b<T> next = it.next();
+            if (next.b == t) {
+                next.f5681c = true;
+                this.a.remove(next);
+            }
+        }
+    }
+}

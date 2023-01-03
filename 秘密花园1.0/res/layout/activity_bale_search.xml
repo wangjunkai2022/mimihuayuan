@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="#ff161823" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="20.0sp" android:textColor="@color/white" android:gravity="center" android:id="@id/tv_title" android:layout_width="fill_parent" android:layout_height="48.0dip" android:text="搜索视频" />
+    <ImageView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/view_margin_normal" android:src="@mipmap/bg_search_top" />
+    <FrameLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <EditText android:textSize="@dimen/text_detail" android:textColor="@color/white" android:textColorHint="@color/basic_third_text" android:id="@id/et_search" android:background="@drawable/bg_radius_trans_white_deep" android:paddingTop="@dimen/view_margin_normal" android:paddingBottom="@dimen/view_margin_normal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/view_margin_normal" android:layout_marginBottom="@dimen/view_margin_normal" android:hint="搜索点什么" android:singleLine="true" android:drawableLeft="@mipmap/icon_search_xj" android:drawablePadding="@dimen/view_margin_normal" android:layout_weight="1.0" android:imeOptions="actionSearch" android:textCursorDrawable="@drawable/cursor_drawable_white" android:paddingStart="@dimen/view_margin_large" android:layout_marginStart="@dimen/view_margin_large" android:layout_marginEnd="@dimen/view_margin_large" />
+    </FrameLayout>
+    <TextView android:textSize="18.0sp" android:textColor="@color/white" android:paddingTop="@dimen/view_margin_large" android:paddingBottom="@dimen/view_margin_normal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="热门搜索" android:paddingStart="@dimen/view_margin_normal" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/rv_hot" android:layout_width="fill_parent" android:layout_height="wrap_content" android:overScrollMode="never" />
+</LinearLayout>

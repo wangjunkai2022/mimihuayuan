@@ -1,0 +1,97 @@
+package h.p;
+
+import c.a.a.b.g.h;
+import java.util.Iterator;
+
+/* compiled from: Progressions.kt */
+/* loaded from: classes.dex */
+public class a implements Iterable<Integer>, h.o.c.o.a {
+    public final int a;
+    public final int b;
+
+    /* renamed from: c  reason: collision with root package name */
+    public final int f6334c;
+
+    public a(int i2, int i3, int i4) {
+        if (i4 == 0) {
+            throw new IllegalArgumentException("Step must be non-zero.");
+        } else if (i4 != Integer.MIN_VALUE) {
+            this.a = i2;
+            if (i4 > 0) {
+                if (i2 < i3) {
+                    i3 -= h.S0(h.S0(i3, i4) - h.S0(i2, i4), i4);
+                }
+            } else if (i4 >= 0) {
+                throw new IllegalArgumentException("Step is zero.");
+            } else if (i2 > i3) {
+                int i5 = -i4;
+                i3 += h.S0(h.S0(i2, i5) - h.S0(i3, i5), i5);
+            }
+            this.b = i3;
+            this.f6334c = i4;
+        } else {
+            throw new IllegalArgumentException("Step must be greater than Int.MIN_VALUE to avoid overflow on negation.");
+        }
+    }
+
+    @Override // java.lang.Object
+    public boolean equals(Object obj) {
+        if (obj instanceof a) {
+            if (!isEmpty() || !((a) obj).isEmpty()) {
+                a aVar = (a) obj;
+                if (!(this.a == aVar.a && this.b == aVar.b && this.f6334c == aVar.f6334c)) {
+                }
+            }
+            return true;
+        }
+        return false;
+    }
+
+    @Override // java.lang.Object
+    public int hashCode() {
+        if (isEmpty()) {
+            return -1;
+        }
+        return (((this.a * 31) + this.b) * 31) + this.f6334c;
+    }
+
+    public boolean isEmpty() {
+        if (this.f6334c > 0) {
+            if (this.a > this.b) {
+                return true;
+            }
+        } else if (this.a < this.b) {
+            return true;
+        }
+        return false;
+    }
+
+    /* Return type fixed from 'java.util.Iterator' to match base method */
+    @Override // java.lang.Iterable
+    public Iterator<Integer> iterator() {
+        return new b(this.a, this.b, this.f6334c);
+    }
+
+    @Override // java.lang.Object
+    public String toString() {
+        int i2;
+        StringBuilder sb;
+        if (this.f6334c > 0) {
+            sb = new StringBuilder();
+            sb.append(this.a);
+            sb.append("..");
+            sb.append(this.b);
+            sb.append(" step ");
+            i2 = this.f6334c;
+        } else {
+            sb = new StringBuilder();
+            sb.append(this.a);
+            sb.append(" downTo ");
+            sb.append(this.b);
+            sb.append(" step ");
+            i2 = -this.f6334c;
+        }
+        sb.append(i2);
+        return sb.toString();
+    }
+}

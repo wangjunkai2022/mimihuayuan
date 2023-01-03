@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/iv_img" android:layout_width="fill_parent" android:layout_height="300.0dip" android:scaleType="fitXY" android:adjustViewBounds="true" />
+    <RelativeLayout android:layout_gravity="bottom" android:background="@drawable/bg_jianbian" android:padding="@dimen/view_margin_small" android:layout_width="fill_parent" android:layout_height="54.0dip">
+        <TextView android:textSize="@dimen/text_detail" android:textColor="@color/white" android:id="@id/tv_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/view_margin_normal" android:text="\# 一哈萨达萨达省" android:singleLine="true" />
+        <ImageView android:id="@id/iv_like" android:layout_width="14.0dip" android:layout_height="14.0dip" android:src="@mipmap/ic_km_like_white" android:layout_alignParentBottom="true" />
+        <TextView android:textSize="@dimen/text_detail" android:textColor="@color/white" android:id="@id/tv_like" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0" android:layout_toRightOf="@id/iv_like" android:layout_alignParentBottom="true" android:layout_marginStart="@dimen/view_margin_normal" />
+        <TextView android:textSize="@dimen/text_detail" android:textColor="@color/white" android:id="@id/tv_user" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_alignParentBottom="true" android:layout_marginStart="@dimen/view_margin_normal" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+</FrameLayout>

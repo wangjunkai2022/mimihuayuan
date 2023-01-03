@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:background="@drawable/bg_launch" android:layout_width="match_parent" android:layout_height="match_parent">
+    <View android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/ll_logo" android:paddingBottom="32dp" android:layout_width="match_parent" android:layout_height="match_parent">
+        <ImageView android:visibility="gone" android:layout_width="128dp" android:layout_height="128dp" android:src="@mipmap/icon_launcher"/>
+        <View android:layout_width="wrap_content" android:layout_height="0dp" android:layout_weight="1"/>
+        <TextView android:textColor="@color/basic_primary_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="让 生 活 充 满 爱"/>
+        <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textSize="28sp" android:typeface="serif" android:textStyle="bold" android:textColor="@color/basic_primary_text" android:id="@+id/tv_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/view_margin_normal" android:text="Sexy"/>
+            <TextView android:textSize="26sp" android:typeface="serif" android:textStyle="bold" android:textColor="@color/white" android:id="@+id/tv_name1" android:background="@drawable/bg_radiu4_gkj5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/view_margin_normal" android:text="hub" android:paddingStart="2dp" android:paddingEnd="2dp" android:layout_marginStart="@dimen/view_margin_small"/>
+        </LinearLayout>
+    </LinearLayout>
+    <FrameLayout android:orientation="vertical" android:id="@+id/fl_ad" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+        <ImageView android:id="@+id/iv_cover" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="fitXY"/>
+        <TextView android:textSize="18sp" android:textColor="@color/white" android:gravity="center" android:layout_gravity="end" android:id="@+id/tv_count" android:background="@drawable/bg_radius_accent" android:layout_width="56dp" android:layout_height="56dp" android:layout_marginTop="48dp" android:text="5" android:layout_marginEnd="@dimen/view_margin_large"/>
+    </FrameLayout>
+    <FrameLayout android:layout_gravity="center" android:id="@+id/fl_progress" android:padding="@dimen/view_margin_large" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.wang.avi.AVLoadingIndicatorView android:layout_gravity="center_horizontal" android:id="@+id/loading" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/view_margin_xlarge" app:indicatorColor="@color/basic_secondary_text" app:indicatorName="BallTrianglePathIndicator"/>
+        <TextView android:textSize="@dimen/text_detail" android:textColor="@color/basic_secondary_text" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/view_margin_xlarge" android:text="正在获取配置..."/>
+    </FrameLayout>
+</FrameLayout>

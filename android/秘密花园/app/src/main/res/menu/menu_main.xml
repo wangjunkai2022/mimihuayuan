@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@mipmap/ic_km_like_white" android:id="@+id/navigation_collect" android:title="收藏视频" app:showAsAction="ifRoom"/>
+    <item android:icon="@mipmap/ic_download_white_nor" android:id="@+id/navigation_down" android:title="下载中心" app:showAsAction="ifRoom"/>
+    <item android:icon="@drawable/ic_help_black_24dp" android:id="@+id/navigation_question" android:title="常见问题" app:showAsAction="collapseActionView"/>
+</menu>

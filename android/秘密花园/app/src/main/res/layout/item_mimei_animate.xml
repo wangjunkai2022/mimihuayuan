@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:id="@+id/ll_root" android:padding="@dimen/view_margin_small" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <FrameLayout android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.comeback.data.widget.RatioImageView android:id="@+id/iv_cover" android:layout_width="match_parent" android:layout_height="wrap_content" android:scaleType="centerCrop" app:ratio="1.3"/>
+        <TextView android:textSize="@dimen/text_detail" android:textColor="@color/white" android:layout_gravity="bottom" android:id="@+id/tv_state" android:background="@drawable/bg_jianbian" android:paddingTop="64dp" android:paddingBottom="@dimen/view_margin_small" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/view_margin_small"/>
+    </FrameLayout>
+    <TextView android:textColor="@color/basic_primary_text" android:id="@+id/tv_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/view_margin_small" android:singleLine="true" android:layout_below="@+id/iv_cover"/>
+</LinearLayout>

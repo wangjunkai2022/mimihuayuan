@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="20.0sp" android:textColor="@color/white" android:gravity="center" android:background="@color/colorPrimaryDark" android:layout_width="fill_parent" android:layout_height="48.0dip" android:text="我的收藏" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/rv_list" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <TextView android:gravity="center" android:layout_gravity="center" android:id="@id/tv_hint" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="小提示：\n播放器全屏时，点击右上角的收藏\n可以收藏视频到这里" android:lineSpacingExtra="@dimen/view_margin_small" />
+</LinearLayout>

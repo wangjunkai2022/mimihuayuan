@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tencent.smtt.sdk.WebView android:id="@id/web_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <TextView android:textSize="@dimen/text_title" android:textColor="@color/kmColorAccent" android:gravity="center" android:layout_gravity="bottom" android:id="@id/tv_jump" android:background="@color/grey_50" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="48.0dip" android:text="无法下载点我跳转浏览器" />
+</FrameLayout>

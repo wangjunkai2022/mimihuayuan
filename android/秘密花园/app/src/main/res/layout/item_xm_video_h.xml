@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:id="@+id/ll_root" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/view_margin_normal">
+    <com.comeback.data.widget.RatioFrameLayout android:layout_width="match_parent" android:layout_height="wrap_content" app:ratio="0.56">
+        <com.comeback.data.widget.RatioImageView android:id="@+id/iv_cover" android:layout_width="match_parent" android:layout_height="wrap_content" android:scaleType="centerCrop" app:radius="8dp" app:ratio="0.56"/>
+        <TextView android:textSize="@dimen/text_detail" android:textColor="@color/white" android:gravity="end" android:layout_gravity="bottom|right|center_vertical|center_horizontal|center|end" android:id="@+id/tv_intro" android:padding="@dimen/view_margin_small" android:layout_width="match_parent" android:layout_height="wrap_content" android:singleLine="true"/>
+    </com.comeback.data.widget.RatioFrameLayout>
+    <TextView android:textSize="@dimen/text_detail" android:textColor="@color/basic_primary_text" android:id="@+id/tv_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/view_margin_small" android:singleLine="true"/>
+</LinearLayout>

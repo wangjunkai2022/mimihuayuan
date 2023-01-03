@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="#ff303030" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:background="#ff1e1e1e" android:layout_width="fill_parent" android:layout_height="48.0dip">
+        <TextView android:textSize="20.0sp" android:textColor="@color/white" android:layout_gravity="center" android:id="@id/tv_title" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <ImageView android:layout_gravity="end|center" android:id="@id/iv_search" android:padding="@dimen/view_margin_normal" android:layout_width="40.0dip" android:layout_height="40.0dip" android:src="@mipmap/icon_search_xj" android:layout_marginEnd="@dimen/view_margin_normal" />
+    </FrameLayout>
+    <com.scwang.smartrefresh.layout.SmartRefreshLayout android:id="@id/refreshLayout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/rv_list" android:layout_width="fill_parent" android:layout_height="fill_parent" android:overScrollMode="never" />
+    </com.scwang.smartrefresh.layout.SmartRefreshLayout>
+</LinearLayout>

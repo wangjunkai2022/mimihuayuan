@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:id="@+id/ll_root" android:background="@color/white" android:padding="@dimen/view_margin_normal" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.comeback.data.widget.RatioImageView android:id="@+id/iv_cover" android:layout_width="match_parent" android:layout_height="wrap_content" android:scaleType="centerCrop" app:radius="8dp" app:ratio="0.52"/>
+        <TextView android:textSize="@dimen/text_detail" android:textColor="@color/white" android:gravity="end" android:layout_gravity="bottom" android:id="@+id/tv_title" android:background="@drawable/bg_jianbian8" android:padding="@dimen/view_margin_normal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/view_margin_small" android:singleLine="true"/>
+        <TextView android:textSize="@dimen/text_detail" android:textColor="@color/white" android:id="@+id/tv_state" android:background="@drawable/bg_radiu4_gkj2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/view_margin_small" android:text="连载" android:paddingStart="@dimen/view_margin_small" android:paddingEnd="@dimen/view_margin_small"/>
+    </FrameLayout>
+    <TextView android:textSize="@dimen/text_detail" android:textColor="@color/basic_third_text" android:id="@+id/tv_intro" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/view_margin_normal" android:layout_marginBottom="@dimen/view_margin_normal" android:singleLine="true"/>
+</LinearLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@+id/container" android:background="@color/black" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.comeback.data.widget.CustomViewPager android:id="@+id/viewpager" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <LinearLayout android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:orientation="horizontal" android:paddingTop="24dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textColor="@color/white" android:id="@+id/tv_recommend" android:padding="@dimen/view_margin_large" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="推荐" android:scaleX="1.8" android:scaleY="1.8"/>
+        <TextView android:textColor="@color/basic_third_text" android:id="@+id/tv_new" android:padding="@dimen/view_margin_large" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="热门" android:layout_marginStart="@dimen/view_margin_normal" android:layout_marginEnd="@dimen/view_margin_normal"/>
+    </LinearLayout>
+    <LinearLayout android:layout_gravity="end" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="24dp">
+        <ImageView android:id="@+id/iv_collect" android:padding="12dp" android:visibility="gone" android:layout_width="48dp" android:layout_height="48dp" android:src="@mipmap/ic_km_colletion" android:tint="@color/white"/>
+        <ImageView android:id="@+id/iv_search" android:padding="12dp" android:layout_width="48dp" android:layout_height="48dp" android:src="@mipmap/ic_search" android:tint="@color/white"/>
+    </LinearLayout>
+</FrameLayout>

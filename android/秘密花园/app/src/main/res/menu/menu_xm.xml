@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@mipmap/icon_xm_home" android:id="@+id/navigation_home" android:title="主页"/>
+    <item android:icon="@mipmap/icon_xm_hot" android:id="@+id/navigation_hot" android:title="热点"/>
+    <item android:icon="@mipmap/icon_xm_special" android:id="@+id/navigation_special" android:title="系列"/>
+</menu>

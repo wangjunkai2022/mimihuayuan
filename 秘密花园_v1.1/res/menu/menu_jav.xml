@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@mipmap/icon_top_rank" android:id="@id/navigation_rank" android:title="排行榜" />
+    <item android:icon="@mipmap/abb_search" android:id="@id/navigation_type" android:title="搜索" />
+    <item android:icon="@mipmap/tv91_star" android:id="@id/navigation_actor" android:title="演员" />
+</menu>

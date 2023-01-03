@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:textSize="20.0sp" android:textStyle="bold" android:textColor="@color/basic_primary_text" android:id="@id/tv_name" android:padding="@dimen/view_margin_large" android:layout_width="fill_parent" android:layout_height="wrap_content" android:drawablePadding="@dimen/view_margin_normal" android:drawableStart="@drawable/i_2" android:paddingStart="@dimen/view_margin_normal"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

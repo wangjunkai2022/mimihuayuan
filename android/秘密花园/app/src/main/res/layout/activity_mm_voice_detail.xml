@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:background="@color/white" android:layout_width="match_parent" android:layout_height="match_parent">
+    <FrameLayout android:layout_width="match_parent" android:layout_height="48dp">
+        <ImageView android:layout_gravity="center_vertical" android:id="@+id/iv_close" android:padding="@dimen/view_margin_normal" android:layout_width="40dp" android:layout_height="40dp" android:src="@mipmap/ic_arrow_left" android:tint="@color/basic_secondary_text" android:rotation="270" android:layout_marginStart="@dimen/view_margin_large"/>
+        <ImageView android:layout_gravity="right|center_vertical|center_horizontal|center|end" android:id="@+id/iv_down" android:padding="@dimen/view_margin_normal" android:layout_width="40dp" android:layout_height="40dp" android:src="@drawable/maomi_download" android:tint="@color/basic_secondary_text" android:layout_marginEnd="@dimen/view_margin_large"/>
+    </FrameLayout>
+    <View android:layout_width="wrap_content" android:layout_height="0dp" android:layout_weight="1"/>
+    <TextView android:textSize="@dimen/text_title" android:textColor="@color/basic_primary_text" android:layout_gravity="center_horizontal" android:id="@+id/tv_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/view_margin_large" android:singleLine="true" android:paddingStart="@dimen/view_margin_xlarge" android:paddingEnd="@dimen/view_margin_xlarge"/>
+    <com.comeback.data.widget.RatioImageView android:layout_gravity="center_horizontal" android:id="@+id/iv_img" android:layout_width="220dp" android:layout_height="220dp" android:layout_marginTop="@dimen/view_margin_xlarge" android:scaleType="centerCrop" app:radius="400dp"/>
+    <SeekBar android:id="@+id/seekBar" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="48dp" android:max="0" android:layout_marginStart="@dimen/view_margin_normal" android:layout_marginEnd="@dimen/view_margin_normal"/>
+    <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="20dp" android:paddingEnd="20dp">
+        <TextView android:textSize="@dimen/text_detail" android:id="@+id/tv_current" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="00:00"/>
+        <TextView android:textSize="@dimen/text_detail" android:layout_gravity="end" android:id="@+id/tv_all" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="00:00"/>
+    </FrameLayout>
+    <LinearLayout android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/view_margin_large">
+        <ImageView android:id="@+id/iv_pre" android:padding="@dimen/view_margin_normal" android:layout_width="40dp" android:layout_height="40dp" android:src="@drawable/maomi_pre"/>
+        <ImageView android:id="@+id/iv_play" android:layout_width="48dp" android:layout_height="48dp" android:src="@drawable/maomi_start" android:layout_marginStart="@dimen/view_margin_xlarge" android:layout_marginEnd="@dimen/view_margin_xlarge"/>
+        <ImageView android:id="@+id/iv_next" android:padding="@dimen/view_margin_normal" android:layout_width="40dp" android:layout_height="40dp" android:src="@drawable/maomi_next"/>
+    </LinearLayout>
+    <chuangyuan.ycj.videolibrary.widget.VideoPlayerView android:id="@+id/vp_video" android:layout_width="match_parent" android:layout_height="0dp"/>
+    <View android:layout_width="wrap_content" android:layout_height="0dp" android:layout_weight="1"/>
+</LinearLayout>

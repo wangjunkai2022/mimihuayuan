@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="#ff140123" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:layout_width="fill_parent" android:layout_height="24.0dip" />
+    <LinearLayout android:orientation="horizontal" android:background="@drawable/bg_radius_dn" android:layout_width="fill_parent" android:layout_height="36.0dip" android:layout_marginTop="@dimen/view_margin_normal" android:layout_marginStart="@dimen/view_margin_large" android:layout_marginEnd="@dimen/view_margin_large">
+        <ImageView android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/view_margin_large" android:src="@mipmap/ic_search" android:tint="@color/white" />
+        <EditText android:textSize="12.0sp" android:textColor="@color/white" android:textColorHint="@color/basic_third_text" android:layout_gravity="center_vertical" android:id="@id/et_search" android:background="@null" android:layout_width="0.0dip" android:layout_height="36.0dip" android:layout_marginLeft="@dimen/view_margin_large" android:hint="搜索用户|视频" android:maxLines="1" android:layout_weight="1.0" android:inputType="text" android:imeOptions="actionSearch" android:textCursorDrawable="@drawable/cursor_drawable_orange" />
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/iv_cancel" android:padding="@dimen/view_margin_normal" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@mipmap/ic_cancel" android:tint="@color/white" android:layout_marginEnd="@dimen/view_margin_normal" />
+    </LinearLayout>
+    <com.comeback.data.widget.CustomViewPager android:id="@id/viewpager" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.google.android.material.tabs.TabLayout android:id="@id/tab_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" app:tabGravity="center" app:tabIndicatorColor="@color/white" app:tabMode="fixed" app:tabSelectedTextColor="@color/white" app:tabTextColor="@color/basic_third_text" />
+    </com.comeback.data.widget.CustomViewPager>
+</LinearLayout>

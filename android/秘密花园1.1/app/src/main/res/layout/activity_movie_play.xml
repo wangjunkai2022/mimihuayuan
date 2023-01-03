@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="match_parent">
+    <chuangyuan.ycj.videolibrary.widget.VideoPlayerView android:id="@+id/video_view" android:background="@android:color/transparent" android:layout_width="match_parent" android:layout_height="250dp" app:controller_layout_id="@layout/widget_video_control" app:fastforward_increment="100" app:player_load_layout_id="@layout/widget_video_load" app:resize_mode="4" app:rewind_increment="100" app:show_timeout="1000000000" app:surface_type="2"/>
+    <TextView android:textSize="20sp" android:textStyle="bold" android:textColor="@color/basic_primary_text" android:gravity="center_vertical" android:background="@color/white" android:layout_width="match_parent" android:layout_height="48dp" android:layout_marginBottom="4dp" android:text="选集" android:paddingStart="16dp"/>
+    <androidx.recyclerview.widget.RecyclerView android:id="@+id/rv_chapter" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <View android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1"/>
+    <TextView android:textColor="@color/gkj_color2" android:gravity="center" android:id="@+id/tv_cnm" android:background="@color/white" android:padding="@dimen/view_margin_large" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="+ 添加到收藏"/>
+</LinearLayout>

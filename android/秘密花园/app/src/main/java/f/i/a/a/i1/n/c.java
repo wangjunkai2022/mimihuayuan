@@ -1,0 +1,35 @@
+package f.i.a.a.i1.n;
+
+import f.i.a.a.i1.b;
+import f.i.a.a.i1.e;
+import java.util.List;
+
+/* compiled from: DvbSubtitle.java */
+/* loaded from: classes.dex */
+public final class c implements e {
+    public final List<b> a;
+
+    public c(List<b> list) {
+        this.a = list;
+    }
+
+    @Override // f.i.a.a.i1.e
+    public int a(long j2) {
+        return -1;
+    }
+
+    @Override // f.i.a.a.i1.e
+    public long b(int i2) {
+        return 0;
+    }
+
+    @Override // f.i.a.a.i1.e
+    public List<b> c(long j2) {
+        return this.a;
+    }
+
+    @Override // f.i.a.a.i1.e
+    public int d() {
+        return 1;
+    }
+}

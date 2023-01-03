@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <chuangyuan.ycj.videolibrary.widget.VideoPlayerView android:id="@id/video_view" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="220.0dip" app:controller_layout_id="@layout/widget_video_control" app:fastforward_increment="100" app:player_load_layout_id="@layout/widget_video_load" app:resize_mode="fit" app:rewind_increment="100" app:show_timeout="1000000000" app:surface_type="texture_view" />
+    <androidx.core.widget.NestedScrollView android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:padding="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="20.0sp" android:textStyle="bold" android:textColor="@color/basic_primary_text" android:id="@id/tv_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="2" />
+                <include layout="@layout/include_divide_line" />
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="@dimen/text_detail" android:textColor="@color/basic_secondary_text" android:ellipsize="end" android:id="@id/tv_intro" android:background="@drawable/bg_radiu4_grey" android:padding="@dimen/view_margin_normal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/view_margin_normal" android:maxLines="12" />
+                    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/view_margin_normal">
+                        <TextView android:textSize="@dimen/text_detail" android:textColor="@color/basic_primary_text" android:id="@id/tv_play_count" android:paddingTop="2.0dip" android:paddingBottom="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="播放:51.48万" android:paddingStart="@dimen/view_margin_small" android:paddingEnd="@dimen/view_margin_small" />
+                        <TextView android:textSize="@dimen/text_detail" android:textColor="@color/basic_primary_text" android:id="@id/tv_director" android:paddingTop="2.0dip" android:paddingBottom="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="导演：杰雷米·波德斯瓦" android:paddingStart="@dimen/view_margin_small" android:paddingEnd="@dimen/view_margin_small" android:layout_marginStart="@dimen/view_margin_normal" />
+                        <View android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+                        <TextView android:textSize="@dimen/text_detail" android:textColor="@color/white" android:id="@id/tv_score" android:background="@drawable/bg_radiu4_gkj3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="豆瓣评分8.6" android:paddingStart="@dimen/view_margin_small" android:paddingEnd="@dimen/view_margin_small" />
+                    </LinearLayout>
+                    <TextView android:textSize="@dimen/text_detail" android:textColor="@color/basic_primary_text" android:id="@id/tv_area" android:paddingTop="2.0dip" android:paddingBottom="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/view_margin_small" android:text="类型：科幻动作 地区：美国  年份：2016" android:paddingStart="@dimen/view_margin_small" android:paddingEnd="@dimen/view_margin_small" />
+                    <TextView android:textSize="@dimen/text_detail" android:textColor="@color/basic_primary_text" android:id="@id/tv_star" android:paddingTop="2.0dip" android:paddingBottom="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/view_margin_small" android:text="主演：麦茜·威廉姆斯 艾米莉亚·克拉克 伊萨克·亨普斯特德-怀特" android:paddingStart="@dimen/view_margin_small" android:paddingEnd="@dimen/view_margin_small" />
+                    <LinearLayout android:orientation="vertical" android:id="@id/ll_chapter" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/view_margin_normal">
+                        <include layout="@layout/include_divide_line" />
+                        <TextView android:textSize="20.0sp" android:textColor="@color/basic_primary_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/view_margin_normal" android:text="选集" />
+                        <androidx.recyclerview.widget.RecyclerView android:id="@id/rv_chapter" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>

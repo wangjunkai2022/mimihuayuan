@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <FrameLayout android:id="@+id/fl_comic" android:visibility="visible" android:layout_width="match_parent" android:layout_height="match_parent">
+        <androidx.recyclerview.widget.RecyclerView android:id="@+id/rv_list" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        <View android:id="@+id/view_click" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        <TextView android:textColor="@color/white" android:layout_gravity="bottom" android:id="@+id/tv_page" android:background="#0000" android:paddingTop="2dp" android:paddingBottom="2dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="@dimen/view_margin_large" android:paddingEnd="@dimen/view_margin_large"/>
+    </FrameLayout>
+    <androidx.core.widget.NestedScrollView android:id="@+id/scrollView" android:padding="@dimen/view_margin_normal" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+        <TextView android:textSize="16sp" android:id="@+id/tv_novel" android:padding="8dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:lineSpacingExtra="4dp"/>
+    </androidx.core.widget.NestedScrollView>
+    <TextView android:textSize="20sp" android:textColor="@color/white" android:gravity="center" android:id="@+id/tv_title" android:background="#0000" android:layout_width="match_parent" android:layout_height="48dp" android:singleLine="true" android:translationY="-48dp"/>
+    <LinearLayout android:layout_gravity="bottom" android:orientation="horizontal" android:id="@+id/ll_bottom" android:background="#0000" android:paddingTop="@dimen/view_margin_small" android:paddingBottom="@dimen/view_margin_small" android:layout_width="match_parent" android:layout_height="wrap_content" android:translationY="52dp">
+        <TextView android:textSize="@dimen/text_detail" android:textColor="@color/white" android:gravity="center" android:id="@+id/tv_pre" android:layout_width="0dp" android:layout_height="wrap_content" android:text="上一话" android:drawableTop="@mipmap/icon_reader_pre" android:drawablePadding="@dimen/view_margin_small" android:layout_weight="1"/>
+        <TextView android:textSize="@dimen/text_detail" android:textColor="@color/white" android:gravity="center" android:id="@+id/tv_collect" android:layout_width="0dp" android:layout_height="wrap_content" android:text="收藏" android:drawableTop="@mipmap/icon_reader_un_liked" android:drawablePadding="@dimen/view_margin_small" android:layout_weight="1"/>
+        <TextView android:textSize="@dimen/text_detail" android:textColor="@color/white" android:gravity="center" android:id="@+id/tv_folder" android:layout_width="0dp" android:layout_height="wrap_content" android:text="目录" android:drawableTop="@mipmap/icon_reader_folder" android:drawablePadding="@dimen/view_margin_small" android:layout_weight="1"/>
+        <TextView android:textSize="@dimen/text_detail" android:textColor="@color/white" android:gravity="center" android:id="@+id/tv_next" android:layout_width="0dp" android:layout_height="wrap_content" android:text="下一话" android:drawableTop="@mipmap/icon_reader_next" android:drawablePadding="@dimen/view_margin_small" android:layout_weight="1"/>
+    </LinearLayout>
+    <LinearLayout android:layout_gravity="end" android:orientation="vertical" android:id="@+id/ll_folder" android:background="#2222" android:layout_width="290dp" android:layout_height="match_parent" android:translationX="290dp">
+        <TextView android:textSize="@dimen/text_title" android:textColor="@color/white" android:gravity="center" android:id="@+id/tv_title2" android:paddingTop="@dimen/view_margin_normal" android:paddingBottom="@dimen/view_margin_normal" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <androidx.recyclerview.widget.RecyclerView android:id="@+id/rv_chapter" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    </LinearLayout>
+</FrameLayout>

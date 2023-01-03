@@ -1,0 +1,1014 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.comeback.secret.garden"
+4    platformBuildVersionCode="29"
+5    platformBuildVersionName="10"
+6    android:compileSdkVersion="29"
+7    android:compileSdkVersionCodename="10"
+8    android:versionCode="10"
+9    android:versionName="1.0" >
+10
+11    <uses-sdk
+11-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:3:5-73
+12        android:minSdkVersion="21"
+12-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:3:15-41
+13        android:targetSdkVersion="29" />
+13-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:3:42-71
+14
+15    <uses-permission android:name="android.permission.INTERNET" />
+15-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:4:5-66
+15-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:4:22-64
+16    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+16-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:5:5-78
+16-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:5:22-76
+17    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+17-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:6:5-75
+17-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:6:22-73
+18    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+18-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:7:5-74
+18-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:7:22-72
+19    <uses-permission android:name="android.permission.INTERNET" />
+19-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:4:5-66
+19-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:4:22-64
+20    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+20-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:9:5-80
+20-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:9:22-78
+21    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+21-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:10:5-79
+21-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:10:22-77
+22
+23    <application
+23-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:11:5-260:19
+24        android:name="com.comeback.data.App"
+24-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:11:133-169
+25        android:allowBackup="true"
+25-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:11:170-196
+26        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+26-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:11:332-400
+27        android:debuggable="true"
+28        android:icon="@mipmap/icon_secret_garden"
+28-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:11:91-132
+29        android:label="@string/app_name"
+29-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:11:58-90
+30        android:networkSecurityConfig="@xml/network_security_config"
+30-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:11:224-284
+31        android:requestLegacyExternalStorage="true"
+31-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:11:401-444
+32        android:roundIcon="@mipmap/icon_secret_garden"
+32-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:11:285-331
+33        android:supportsRtl="true"
+33-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:11:197-223
+34        android:testOnly="true"
+35        android:theme="@style/AppTheme.ToolBar" >
+35-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:11:18-57
+36        <activity
+36-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:12:9-211
+37            android:name="com.comeback.data.ui.main.MainActivity"
+37-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:12:59-112
+38            android:configChanges="keyboardHidden|orientation|screenSize"
+38-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:12:113-174
+39            android:hardwareAccelerated="true"
+39-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:12:175-209
+40            android:theme="@style/AppTheme.ToolBar" />
+40-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:12:19-58
+41        <activity
+41-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:13:9-219
+42            android:name="com.comeback.data.ui.main.SecretGardenActivity"
+42-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:13:59-120
+43            android:configChanges="keyboardHidden|orientation|screenSize"
+43-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:13:121-182
+44            android:hardwareAccelerated="true"
+44-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:13:183-217
+45            android:theme="@style/AppTheme.ToolBar" />
+45-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:13:19-58
+46        <activity android:name="com.comeback.data.ui.main.NoticeActivity" />
+46-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:14:9-76
+46-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:14:19-74
+47        <activity android:name="com.comeback.data.ui.main.QuestionActivity" />
+47-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:15:9-78
+47-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:15:19-76
+48        <activity android:name="com.comeback.data.ui.main.UpdateActivity" />
+48-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:16:9-76
+48-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:16:19-74
+49        <activity android:name="com.comeback.data.ui.main.CollectActivity" />
+49-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:17:9-77
+49-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:17:19-75
+50        <activity android:name="com.comeback.data.ui.main.DownloadActivity" />
+50-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:18:9-78
+50-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:18:19-76
+51        <activity android:name="com.comeback.data.ui.main.AppActivity" />
+51-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:19:9-73
+51-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:19:19-71
+52        <activity
+52-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:20:9-123
+53            android:name="com.comeback.data.ui.main.AddCollectActivity"
+53-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:20:19-78
+54            android:windowSoftInputMode="adjustResize" />
+54-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:20:79-121
+55        <activity android:name="com.comeback.data.ui.main.ADLauncherActivity" />
+55-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:21:9-80
+55-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:21:19-78
+56        <activity android:name="com.comeback.data.ui.main.LauncherActivity" >
+56-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:22:9-27:20
+56-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:22:19-76
+57            <intent-filter>
+57-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:23:13-26:29
+58                <action android:name="android.intent.action.MAIN" />
+58-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:24:17-68
+58-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:24:25-66
+59
+60                <category android:name="android.intent.category.LAUNCHER" />
+60-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:25:17-76
+60-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:25:27-74
+61            </intent-filter>
+62        </activity>
+63        <activity
+63-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:28:9-174
+64            android:name="com.comeback.data.ui.test.TestExoActivity"
+64-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:28:19-75
+65            android:configChanges="keyboardHidden|orientation|screenSize"
+65-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:28:76-137
+66            android:hardwareAccelerated="true" />
+66-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:28:138-172
+67        <activity android:name="com.comeback.data.ui.aimeiju.AMJLauncherActivity" />
+67-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:29:9-84
+67-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:29:19-82
+68        <activity android:name="com.comeback.data.ui.aimeiju.AimeijuActivity" />
+68-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:30:9-80
+68-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:30:19-78
+69        <activity android:name="com.comeback.data.ui.aimeiju.TopicActivity" />
+69-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:31:9-78
+69-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:31:19-76
+70        <activity android:name="com.comeback.data.ui.aimeiju.SearchActivity" />
+70-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:32:9-79
+70-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:32:19-77
+71        <activity android:name="com.comeback.data.ui.aimeiju.SearchResultActivity" />
+71-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:33:9-85
+71-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:33:19-83
+72        <activity
+72-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:34:9-181
+73            android:name="com.comeback.data.ui.aimeiju.MovieDetailActivity"
+73-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:34:19-82
+74            android:configChanges="keyboardHidden|orientation|screenSize"
+74-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:34:83-144
+75            android:hardwareAccelerated="true" />
+75-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:34:145-179
+76        <activity
+76-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:35:9-173
+77            android:name="com.comeback.data.ui.test.TiktopActivity"
+77-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:35:19-74
+78            android:configChanges="keyboardHidden|orientation|screenSize"
+78-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:35:75-136
+79            android:hardwareAccelerated="true" />
+79-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:35:137-171
+80        <activity android:name="com.comeback.data.ui.fengliu.FengliuActivity" />
+80-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:36:9-80
+80-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:36:19-78
+81        <activity android:name="com.comeback.data.ui.fengliu.MyFengliuActivity" />
+81-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:37:9-82
+81-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:37:19-80
+82        <activity android:name="com.comeback.data.ui.fengliu.Fengliu2Activity" />
+82-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:38:9-81
+82-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:38:19-79
+83        <activity android:name="com.comeback.data.ui.fengliu.InfoActivity" />
+83-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:39:9-77
+83-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:39:19-75
+84        <activity android:name="com.comeback.data.ui.fengliu.Info2Activity" />
+84-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:40:9-78
+84-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:40:19-76
+85        <activity android:name="com.comeback.data.ui.km.KmLaunchActivity" />
+85-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:41:9-76
+85-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:41:19-74
+86        <activity android:name="com.comeback.data.ui.km.MainActivity" />
+86-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:42:9-72
+86-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:42:19-70
+87        <activity android:name="com.comeback.data.ui.km.UserCenterActivity" />
+87-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:43:9-78
+87-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:43:19-76
+88        <activity android:name="com.comeback.data.ui.km.FollowListActivity" />
+88-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:44:9-78
+88-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:44:19-76
+89        <activity android:name="com.comeback.data.ui.km.CollectListActivity" />
+89-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:45:9-79
+89-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:45:19-77
+90        <activity android:name="com.comeback.data.ui.km.PicActivity" />
+90-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:46:9-71
+90-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:46:19-69
+91        <activity
+91-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:47:9-174
+92            android:name="com.comeback.data.ui.km.VideoPlayActivity"
+92-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:47:19-75
+93            android:configChanges="keyboardHidden|orientation|screenSize"
+93-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:47:76-137
+94            android:hardwareAccelerated="true" />
+94-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:47:138-172
+95        <activity android:name="com.comeback.data.ui.km2.Km2LaunchActivity" />
+95-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:48:9-78
+95-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:48:19-76
+96        <activity android:name="com.comeback.data.ui.km2.Km2Activity" />
+96-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:49:9-72
+96-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:49:19-70
+97        <activity android:name="com.comeback.data.ui.km2.UserCenterActivity" />
+97-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:50:9-79
+97-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:50:19-77
+98        <activity android:name="com.comeback.data.ui.km2.FollowListActivity" />
+98-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:51:9-79
+98-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:51:19-77
+99        <activity android:name="com.comeback.data.ui.km2.CollectListActivity" />
+99-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:52:9-80
+99-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:52:19-78
+100        <activity android:name="com.comeback.data.ui.km2.MMActivity" />
+100-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:53:9-71
+100-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:53:19-69
+101        <activity android:name="com.comeback.data.ui.km2.MMDetailActivity" />
+101-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:54:9-77
+101-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:54:19-75
+102        <activity android:name="com.comeback.data.ui.km2.AreaChooseActivity" />
+102-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:55:9-79
+102-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:55:19-77
+103        <activity
+103-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:56:9-175
+104            android:name="com.comeback.data.ui.km2.VideoPlayActivity"
+104-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:56:19-76
+105            android:configChanges="keyboardHidden|orientation|screenSize"
+105-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:56:77-138
+106            android:hardwareAccelerated="true" />
+106-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:56:139-173
+107        <activity android:name="com.comeback.data.ui.movieCloud.VideoSearchActivity" />
+107-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:57:9-87
+107-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:57:19-85
+108        <activity
+108-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:58:9-177
+109            android:name="com.comeback.data.ui.movieCloud.PlayActivity"
+109-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:58:19-78
+110            android:configChanges="keyboardHidden|orientation|screenSize"
+110-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:58:79-140
+111            android:hardwareAccelerated="true" />
+111-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:58:141-175
+112        <activity
+112-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:59:9-187
+113            android:name="com.comeback.data.ui.H5.H5Activity"
+113-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:59:19-68
+114            android:configChanges="keyboardHidden|orientation|screenSize"
+114-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:59:69-130
+115            android:windowSoftInputMode="stateHidden|adjustResize" />
+115-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:59:131-185
+116        <activity android:name="com.comeback.data.ui.maomi.MmLaunchActivity" />
+116-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:60:9-79
+116-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:60:19-77
+117        <activity android:name="com.comeback.data.ui.maomi.MainActivity" />
+117-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:61:9-75
+117-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:61:19-73
+118        <activity
+118-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:62:9-179
+119            android:name="com.comeback.data.ui.maomi.MovieDetailActivity"
+119-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:62:19-80
+120            android:configChanges="keyboardHidden|orientation|screenSize"
+120-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:62:81-142
+121            android:hardwareAccelerated="true" />
+121-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:62:143-177
+122        <activity android:name="com.comeback.data.ui.maomi.SearchActivity" />
+122-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:63:9-77
+122-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:63:19-75
+123        <activity android:name="com.comeback.data.ui.maomi.SpecialDetailActivity" />
+123-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:64:9-84
+123-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:64:19-82
+124        <activity android:name="com.comeback.data.ui.maomi.NovelActivity" />
+124-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:65:9-76
+124-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:65:19-74
+125        <activity android:name="com.comeback.data.ui.maomi.NovelReadActivity" />
+125-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:66:9-80
+125-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:66:19-78
+126        <activity android:name="com.comeback.data.ui.maomi.VoiceAnchorSpecialActivity" />
+126-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:67:9-89
+126-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:67:19-87
+127        <activity android:name="com.comeback.data.ui.maomi.VoiceAnchorDetailActivity" />
+127-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:68:9-88
+127-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:68:19-86
+128        <activity android:name="com.comeback.data.ui.maomi.CartoonActivity" />
+128-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:69:9-78
+128-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:69:19-76
+129        <activity android:name="com.comeback.data.ui.maomi.CartoonListActivity" />
+129-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:70:9-82
+129-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:70:19-80
+130        <activity android:name="com.comeback.data.ui.maomi.CartoonDetailActivity" />
+130-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:71:9-84
+130-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:71:19-82
+131        <activity android:name="com.comeback.data.ui.maomi.CartoonWatchActivity" />
+131-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:72:9-83
+131-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:72:19-81
+132        <activity
+132-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:73:9-177
+133            android:name="com.comeback.data.ui.maomi.VoicePlayActivity"
+133-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:73:19-78
+134            android:configChanges="keyboardHidden|orientation|screenSize"
+134-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:73:79-140
+135            android:hardwareAccelerated="true" />
+135-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:73:141-175
+136        <activity android:name="com.comeback.data.ui.maomi.VoiceActivity" />
+136-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:74:9-76
+136-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:74:19-74
+137        <activity android:name="com.comeback.data.ui.hgl.MyLiveActivity" />
+137-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:75:9-75
+137-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:75:19-73
+138        <activity android:name="com.comeback.data.ui.hgl.LiveListActivity" />
+138-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:76:9-77
+138-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:76:19-75
+139        <activity
+139-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:77:9-170
+140            android:name="com.comeback.data.ui.hgl.LiveActivity"
+140-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:77:19-71
+141            android:configChanges="keyboardHidden|orientation|screenSize"
+141-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:77:72-133
+142            android:hardwareAccelerated="true" />
+142-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:77:134-168
+143        <activity android:name="com.comeback.data.ui.xj.XJLaunchActivity" />
+143-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:78:9-76
+143-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:78:19-74
+144        <activity android:name="com.comeback.data.ui.xj.MainActivity" />
+144-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:79:9-72
+144-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:79:19-70
+145        <activity
+145-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:80:9-169
+146            android:name="com.comeback.data.ui.xj.PlayActivity"
+146-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:80:19-70
+147            android:configChanges="keyboardHidden|orientation|screenSize"
+147-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:80:71-132
+148            android:hardwareAccelerated="true" />
+148-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:80:133-167
+149        <activity android:name="com.comeback.data.ui.xj.ShortActivity" />
+149-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:81:9-73
+149-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:81:19-71
+150        <activity android:name="com.comeback.data.ui.xj.SpecialDetailActivity" />
+150-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:82:9-81
+150-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:82:19-79
+151        <activity android:name="com.comeback.data.ui.xj.SearchActivity" />
+151-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:83:9-74
+151-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:83:19-72
+152        <activity android:name="com.comeback.data.ui.xj.ScreenActivity" />
+152-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:84:9-74
+152-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:84:19-72
+153        <activity
+153-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:85:9-167
+154            android:name="com.comeback.data.ui.dn.DNActivity"
+154-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:85:19-68
+155            android:configChanges="keyboardHidden|orientation|screenSize"
+155-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:85:69-130
+156            android:hardwareAccelerated="true" />
+156-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:85:131-165
+157        <activity android:name="com.comeback.data.ui.dn.SearchActivity" />
+157-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:86:9-74
+157-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:86:19-72
+158        <activity android:name="com.comeback.data.ui.dn.UserActivity" />
+158-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:87:9-72
+158-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:87:19-70
+159        <activity
+159-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:88:9-174
+160            android:name="com.comeback.data.ui.dn.VideoListActivity"
+160-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:88:19-75
+161            android:configChanges="keyboardHidden|orientation|screenSize"
+161-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:88:76-137
+162            android:hardwareAccelerated="true" />
+162-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:88:138-172
+163        <activity android:name="com.comeback.data.ui.sex8.Sex8Activity" />
+163-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:89:9-74
+163-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:89:19-72
+164        <activity android:name="com.comeback.data.ui.sex8.ui.LouFengActivity" />
+164-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:90:9-80
+164-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:90:19-78
+165        <activity android:name="com.comeback.data.ui.sex8.ui.LouFengDetailActivity" />
+165-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:91:9-86
+165-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:91:19-84
+166        <activity android:name="com.comeback.data.ui.sex8.ui.YXActivity" />
+166-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:92:9-75
+166-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:92:19-73
+167        <activity android:name="com.comeback.data.ui.sex8.ui.YXDetailActivity" />
+167-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:93:9-81
+167-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:93:19-79
+168        <activity android:name="com.comeback.data.ui.sex8.ui.YXAuthorDetailActivity" />
+168-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:94:9-87
+168-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:94:19-85
+169        <activity
+169-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:95:9-176
+170            android:name="com.comeback.data.ui.sex8.ui.YXPlayActivity"
+170-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:95:19-77
+171            android:configChanges="keyboardHidden|orientation|screenSize"
+171-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:95:78-139
+172            android:hardwareAccelerated="true" />
+172-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:95:140-174
+173        <activity
+173-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:96:9-114
+174            android:name="com.comeback.data.ui.tv91.MainActivity"
+174-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:96:19-72
+175            android:windowSoftInputMode="adjustPan" />
+175-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:96:73-112
+176        <activity android:name="com.comeback.data.ui.tv91.Tv91LauncherActivity" />
+176-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:97:9-82
+176-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:97:19-80
+177        <activity
+177-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:98:9-171
+178            android:name="com.comeback.data.ui.tv91.PlayActivity"
+178-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:98:19-72
+179            android:configChanges="keyboardHidden|orientation|screenSize"
+179-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:98:73-134
+180            android:hardwareAccelerated="true" />
+180-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:98:135-169
+181        <activity android:name="com.comeback.data.ui.tv91.VideoBrowseActivity" />
+181-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:99:9-81
+181-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:99:19-79
+182        <activity android:name="com.comeback.data.ui.tv91.SearchActivity" />
+182-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:100:9-76
+182-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:100:19-74
+183        <activity android:name="com.comeback.data.ui.lutube.LutubeLaunchActivity" />
+183-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:101:9-84
+183-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:101:19-82
+184        <activity android:name="com.comeback.data.ui.lutube.MainActivity" />
+184-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:102:9-76
+184-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:102:19-74
+185        <activity android:name="com.comeback.data.ui.lutube.ActorDetailActivity" />
+185-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:103:9-83
+185-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:103:19-81
+186        <activity android:name="com.comeback.data.ui.lutube.VideoListActivity" />
+186-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:104:9-81
+186-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:104:19-79
+187        <activity android:name="com.comeback.data.ui.lutube.SearchResultActivity" />
+187-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:105:9-84
+187-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:105:19-82
+188        <activity android:name="com.comeback.data.ui.lutube.SearchActivity" />
+188-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:106:9-78
+188-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:106:19-76
+189        <activity
+189-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:107:9-178
+190            android:name="com.comeback.data.ui.lutube.VideoPlayActivity"
+190-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:107:19-79
+191            android:configChanges="keyboardHidden|orientation|screenSize"
+191-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:107:80-141
+192            android:hardwareAccelerated="true" />
+192-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:107:142-176
+193        <activity android:name="com.comeback.data.ui.gkj.GkjLauncherActivity" />
+193-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:108:9-80
+193-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:108:19-78
+194        <activity android:name="com.comeback.data.ui.gkj.GKJActivity" />
+194-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:109:9-72
+194-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:109:19-70
+195        <activity android:name="com.comeback.data.ui.gkj.ComicDetailActivity" />
+195-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:110:9-80
+195-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:110:19-78
+196        <activity android:name="com.comeback.data.ui.gkj.ComicReadActivity" />
+196-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:111:9-78
+196-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:111:19-76
+197        <activity android:name="com.comeback.data.ui.gkj.CgReadActivity" />
+197-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:112:9-75
+197-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:112:19-73
+198        <activity android:name="com.comeback.data.ui.gkj.SearchActivity" />
+198-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:113:9-75
+198-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:113:19-73
+199        <activity android:name="com.comeback.data.ui.gkj.SearchResultActivity" />
+199-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:114:9-81
+199-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:114:19-79
+200        <activity android:name="com.comeback.data.ui.gkj.ScreenActivity" />
+200-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:115:9-75
+200-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:115:19-73
+201        <activity android:name="com.comeback.data.ui.gkj.SpecialActivity" />
+201-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:116:9-76
+201-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:116:19-74
+202        <activity android:name="com.comeback.data.ui.gkj.RankActivity" />
+202-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:117:9-73
+202-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:117:19-71
+203        <activity
+203-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:118:9-170
+204            android:name="com.comeback.data.ui.gkj.PlayActivity"
+204-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:118:19-71
+205            android:configChanges="keyboardHidden|orientation|screenSize"
+205-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:118:72-133
+206            android:hardwareAccelerated="true" />
+206-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:118:134-168
+207        <activity android:name="com.comeback.data.ui.iqiyi.IQYLaunchActivity" />
+207-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:119:9-80
+207-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:119:19-78
+208        <activity android:name="com.comeback.data.ui.iqiyi.IQYMainActivity" />
+208-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:120:9-78
+208-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:120:19-76
+209        <activity android:name="com.comeback.data.ui.iqiyi.CategoryActivity" />
+209-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:121:9-79
+209-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:121:19-77
+210        <activity android:name="com.comeback.data.ui.iqiyi.SearchActivity" />
+210-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:122:9-77
+210-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:122:19-75
+211        <activity android:name="com.comeback.data.ui.iqiyi.VideoListActivity" />
+211-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:123:9-80
+211-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:123:19-78
+212        <activity
+212-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:124:9-112
+213            android:name="com.comeback.data.ui.iqiyi.UserCenterActivity"
+213-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:124:19-79
+214            android:launchMode="singleTop" />
+214-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:124:80-110
+215        <activity android:name="com.comeback.data.ui.fulao2.FuLao2LaunchActivity" />
+215-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:125:9-84
+215-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:125:19-82
+216        <activity android:name="com.comeback.data.ui.fulao2.FuLao2Launch2Activity" />
+216-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:126:9-85
+216-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:126:19-83
+217        <activity android:name="com.comeback.data.ui.fulao2.FuLao2Activity" />
+217-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:127:9-78
+217-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:127:19-76
+218        <activity android:name="com.comeback.data.ui.fulao2.RankActivity" />
+218-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:128:9-76
+218-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:128:19-74
+219        <activity android:name="com.comeback.data.ui.fulao2.SearchResultActivity" />
+219-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:129:9-84
+219-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:129:19-82
+220        <activity android:name="com.comeback.data.ui.fulao2.ActorDetailActivity" />
+220-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:130:9-83
+220-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:130:19-81
+221        <activity android:name="com.comeback.data.ui.fulao2.TypeDetailActivity" />
+221-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:131:9-82
+221-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:131:19-80
+222        <activity android:name="com.comeback.data.ui.fulao2.SearchActivity" />
+222-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:132:9-78
+222-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:132:19-76
+223        <activity android:name="com.comeback.data.ui.fulao2.ScreenActivity" />
+223-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:133:9-78
+223-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:133:19-76
+224        <activity
+224-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:134:9-173
+225            android:name="com.comeback.data.ui.fulao2.PlayActivity"
+225-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:134:19-74
+226            android:configChanges="keyboardHidden|orientation|screenSize"
+226-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:134:75-136
+227            android:hardwareAccelerated="true" />
+227-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:134:137-171
+228        <activity
+228-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:135:9-193
+229            android:name="com.comeback.data.ui.hg.HGBrowseActivity"
+229-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:135:19-74
+230            android:configChanges="keyboardHidden|orientation|screenSize"
+230-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:135:75-136
+231            android:windowSoftInputMode="stateHidden|adjustResize" />
+231-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:135:137-191
+232        <activity
+232-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:136:9-229
+233            android:name="com.comeback.data.ui.hg.HGMovieDetailActivity"
+233-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:136:19-79
+234            android:configChanges="keyboardHidden|orientation|screenSize"
+234-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:136:111-172
+235            android:launchMode="singleTop"
+235-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:136:80-110
+236            android:windowSoftInputMode="stateHidden|adjustResize" />
+236-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:136:173-227
+237        <activity android:name="com.comeback.data.ui.test.TestActivity" />
+237-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:137:9-74
+237-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:137:19-72
+238        <activity android:name="com.comeback.data.ui.slf.SlfLauncherActivity" />
+238-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:138:9-80
+238-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:138:19-78
+239        <activity android:name="com.comeback.data.ui.slf.SlfActivity" />
+239-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:139:9-72
+239-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:139:19-70
+240        <activity android:name="com.comeback.data.ui.slf.ComicDetailActivity" />
+240-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:140:9-80
+240-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:140:19-78
+241        <activity android:name="com.comeback.data.ui.slf.ComicReadActivity" />
+241-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:141:9-78
+241-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:141:19-76
+242        <activity android:name="com.comeback.data.ui.slf.ImageReadActivity" />
+242-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:142:9-78
+242-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:142:19-76
+243        <activity android:name="com.comeback.data.ui.slf.NovelReadActivity" />
+243-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:143:9-78
+243-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:143:19-76
+244        <activity android:name="com.comeback.data.ui.slf.SearchActivity" />
+244-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:144:9-75
+244-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:144:19-73
+245        <activity android:name="com.comeback.data.ui.slf.RankActivity" />
+245-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:145:9-73
+245-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:145:19-71
+246        <activity android:name="com.comeback.data.ui.slf.SpecialActivity" />
+246-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:146:9-76
+246-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:146:19-74
+247        <activity android:name="com.comeback.data.ui.slf.CatIdActivity" />
+247-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:147:9-74
+247-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:147:19-72
+248        <activity android:name="com.comeback.data.ui.slf.HistoryActivity" />
+248-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:148:9-76
+248-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:148:19-74
+249        <activity
+249-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:149:9-177
+250            android:name="com.comeback.data.ui.slf.VideoDetailActivity"
+250-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:149:19-78
+251            android:configChanges="keyboardHidden|orientation|screenSize"
+251-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:149:79-140
+252            android:hardwareAccelerated="true" />
+252-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:149:141-175
+253        <activity android:name="com.comeback.data.ui.xiami.XMLauncherActivity" />
+253-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:150:9-81
+253-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:150:19-79
+254        <activity android:name="com.comeback.data.ui.xiami.MainActivity" />
+254-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:151:9-75
+254-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:151:19-73
+255        <activity android:name="com.comeback.data.ui.xiami.ImageReadActivity" />
+255-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:152:9-80
+255-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:152:19-78
+256        <activity android:name="com.comeback.data.ui.xiami.NovelReadActivity" />
+256-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:153:9-80
+256-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:153:19-78
+257        <activity android:name="com.comeback.data.ui.xiami.SpecialDetailActivity" />
+257-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:154:9-84
+257-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:154:19-82
+258        <activity android:name="com.comeback.data.ui.xiami.SearchActivity" />
+258-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:155:9-77
+258-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:155:19-75
+259        <activity
+259-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:156:9-177
+260            android:name="com.comeback.data.ui.xiami.VideoPlayActivity"
+260-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:156:19-78
+261            android:configChanges="keyboardHidden|orientation|screenSize"
+261-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:156:79-140
+262            android:hardwareAccelerated="true" />
+262-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:156:141-175
+263        <activity android:name="com.comeback.data.ui.isiyu.IsiyuLaunchActivity" />
+263-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:157:9-82
+263-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:157:19-80
+264        <activity android:name="com.comeback.data.ui.isiyu.MainActivity" />
+264-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:158:9-75
+264-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:158:19-73
+265        <activity android:name="com.comeback.data.ui.isiyu.SpecialDetailActivity" />
+265-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:159:9-84
+265-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:159:19-82
+266        <activity android:name="com.comeback.data.ui.isiyu.SearchActivity" />
+266-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:160:9-77
+266-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:160:19-75
+267        <activity
+267-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:161:9-208
+268            android:name="com.comeback.data.ui.isiyu.MoviePlayActivity"
+268-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:161:19-78
+269            android:configChanges="keyboardHidden|orientation|screenSize"
+269-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:161:110-171
+270            android:hardwareAccelerated="true"
+270-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:161:172-206
+271            android:launchMode="singleTop" />
+271-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:161:79-109
+272        <activity android:name="com.comeback.data.ui.avbobo.AvboboLaunchActivity" />
+272-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:162:9-84
+272-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:162:19-82
+273        <activity android:name="com.comeback.data.ui.avbobo.MainActivity" />
+273-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:163:9-76
+273-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:163:19-74
+274        <activity android:name="com.comeback.data.ui.avbobo.SearchResultActivity" />
+274-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:164:9-84
+274-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:164:19-82
+275        <activity
+275-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:165:9-209
+276            android:name="com.comeback.data.ui.avbobo.MoviePlayActivity"
+276-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:165:19-79
+277            android:configChanges="keyboardHidden|orientation|screenSize"
+277-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:165:111-172
+278            android:hardwareAccelerated="true"
+278-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:165:173-207
+279            android:launchMode="singleTop" />
+279-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:165:80-110
+280        <activity android:name="com.comeback.data.ui.cucumber.CucumberLauncherActivity" />
+280-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:166:9-90
+280-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:166:19-88
+281        <activity android:name="com.comeback.data.ui.cucumber.CucumberActivity" />
+281-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:167:9-82
+281-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:167:19-80
+282        <activity android:name="com.comeback.data.ui.cucumber.ColumnDetailActivity" />
+282-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:168:9-86
+282-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:168:19-84
+283        <activity android:name="com.comeback.data.ui.cucumber.ColumnMoreActivity" />
+283-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:169:9-84
+283-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:169:19-82
+284        <activity android:name="com.comeback.data.ui.cucumber.ActorDetailActivity" />
+284-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:170:9-85
+284-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:170:19-83
+285        <activity android:name="com.comeback.data.ui.cucumber.ActorActivity" />
+285-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:171:9-79
+285-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:171:19-77
+286        <activity android:name="com.comeback.data.ui.cucumber.SearchResultActivity" />
+286-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:172:9-86
+286-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:172:19-84
+287        <activity android:name="com.comeback.data.ui.cucumber.CollectActivity" />
+287-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:173:9-81
+287-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:173:19-79
+288        <activity android:name="com.comeback.data.ui.cucumber.UserDetailActivity" />
+288-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:174:9-84
+288-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:174:19-82
+289        <activity
+289-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:175:9-182
+290            android:name="com.comeback.data.ui.cucumber.MovieDetailActivity"
+290-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:175:19-83
+291            android:configChanges="keyboardHidden|orientation|screenSize"
+291-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:175:84-145
+292            android:hardwareAccelerated="true" />
+292-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:175:146-180
+293        <activity
+293-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:176:9-184
+294            android:name="com.comeback.data.ui.cucumber.CucumberShortActivity"
+294-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:176:19-85
+295            android:configChanges="keyboardHidden|orientation|screenSize"
+295-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:176:86-147
+296            android:hardwareAccelerated="true" />
+296-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:176:148-182
+297        <activity
+297-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:177:9-188
+298            android:name="com.comeback.data.ui.cucumber.CucumberShortListActivity"
+298-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:177:19-89
+299            android:configChanges="keyboardHidden|orientation|screenSize"
+299-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:177:90-151
+300            android:hardwareAccelerated="true" />
+300-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:177:152-186
+301        <activity
+301-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:178:9-204
+302            android:name="com.comeback.data.ui.commom.PlayActivity"
+302-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:178:19-74
+303            android:configChanges="keyboardHidden|orientation|screenSize"
+303-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:178:106-167
+304            android:hardwareAccelerated="true"
+304-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:178:168-202
+305            android:launchMode="singleTop" />
+305-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:178:75-105
+306        <activity android:name="com.comeback.data.ui.commom.PicBrowseActivity" />
+306-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:179:9-81
+306-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:179:19-79
+307        <activity
+307-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:180:9-178
+308            android:name="com.comeback.data.ui.commom.CachePlayActivity"
+308-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:180:19-79
+309            android:configChanges="keyboardHidden|orientation|screenSize"
+309-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:180:80-141
+310            android:hardwareAccelerated="true" />
+310-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:180:142-176
+311        <activity
+311-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:181:9-178
+312            android:name="com.comeback.data.ui.commom.LocalPlayActivity"
+312-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:181:19-79
+313            android:configChanges="keyboardHidden|orientation|screenSize"
+313-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:181:80-141
+314            android:hardwareAccelerated="true" />
+314-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:181:142-176
+315        <activity android:name="com.comeback.data.ui.lnkl.LNKLActivity" />
+315-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:182:9-74
+315-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:182:19-72
+316        <activity android:name="com.comeback.data.ui.lnkl.LNKLDetailActivity" />
+316-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:183:9-80
+316-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:183:19-78
+317        <activity android:name="com.comeback.data.ui.ba.BaLauncherActivity" />
+317-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:184:9-78
+317-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:184:19-76
+318        <activity android:name="com.comeback.data.ui.ba.BaActivity" />
+318-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:185:9-70
+318-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:185:19-68
+319        <activity android:name="com.comeback.data.ui.ba.ComicReadActivity" />
+319-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:186:9-77
+319-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:186:19-75
+320        <activity android:name="com.comeback.data.ui.ds.DsActivity" />
+320-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:187:9-70
+320-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:187:19-68
+321        <activity android:name="com.comeback.data.ui.ds.ComicReadActivity" />
+321-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:188:9-77
+321-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:188:19-75
+322        <activity android:name="com.comeback.data.ui.ds.SearchActivity" />
+322-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:189:9-74
+322-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:189:19-72
+323        <activity android:name="com.comeback.data.ui.ds.TagActivity" />
+323-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:190:9-71
+323-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:190:19-69
+324        <activity android:name="com.comeback.data.ui.ds.RankActivity" />
+324-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:191:9-72
+324-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:191:19-70
+325        <activity android:name="com.comeback.data.ui.bale.BaleActivity" />
+325-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:192:9-74
+325-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:192:19-72
+326        <activity android:name="com.comeback.data.ui.bale.TagSearchActivity" />
+326-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:193:9-79
+326-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:193:19-77
+327        <activity android:name="com.comeback.data.ui.bale.ActorDetailActivity" />
+327-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:194:9-81
+327-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:194:19-79
+328        <activity android:name="com.comeback.data.ui.bale.ScreenActivity" />
+328-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:195:9-76
+328-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:195:19-74
+329        <activity android:name="com.comeback.data.ui.bale.SearchActivity" />
+329-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:196:9-76
+329-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:196:19-74
+330        <activity android:name="com.comeback.data.ui.bale.SearchResultActivity" />
+330-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:197:9-82
+330-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:197:19-80
+331        <activity android:name="com.comeback.data.ui.bale.PlayActivity" />
+331-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:198:9-74
+331-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:198:19-72
+332        <activity android:name="com.comeback.data.ui.mimei.MimeiLauncherActivity" />
+332-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:199:9-84
+332-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:199:19-82
+333        <activity android:name="com.comeback.data.ui.mimei.MimeiActivity" />
+333-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:200:9-76
+333-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:200:19-74
+334        <activity android:name="com.comeback.data.ui.mimei.ComicReadActivity" />
+334-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:201:9-80
+334-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:201:19-78
+335        <activity android:name="com.comeback.data.ui.mimei.ComicTypeActivity" />
+335-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:202:9-80
+335-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:202:19-78
+336        <activity android:name="com.comeback.data.ui.mimei.NovelReadActivity" />
+336-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:203:9-80
+336-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:203:19-78
+337        <activity android:name="com.comeback.data.ui.mimei.SearchActivity" />
+337-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:204:9-77
+337-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:204:19-75
+338        <activity android:name="com.comeback.data.ui.mimei.SearchResultActivity" />
+338-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:205:9-83
+338-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:205:19-81
+339        <activity android:name="com.comeback.data.ui.xhl.XHLBrowseActivity" />
+339-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:206:9-78
+339-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:206:19-76
+340        <activity android:name="com.comeback.data.ui.xhl.InfoActivity" />
+340-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:207:9-73
+340-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:207:19-71
+341        <activity android:name="com.comeback.data.ui.hgdd.HGDDBrowseActivity" />
+341-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:208:9-80
+341-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:208:19-78
+342        <activity android:name="com.comeback.data.ui.xiuxiu.XXBrowseActivity" />
+342-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:209:9-80
+342-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:209:19-78
+343        <activity android:name="com.comeback.data.ui.xiuxiu.InfoActivity" />
+343-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:210:9-76
+343-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:210:19-74
+344        <activity android:name="com.comeback.data.ui.live.LiveChanelActivity" />
+344-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:211:9-80
+344-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:211:19-78
+345        <activity android:name="com.comeback.data.ui.live.LiveListActivity" />
+345-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:212:9-78
+345-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:212:19-76
+346        <activity android:name="com.comeback.data.ui.jav.JavActivity" />
+346-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:213:9-72
+346-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:213:19-70
+347        <activity android:name="com.comeback.data.ui.jav.ActorDetailActivity" />
+347-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:214:9-80
+347-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:214:19-78
+348        <activity android:name="com.comeback.data.ui.jav.VideoDetailActivity" />
+348-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:215:9-80
+348-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:215:19-78
+349        <activity android:name="com.comeback.data.ui.jav.SearchResultActivity" />
+349-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:216:9-81
+349-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:216:19-79
+350        <activity android:name="com.comeback.data.ui.tomato.TomatoLaunchActivity" />
+350-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:217:9-84
+350-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:217:19-82
+351        <activity android:name="com.comeback.data.ui.tomato.TomatoActivity" />
+351-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:218:9-78
+351-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:218:19-76
+352        <activity android:name="com.comeback.data.ui.jhlf.JHLFActivity" />
+352-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:219:9-74
+352-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:219:19-72
+353        <activity android:name="com.comeback.data.ui.jhlf.FengliuActivity" />
+353-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:220:9-77
+353-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:220:19-75
+354        <activity android:name="com.comeback.data.ui.jhlf.InfoActivity" />
+354-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:221:9-74
+354-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:221:19-72
+355        <activity android:name="com.comeback.data.ui.jhlf.SearchResultActivity" />
+355-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:222:9-82
+355-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:222:19-80
+356        <activity android:name="com.comeback.data.ui.jhlf.DownloadActivity" />
+356-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:223:9-78
+356-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:223:19-76
+357        <activity android:name="com.comeback.data.ui.senlin.ZYBrowseActivity" />
+357-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:224:9-80
+357-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:224:19-78
+358        <activity android:name="com.comeback.data.ui.senlin.SenLinActivity" />
+358-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:225:9-78
+358-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:225:19-76
+359        <activity android:name="com.comeback.data.ui.senlin.VideoDetailActivity" />
+359-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:226:9-83
+359-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:226:19-81
+360        <activity
+360-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:227:9-173
+361            android:name="com.comeback.data.ui.senlin.PlayActivity"
+361-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:227:19-74
+362            android:configChanges="keyboardHidden|orientation|screenSize"
+362-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:227:75-136
+363            android:hardwareAccelerated="true" />
+363-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:227:137-171
+364        <activity android:name="com.comeback.data.ui.cm.CmActivity" />
+364-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:228:9-70
+364-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:228:19-68
+365        <activity android:name="com.comeback.data.ui.cm.ScreenActivity" />
+365-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:229:9-74
+365-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:229:19-72
+366        <activity android:name="com.comeback.data.ui.cm.SearchActivity" />
+366-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:230:9-74
+366-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:230:19-72
+367        <activity android:name="com.comeback.data.ui.cm.ActorDetailActivity" />
+367-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:231:9-79
+367-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:231:19-77
+368        <activity android:name="com.comeback.data.ui.cm.SearchResultActivity" />
+368-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:232:9-80
+368-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:232:19-78
+369        <activity
+369-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:233:9-169
+370            android:name="com.comeback.data.ui.cm.PlayActivity"
+370-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:233:19-70
+371            android:configChanges="keyboardHidden|orientation|screenSize"
+371-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:233:71-132
+372            android:hardwareAccelerated="true" />
+372-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:233:133-167
+373        <activity android:name="com.comeback.data.ui.hm.HmLauncherActivity" />
+373-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:234:9-78
+373-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:234:19-76
+374        <activity android:name="com.comeback.data.ui.hm.MainActivity" />
+374-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:235:9-72
+374-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:235:19-70
+375        <activity android:name="com.comeback.data.ui.hm.DetailActivity" />
+375-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:236:9-74
+375-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:236:19-72
+376        <activity android:name="com.comeback.data.ui.hm.NovelReadActivity" />
+376-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:237:9-77
+376-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:237:19-75
+377        <activity android:name="com.comeback.data.ui.hm.SearchActivity" />
+377-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:238:9-74
+377-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:238:19-72
+378        <activity android:name="com.comeback.data.ui.nana.NanaLaunchActivity" />
+378-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:239:9-80
+378-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:239:19-78
+379        <activity android:name="com.comeback.data.ui.nana.MainActivity" />
+379-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:240:9-74
+379-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:240:19-72
+380        <activity android:name="com.comeback.data.ui.nana.TypeDetailActivity" />
+380-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:241:9-80
+380-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:241:19-78
+381        <activity android:name="com.comeback.data.ui.nana.SearchResultActivity" />
+381-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:242:9-82
+381-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:242:19-80
+382        <activity android:name="com.comeback.data.ui.nana.ActorDetailActivity" />
+382-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:243:9-81
+382-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:243:19-79
+383        <activity android:name="com.comeback.data.ui.nana.SearchActivity" />
+383-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:244:9-76
+383-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:244:19-74
+384        <activity
+384-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:245:9-178
+385            android:name="com.comeback.data.ui.nana.MovieDetailActivity"
+385-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:245:19-79
+386            android:configChanges="keyboardHidden|orientation|screenSize"
+386-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:245:80-141
+387            android:hardwareAccelerated="true" />
+387-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:245:142-176
+388        <activity android:name="com.comeback.data.ui.md.MdActivity" />
+388-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:246:9-70
+388-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:246:19-68
+389        <activity android:name="com.comeback.data.ui.md.ChanelActivity" />
+389-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:247:9-74
+389-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:247:19-72
+390        <activity android:name="com.comeback.data.ui.ins.InsActivity" />
+390-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:248:9-72
+390-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:248:19-70
+391        <activity android:name="com.comeback.data.ui.ins.InsLaunchActivity" />
+391-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:249:9-78
+391-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:249:19-76
+392        <activity android:name="com.comeback.data.ui.ins.UserCenterActivity" />
+392-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:250:9-79
+392-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:250:19-77
+393        <activity android:name="com.comeback.data.ui.gdian.GDianActivity" />
+393-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:251:9-76
+393-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:251:19-74
+394        <activity
+394-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:252:9-172
+395            android:name="com.comeback.data.ui.gdian.PlayActivity"
+395-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:252:19-73
+396            android:configChanges="keyboardHidden|orientation|screenSize"
+396-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:252:74-135
+397            android:hardwareAccelerated="true" />
+397-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:252:136-170
+398        <activity android:name="com.comeback.data.ui.gdian.ImageReadActivity" />
+398-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:253:9-80
+398-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:253:19-78
+399        <activity android:name="com.comeback.data.ui.gdian.NovelActivity" />
+399-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:254:9-76
+399-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:254:19-74
+400        <activity android:name="com.comeback.data.ui.gdian.NovelReadActivity" />
+400-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:255:9-80
+400-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:255:19-78
+401        <activity android:name="com.comeback.data.ui.gdian.SearchActivity" />
+401-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:256:9-77
+401-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:256:19-75
+402        <activity android:name="com.comeback.data.ui.gdian.SearchResultActivity" />
+402-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:257:9-83
+402-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:257:19-81
+403
+404        <meta-data
+404-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:258:9-116
+405            android:name="com.comeback.data.net.glide.OkHttpAppGlideModule"
+405-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:258:20-83
+406            android:value="AppGlideModule" />
+406-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:258:84-114
+407        <meta-data
+407-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:259:9-121
+408            android:name="com.bumptech.glide.integration.okhttp3.OkHttpGlideModule"
+408-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:259:20-91
+409            android:value="GlideModule" />
+409-->/Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:259:92-119
+410    </application>
+411
+412</manifest>

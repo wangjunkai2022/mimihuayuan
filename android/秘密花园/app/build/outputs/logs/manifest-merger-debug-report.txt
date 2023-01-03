@@ -1,0 +1,1239 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:2:1-261:12
+INJECTED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:2:1-261:12
+INJECTED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:2:1-261:12
+INJECTED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:2:1-261:12
+INJECTED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:2:1-261:12
+INJECTED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:2:1-261:12
+INJECTED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:2:1-261:12
+	package
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:2:191-227
+		INJECTED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml
+	android:compileSdkVersionCodename
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:2:152-190
+	android:versionName
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:2:95-120
+		INJECTED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml
+	android:compileSdkVersion
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:2:121-151
+	xmlns:android
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:2:70-94
+		INJECTED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml
+	platformBuildVersionName
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:2:258-287
+	platformBuildVersionCode
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:2:228-257
+uses-sdk
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:3:5-73
+INJECTED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:3:5-73
+INJECTED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:3:5-73
+INJECTED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:3:5-73
+INJECTED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:3:5-73
+	android:targetSdkVersion
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:3:42-71
+		INJECTED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:3:15-41
+		INJECTED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:4:5-66
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:4:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:5:5-78
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:5:22-76
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:6:5-75
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:6:22-73
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:7:5-74
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:7:22-72
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:9:5-80
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:9:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:10:5-79
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:10:22-77
+application
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:11:5-260:19
+	android:requestLegacyExternalStorage
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:11:401-444
+	android:supportsRtl
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:11:197-223
+	android:label
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:11:58-90
+	android:appComponentFactory
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:11:332-400
+	android:roundIcon
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:11:285-331
+	android:icon
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:11:91-132
+	android:allowBackup
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:11:170-196
+	android:theme
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:11:18-57
+	android:networkSecurityConfig
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:11:224-284
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:11:133-169
+activity#com.comeback.data.ui.main.MainActivity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:12:9-211
+	android:hardwareAccelerated
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:12:175-209
+	android:configChanges
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:12:113-174
+	android:theme
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:12:19-58
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:12:59-112
+activity#com.comeback.data.ui.main.SecretGardenActivity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:13:9-219
+	android:hardwareAccelerated
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:13:183-217
+	android:configChanges
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:13:121-182
+	android:theme
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:13:19-58
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:13:59-120
+activity#com.comeback.data.ui.main.NoticeActivity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:14:9-76
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:14:19-74
+activity#com.comeback.data.ui.main.QuestionActivity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:15:9-78
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:15:19-76
+activity#com.comeback.data.ui.main.UpdateActivity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:16:9-76
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:16:19-74
+activity#com.comeback.data.ui.main.CollectActivity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:17:9-77
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:17:19-75
+activity#com.comeback.data.ui.main.DownloadActivity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:18:9-78
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:18:19-76
+activity#com.comeback.data.ui.main.AppActivity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:19:9-73
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:19:19-71
+activity#com.comeback.data.ui.main.AddCollectActivity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:20:9-123
+	android:windowSoftInputMode
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:20:79-121
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:20:19-78
+activity#com.comeback.data.ui.main.ADLauncherActivity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:21:9-80
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:21:19-78
+activity#com.comeback.data.ui.main.LauncherActivity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:22:9-27:20
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:22:19-76
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:23:13-26:29
+action#android.intent.action.MAIN
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:24:17-68
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:24:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:25:17-76
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:25:27-74
+activity#com.comeback.data.ui.test.TestExoActivity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:28:9-174
+	android:hardwareAccelerated
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:28:138-172
+	android:configChanges
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:28:76-137
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:28:19-75
+activity#com.comeback.data.ui.aimeiju.AMJLauncherActivity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:29:9-84
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:29:19-82
+activity#com.comeback.data.ui.aimeiju.AimeijuActivity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:30:9-80
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:30:19-78
+activity#com.comeback.data.ui.aimeiju.TopicActivity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:31:9-78
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:31:19-76
+activity#com.comeback.data.ui.aimeiju.SearchActivity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:32:9-79
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:32:19-77
+activity#com.comeback.data.ui.aimeiju.SearchResultActivity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:33:9-85
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:33:19-83
+activity#com.comeback.data.ui.aimeiju.MovieDetailActivity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:34:9-181
+	android:hardwareAccelerated
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:34:145-179
+	android:configChanges
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:34:83-144
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:34:19-82
+activity#com.comeback.data.ui.test.TiktopActivity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:35:9-173
+	android:hardwareAccelerated
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:35:137-171
+	android:configChanges
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:35:75-136
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:35:19-74
+activity#com.comeback.data.ui.fengliu.FengliuActivity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:36:9-80
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:36:19-78
+activity#com.comeback.data.ui.fengliu.MyFengliuActivity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:37:9-82
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:37:19-80
+activity#com.comeback.data.ui.fengliu.Fengliu2Activity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:38:9-81
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:38:19-79
+activity#com.comeback.data.ui.fengliu.InfoActivity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:39:9-77
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:39:19-75
+activity#com.comeback.data.ui.fengliu.Info2Activity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:40:9-78
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:40:19-76
+activity#com.comeback.data.ui.km.KmLaunchActivity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:41:9-76
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:41:19-74
+activity#com.comeback.data.ui.km.MainActivity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:42:9-72
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:42:19-70
+activity#com.comeback.data.ui.km.UserCenterActivity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:43:9-78
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:43:19-76
+activity#com.comeback.data.ui.km.FollowListActivity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:44:9-78
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:44:19-76
+activity#com.comeback.data.ui.km.CollectListActivity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:45:9-79
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:45:19-77
+activity#com.comeback.data.ui.km.PicActivity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:46:9-71
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:46:19-69
+activity#com.comeback.data.ui.km.VideoPlayActivity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:47:9-174
+	android:hardwareAccelerated
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:47:138-172
+	android:configChanges
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:47:76-137
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:47:19-75
+activity#com.comeback.data.ui.km2.Km2LaunchActivity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:48:9-78
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:48:19-76
+activity#com.comeback.data.ui.km2.Km2Activity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:49:9-72
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:49:19-70
+activity#com.comeback.data.ui.km2.UserCenterActivity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:50:9-79
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:50:19-77
+activity#com.comeback.data.ui.km2.FollowListActivity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:51:9-79
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:51:19-77
+activity#com.comeback.data.ui.km2.CollectListActivity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:52:9-80
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:52:19-78
+activity#com.comeback.data.ui.km2.MMActivity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:53:9-71
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:53:19-69
+activity#com.comeback.data.ui.km2.MMDetailActivity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:54:9-77
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:54:19-75
+activity#com.comeback.data.ui.km2.AreaChooseActivity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:55:9-79
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:55:19-77
+activity#com.comeback.data.ui.km2.VideoPlayActivity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:56:9-175
+	android:hardwareAccelerated
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:56:139-173
+	android:configChanges
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:56:77-138
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:56:19-76
+activity#com.comeback.data.ui.movieCloud.VideoSearchActivity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:57:9-87
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:57:19-85
+activity#com.comeback.data.ui.movieCloud.PlayActivity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:58:9-177
+	android:hardwareAccelerated
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:58:141-175
+	android:configChanges
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:58:79-140
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:58:19-78
+activity#com.comeback.data.ui.H5.H5Activity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:59:9-187
+	android:windowSoftInputMode
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:59:131-185
+	android:configChanges
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:59:69-130
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:59:19-68
+activity#com.comeback.data.ui.maomi.MmLaunchActivity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:60:9-79
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:60:19-77
+activity#com.comeback.data.ui.maomi.MainActivity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:61:9-75
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:61:19-73
+activity#com.comeback.data.ui.maomi.MovieDetailActivity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:62:9-179
+	android:hardwareAccelerated
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:62:143-177
+	android:configChanges
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:62:81-142
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:62:19-80
+activity#com.comeback.data.ui.maomi.SearchActivity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:63:9-77
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:63:19-75
+activity#com.comeback.data.ui.maomi.SpecialDetailActivity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:64:9-84
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:64:19-82
+activity#com.comeback.data.ui.maomi.NovelActivity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:65:9-76
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:65:19-74
+activity#com.comeback.data.ui.maomi.NovelReadActivity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:66:9-80
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:66:19-78
+activity#com.comeback.data.ui.maomi.VoiceAnchorSpecialActivity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:67:9-89
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:67:19-87
+activity#com.comeback.data.ui.maomi.VoiceAnchorDetailActivity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:68:9-88
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:68:19-86
+activity#com.comeback.data.ui.maomi.CartoonActivity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:69:9-78
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:69:19-76
+activity#com.comeback.data.ui.maomi.CartoonListActivity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:70:9-82
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:70:19-80
+activity#com.comeback.data.ui.maomi.CartoonDetailActivity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:71:9-84
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:71:19-82
+activity#com.comeback.data.ui.maomi.CartoonWatchActivity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:72:9-83
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:72:19-81
+activity#com.comeback.data.ui.maomi.VoicePlayActivity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:73:9-177
+	android:hardwareAccelerated
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:73:141-175
+	android:configChanges
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:73:79-140
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:73:19-78
+activity#com.comeback.data.ui.maomi.VoiceActivity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:74:9-76
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:74:19-74
+activity#com.comeback.data.ui.hgl.MyLiveActivity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:75:9-75
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:75:19-73
+activity#com.comeback.data.ui.hgl.LiveListActivity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:76:9-77
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:76:19-75
+activity#com.comeback.data.ui.hgl.LiveActivity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:77:9-170
+	android:hardwareAccelerated
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:77:134-168
+	android:configChanges
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:77:72-133
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:77:19-71
+activity#com.comeback.data.ui.xj.XJLaunchActivity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:78:9-76
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:78:19-74
+activity#com.comeback.data.ui.xj.MainActivity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:79:9-72
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:79:19-70
+activity#com.comeback.data.ui.xj.PlayActivity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:80:9-169
+	android:hardwareAccelerated
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:80:133-167
+	android:configChanges
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:80:71-132
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:80:19-70
+activity#com.comeback.data.ui.xj.ShortActivity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:81:9-73
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:81:19-71
+activity#com.comeback.data.ui.xj.SpecialDetailActivity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:82:9-81
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:82:19-79
+activity#com.comeback.data.ui.xj.SearchActivity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:83:9-74
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:83:19-72
+activity#com.comeback.data.ui.xj.ScreenActivity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:84:9-74
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:84:19-72
+activity#com.comeback.data.ui.dn.DNActivity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:85:9-167
+	android:hardwareAccelerated
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:85:131-165
+	android:configChanges
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:85:69-130
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:85:19-68
+activity#com.comeback.data.ui.dn.SearchActivity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:86:9-74
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:86:19-72
+activity#com.comeback.data.ui.dn.UserActivity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:87:9-72
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:87:19-70
+activity#com.comeback.data.ui.dn.VideoListActivity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:88:9-174
+	android:hardwareAccelerated
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:88:138-172
+	android:configChanges
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:88:76-137
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:88:19-75
+activity#com.comeback.data.ui.sex8.Sex8Activity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:89:9-74
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:89:19-72
+activity#com.comeback.data.ui.sex8.ui.LouFengActivity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:90:9-80
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:90:19-78
+activity#com.comeback.data.ui.sex8.ui.LouFengDetailActivity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:91:9-86
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:91:19-84
+activity#com.comeback.data.ui.sex8.ui.YXActivity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:92:9-75
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:92:19-73
+activity#com.comeback.data.ui.sex8.ui.YXDetailActivity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:93:9-81
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:93:19-79
+activity#com.comeback.data.ui.sex8.ui.YXAuthorDetailActivity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:94:9-87
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:94:19-85
+activity#com.comeback.data.ui.sex8.ui.YXPlayActivity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:95:9-176
+	android:hardwareAccelerated
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:95:140-174
+	android:configChanges
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:95:78-139
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:95:19-77
+activity#com.comeback.data.ui.tv91.MainActivity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:96:9-114
+	android:windowSoftInputMode
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:96:73-112
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:96:19-72
+activity#com.comeback.data.ui.tv91.Tv91LauncherActivity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:97:9-82
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:97:19-80
+activity#com.comeback.data.ui.tv91.PlayActivity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:98:9-171
+	android:hardwareAccelerated
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:98:135-169
+	android:configChanges
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:98:73-134
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:98:19-72
+activity#com.comeback.data.ui.tv91.VideoBrowseActivity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:99:9-81
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:99:19-79
+activity#com.comeback.data.ui.tv91.SearchActivity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:100:9-76
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:100:19-74
+activity#com.comeback.data.ui.lutube.LutubeLaunchActivity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:101:9-84
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:101:19-82
+activity#com.comeback.data.ui.lutube.MainActivity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:102:9-76
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:102:19-74
+activity#com.comeback.data.ui.lutube.ActorDetailActivity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:103:9-83
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:103:19-81
+activity#com.comeback.data.ui.lutube.VideoListActivity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:104:9-81
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:104:19-79
+activity#com.comeback.data.ui.lutube.SearchResultActivity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:105:9-84
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:105:19-82
+activity#com.comeback.data.ui.lutube.SearchActivity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:106:9-78
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:106:19-76
+activity#com.comeback.data.ui.lutube.VideoPlayActivity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:107:9-178
+	android:hardwareAccelerated
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:107:142-176
+	android:configChanges
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:107:80-141
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:107:19-79
+activity#com.comeback.data.ui.gkj.GkjLauncherActivity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:108:9-80
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:108:19-78
+activity#com.comeback.data.ui.gkj.GKJActivity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:109:9-72
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:109:19-70
+activity#com.comeback.data.ui.gkj.ComicDetailActivity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:110:9-80
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:110:19-78
+activity#com.comeback.data.ui.gkj.ComicReadActivity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:111:9-78
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:111:19-76
+activity#com.comeback.data.ui.gkj.CgReadActivity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:112:9-75
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:112:19-73
+activity#com.comeback.data.ui.gkj.SearchActivity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:113:9-75
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:113:19-73
+activity#com.comeback.data.ui.gkj.SearchResultActivity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:114:9-81
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:114:19-79
+activity#com.comeback.data.ui.gkj.ScreenActivity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:115:9-75
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:115:19-73
+activity#com.comeback.data.ui.gkj.SpecialActivity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:116:9-76
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:116:19-74
+activity#com.comeback.data.ui.gkj.RankActivity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:117:9-73
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:117:19-71
+activity#com.comeback.data.ui.gkj.PlayActivity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:118:9-170
+	android:hardwareAccelerated
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:118:134-168
+	android:configChanges
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:118:72-133
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:118:19-71
+activity#com.comeback.data.ui.iqiyi.IQYLaunchActivity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:119:9-80
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:119:19-78
+activity#com.comeback.data.ui.iqiyi.IQYMainActivity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:120:9-78
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:120:19-76
+activity#com.comeback.data.ui.iqiyi.CategoryActivity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:121:9-79
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:121:19-77
+activity#com.comeback.data.ui.iqiyi.SearchActivity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:122:9-77
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:122:19-75
+activity#com.comeback.data.ui.iqiyi.VideoListActivity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:123:9-80
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:123:19-78
+activity#com.comeback.data.ui.iqiyi.UserCenterActivity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:124:9-112
+	android:launchMode
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:124:80-110
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:124:19-79
+activity#com.comeback.data.ui.fulao2.FuLao2LaunchActivity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:125:9-84
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:125:19-82
+activity#com.comeback.data.ui.fulao2.FuLao2Launch2Activity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:126:9-85
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:126:19-83
+activity#com.comeback.data.ui.fulao2.FuLao2Activity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:127:9-78
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:127:19-76
+activity#com.comeback.data.ui.fulao2.RankActivity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:128:9-76
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:128:19-74
+activity#com.comeback.data.ui.fulao2.SearchResultActivity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:129:9-84
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:129:19-82
+activity#com.comeback.data.ui.fulao2.ActorDetailActivity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:130:9-83
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:130:19-81
+activity#com.comeback.data.ui.fulao2.TypeDetailActivity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:131:9-82
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:131:19-80
+activity#com.comeback.data.ui.fulao2.SearchActivity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:132:9-78
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:132:19-76
+activity#com.comeback.data.ui.fulao2.ScreenActivity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:133:9-78
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:133:19-76
+activity#com.comeback.data.ui.fulao2.PlayActivity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:134:9-173
+	android:hardwareAccelerated
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:134:137-171
+	android:configChanges
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:134:75-136
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:134:19-74
+activity#com.comeback.data.ui.hg.HGBrowseActivity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:135:9-193
+	android:windowSoftInputMode
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:135:137-191
+	android:configChanges
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:135:75-136
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:135:19-74
+activity#com.comeback.data.ui.hg.HGMovieDetailActivity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:136:9-229
+	android:launchMode
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:136:80-110
+	android:windowSoftInputMode
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:136:173-227
+	android:configChanges
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:136:111-172
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:136:19-79
+activity#com.comeback.data.ui.test.TestActivity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:137:9-74
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:137:19-72
+activity#com.comeback.data.ui.slf.SlfLauncherActivity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:138:9-80
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:138:19-78
+activity#com.comeback.data.ui.slf.SlfActivity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:139:9-72
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:139:19-70
+activity#com.comeback.data.ui.slf.ComicDetailActivity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:140:9-80
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:140:19-78
+activity#com.comeback.data.ui.slf.ComicReadActivity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:141:9-78
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:141:19-76
+activity#com.comeback.data.ui.slf.ImageReadActivity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:142:9-78
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:142:19-76
+activity#com.comeback.data.ui.slf.NovelReadActivity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:143:9-78
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:143:19-76
+activity#com.comeback.data.ui.slf.SearchActivity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:144:9-75
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:144:19-73
+activity#com.comeback.data.ui.slf.RankActivity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:145:9-73
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:145:19-71
+activity#com.comeback.data.ui.slf.SpecialActivity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:146:9-76
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:146:19-74
+activity#com.comeback.data.ui.slf.CatIdActivity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:147:9-74
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:147:19-72
+activity#com.comeback.data.ui.slf.HistoryActivity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:148:9-76
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:148:19-74
+activity#com.comeback.data.ui.slf.VideoDetailActivity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:149:9-177
+	android:hardwareAccelerated
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:149:141-175
+	android:configChanges
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:149:79-140
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:149:19-78
+activity#com.comeback.data.ui.xiami.XMLauncherActivity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:150:9-81
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:150:19-79
+activity#com.comeback.data.ui.xiami.MainActivity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:151:9-75
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:151:19-73
+activity#com.comeback.data.ui.xiami.ImageReadActivity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:152:9-80
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:152:19-78
+activity#com.comeback.data.ui.xiami.NovelReadActivity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:153:9-80
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:153:19-78
+activity#com.comeback.data.ui.xiami.SpecialDetailActivity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:154:9-84
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:154:19-82
+activity#com.comeback.data.ui.xiami.SearchActivity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:155:9-77
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:155:19-75
+activity#com.comeback.data.ui.xiami.VideoPlayActivity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:156:9-177
+	android:hardwareAccelerated
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:156:141-175
+	android:configChanges
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:156:79-140
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:156:19-78
+activity#com.comeback.data.ui.isiyu.IsiyuLaunchActivity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:157:9-82
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:157:19-80
+activity#com.comeback.data.ui.isiyu.MainActivity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:158:9-75
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:158:19-73
+activity#com.comeback.data.ui.isiyu.SpecialDetailActivity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:159:9-84
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:159:19-82
+activity#com.comeback.data.ui.isiyu.SearchActivity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:160:9-77
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:160:19-75
+activity#com.comeback.data.ui.isiyu.MoviePlayActivity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:161:9-208
+	android:launchMode
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:161:79-109
+	android:hardwareAccelerated
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:161:172-206
+	android:configChanges
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:161:110-171
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:161:19-78
+activity#com.comeback.data.ui.avbobo.AvboboLaunchActivity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:162:9-84
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:162:19-82
+activity#com.comeback.data.ui.avbobo.MainActivity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:163:9-76
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:163:19-74
+activity#com.comeback.data.ui.avbobo.SearchResultActivity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:164:9-84
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:164:19-82
+activity#com.comeback.data.ui.avbobo.MoviePlayActivity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:165:9-209
+	android:launchMode
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:165:80-110
+	android:hardwareAccelerated
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:165:173-207
+	android:configChanges
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:165:111-172
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:165:19-79
+activity#com.comeback.data.ui.cucumber.CucumberLauncherActivity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:166:9-90
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:166:19-88
+activity#com.comeback.data.ui.cucumber.CucumberActivity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:167:9-82
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:167:19-80
+activity#com.comeback.data.ui.cucumber.ColumnDetailActivity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:168:9-86
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:168:19-84
+activity#com.comeback.data.ui.cucumber.ColumnMoreActivity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:169:9-84
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:169:19-82
+activity#com.comeback.data.ui.cucumber.ActorDetailActivity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:170:9-85
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:170:19-83
+activity#com.comeback.data.ui.cucumber.ActorActivity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:171:9-79
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:171:19-77
+activity#com.comeback.data.ui.cucumber.SearchResultActivity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:172:9-86
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:172:19-84
+activity#com.comeback.data.ui.cucumber.CollectActivity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:173:9-81
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:173:19-79
+activity#com.comeback.data.ui.cucumber.UserDetailActivity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:174:9-84
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:174:19-82
+activity#com.comeback.data.ui.cucumber.MovieDetailActivity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:175:9-182
+	android:hardwareAccelerated
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:175:146-180
+	android:configChanges
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:175:84-145
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:175:19-83
+activity#com.comeback.data.ui.cucumber.CucumberShortActivity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:176:9-184
+	android:hardwareAccelerated
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:176:148-182
+	android:configChanges
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:176:86-147
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:176:19-85
+activity#com.comeback.data.ui.cucumber.CucumberShortListActivity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:177:9-188
+	android:hardwareAccelerated
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:177:152-186
+	android:configChanges
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:177:90-151
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:177:19-89
+activity#com.comeback.data.ui.commom.PlayActivity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:178:9-204
+	android:launchMode
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:178:75-105
+	android:hardwareAccelerated
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:178:168-202
+	android:configChanges
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:178:106-167
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:178:19-74
+activity#com.comeback.data.ui.commom.PicBrowseActivity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:179:9-81
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:179:19-79
+activity#com.comeback.data.ui.commom.CachePlayActivity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:180:9-178
+	android:hardwareAccelerated
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:180:142-176
+	android:configChanges
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:180:80-141
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:180:19-79
+activity#com.comeback.data.ui.commom.LocalPlayActivity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:181:9-178
+	android:hardwareAccelerated
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:181:142-176
+	android:configChanges
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:181:80-141
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:181:19-79
+activity#com.comeback.data.ui.lnkl.LNKLActivity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:182:9-74
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:182:19-72
+activity#com.comeback.data.ui.lnkl.LNKLDetailActivity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:183:9-80
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:183:19-78
+activity#com.comeback.data.ui.ba.BaLauncherActivity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:184:9-78
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:184:19-76
+activity#com.comeback.data.ui.ba.BaActivity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:185:9-70
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:185:19-68
+activity#com.comeback.data.ui.ba.ComicReadActivity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:186:9-77
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:186:19-75
+activity#com.comeback.data.ui.ds.DsActivity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:187:9-70
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:187:19-68
+activity#com.comeback.data.ui.ds.ComicReadActivity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:188:9-77
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:188:19-75
+activity#com.comeback.data.ui.ds.SearchActivity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:189:9-74
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:189:19-72
+activity#com.comeback.data.ui.ds.TagActivity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:190:9-71
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:190:19-69
+activity#com.comeback.data.ui.ds.RankActivity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:191:9-72
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:191:19-70
+activity#com.comeback.data.ui.bale.BaleActivity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:192:9-74
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:192:19-72
+activity#com.comeback.data.ui.bale.TagSearchActivity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:193:9-79
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:193:19-77
+activity#com.comeback.data.ui.bale.ActorDetailActivity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:194:9-81
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:194:19-79
+activity#com.comeback.data.ui.bale.ScreenActivity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:195:9-76
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:195:19-74
+activity#com.comeback.data.ui.bale.SearchActivity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:196:9-76
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:196:19-74
+activity#com.comeback.data.ui.bale.SearchResultActivity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:197:9-82
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:197:19-80
+activity#com.comeback.data.ui.bale.PlayActivity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:198:9-74
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:198:19-72
+activity#com.comeback.data.ui.mimei.MimeiLauncherActivity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:199:9-84
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:199:19-82
+activity#com.comeback.data.ui.mimei.MimeiActivity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:200:9-76
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:200:19-74
+activity#com.comeback.data.ui.mimei.ComicReadActivity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:201:9-80
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:201:19-78
+activity#com.comeback.data.ui.mimei.ComicTypeActivity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:202:9-80
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:202:19-78
+activity#com.comeback.data.ui.mimei.NovelReadActivity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:203:9-80
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:203:19-78
+activity#com.comeback.data.ui.mimei.SearchActivity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:204:9-77
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:204:19-75
+activity#com.comeback.data.ui.mimei.SearchResultActivity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:205:9-83
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:205:19-81
+activity#com.comeback.data.ui.xhl.XHLBrowseActivity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:206:9-78
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:206:19-76
+activity#com.comeback.data.ui.xhl.InfoActivity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:207:9-73
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:207:19-71
+activity#com.comeback.data.ui.hgdd.HGDDBrowseActivity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:208:9-80
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:208:19-78
+activity#com.comeback.data.ui.xiuxiu.XXBrowseActivity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:209:9-80
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:209:19-78
+activity#com.comeback.data.ui.xiuxiu.InfoActivity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:210:9-76
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:210:19-74
+activity#com.comeback.data.ui.live.LiveChanelActivity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:211:9-80
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:211:19-78
+activity#com.comeback.data.ui.live.LiveListActivity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:212:9-78
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:212:19-76
+activity#com.comeback.data.ui.jav.JavActivity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:213:9-72
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:213:19-70
+activity#com.comeback.data.ui.jav.ActorDetailActivity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:214:9-80
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:214:19-78
+activity#com.comeback.data.ui.jav.VideoDetailActivity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:215:9-80
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:215:19-78
+activity#com.comeback.data.ui.jav.SearchResultActivity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:216:9-81
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:216:19-79
+activity#com.comeback.data.ui.tomato.TomatoLaunchActivity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:217:9-84
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:217:19-82
+activity#com.comeback.data.ui.tomato.TomatoActivity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:218:9-78
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:218:19-76
+activity#com.comeback.data.ui.jhlf.JHLFActivity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:219:9-74
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:219:19-72
+activity#com.comeback.data.ui.jhlf.FengliuActivity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:220:9-77
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:220:19-75
+activity#com.comeback.data.ui.jhlf.InfoActivity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:221:9-74
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:221:19-72
+activity#com.comeback.data.ui.jhlf.SearchResultActivity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:222:9-82
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:222:19-80
+activity#com.comeback.data.ui.jhlf.DownloadActivity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:223:9-78
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:223:19-76
+activity#com.comeback.data.ui.senlin.ZYBrowseActivity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:224:9-80
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:224:19-78
+activity#com.comeback.data.ui.senlin.SenLinActivity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:225:9-78
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:225:19-76
+activity#com.comeback.data.ui.senlin.VideoDetailActivity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:226:9-83
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:226:19-81
+activity#com.comeback.data.ui.senlin.PlayActivity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:227:9-173
+	android:hardwareAccelerated
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:227:137-171
+	android:configChanges
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:227:75-136
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:227:19-74
+activity#com.comeback.data.ui.cm.CmActivity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:228:9-70
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:228:19-68
+activity#com.comeback.data.ui.cm.ScreenActivity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:229:9-74
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:229:19-72
+activity#com.comeback.data.ui.cm.SearchActivity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:230:9-74
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:230:19-72
+activity#com.comeback.data.ui.cm.ActorDetailActivity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:231:9-79
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:231:19-77
+activity#com.comeback.data.ui.cm.SearchResultActivity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:232:9-80
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:232:19-78
+activity#com.comeback.data.ui.cm.PlayActivity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:233:9-169
+	android:hardwareAccelerated
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:233:133-167
+	android:configChanges
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:233:71-132
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:233:19-70
+activity#com.comeback.data.ui.hm.HmLauncherActivity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:234:9-78
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:234:19-76
+activity#com.comeback.data.ui.hm.MainActivity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:235:9-72
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:235:19-70
+activity#com.comeback.data.ui.hm.DetailActivity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:236:9-74
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:236:19-72
+activity#com.comeback.data.ui.hm.NovelReadActivity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:237:9-77
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:237:19-75
+activity#com.comeback.data.ui.hm.SearchActivity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:238:9-74
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:238:19-72
+activity#com.comeback.data.ui.nana.NanaLaunchActivity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:239:9-80
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:239:19-78
+activity#com.comeback.data.ui.nana.MainActivity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:240:9-74
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:240:19-72
+activity#com.comeback.data.ui.nana.TypeDetailActivity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:241:9-80
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:241:19-78
+activity#com.comeback.data.ui.nana.SearchResultActivity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:242:9-82
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:242:19-80
+activity#com.comeback.data.ui.nana.ActorDetailActivity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:243:9-81
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:243:19-79
+activity#com.comeback.data.ui.nana.SearchActivity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:244:9-76
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:244:19-74
+activity#com.comeback.data.ui.nana.MovieDetailActivity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:245:9-178
+	android:hardwareAccelerated
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:245:142-176
+	android:configChanges
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:245:80-141
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:245:19-79
+activity#com.comeback.data.ui.md.MdActivity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:246:9-70
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:246:19-68
+activity#com.comeback.data.ui.md.ChanelActivity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:247:9-74
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:247:19-72
+activity#com.comeback.data.ui.ins.InsActivity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:248:9-72
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:248:19-70
+activity#com.comeback.data.ui.ins.InsLaunchActivity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:249:9-78
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:249:19-76
+activity#com.comeback.data.ui.ins.UserCenterActivity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:250:9-79
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:250:19-77
+activity#com.comeback.data.ui.gdian.GDianActivity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:251:9-76
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:251:19-74
+activity#com.comeback.data.ui.gdian.PlayActivity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:252:9-172
+	android:hardwareAccelerated
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:252:136-170
+	android:configChanges
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:252:74-135
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:252:19-73
+activity#com.comeback.data.ui.gdian.ImageReadActivity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:253:9-80
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:253:19-78
+activity#com.comeback.data.ui.gdian.NovelActivity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:254:9-76
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:254:19-74
+activity#com.comeback.data.ui.gdian.NovelReadActivity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:255:9-80
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:255:19-78
+activity#com.comeback.data.ui.gdian.SearchActivity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:256:9-77
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:256:19-75
+activity#com.comeback.data.ui.gdian.SearchResultActivity
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:257:9-83
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:257:19-81
+meta-data#com.comeback.data.net.glide.OkHttpAppGlideModule
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:258:9-116
+	android:value
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:258:84-114
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:258:20-83
+meta-data#com.bumptech.glide.integration.okhttp3.OkHttpGlideModule
+ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:259:9-121
+	android:value
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:259:92-119
+	android:name
+		ADDED from /Users/evan/codes/Other/Dec/秘密花园/android/秘密花园/app/src/main/AndroidManifest.xml:259:20-91

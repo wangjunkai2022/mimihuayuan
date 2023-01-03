@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center_vertical" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:paddingStart="@dimen/view_margin_large" android:paddingEnd="@dimen/view_margin_large">
+    <TextView android:textSize="18sp" android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/view_margin_large" android:layout_marginBottom="@dimen/view_margin_large" android:text="资源节点(影响页面展示速度)"/>
+    <RadioGroup android:orientation="vertical" android:id="@+id/radio_group_host" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <RadioButton android:textColor="@color/iqiyi_select" android:id="@+id/radio_host1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="默认节点" android:buttonTint="@color/iqiyi_select"/>
+        <RadioButton android:textColor="@color/iqiyi_select" android:id="@+id/radio_host2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="备用节点1" android:buttonTint="@color/iqiyi_select"/>
+        <RadioButton android:textColor="@color/iqiyi_select" android:id="@+id/radio_host3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="备用节点2" android:buttonTint="@color/iqiyi_select"/>
+        <RadioButton android:textColor="@color/iqiyi_select" android:id="@+id/radio_host4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="备用节点3" android:buttonTint="@color/iqiyi_select"/>
+    </RadioGroup>
+</LinearLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <chuangyuan.ycj.videolibrary.widget.VideoPlayerView android:id="@id/video_view" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="250.0dip" app:controller_layout_id="@layout/widget_video_control" app:fastforward_increment="100" app:player_load_layout_id="@layout/widget_video_load" app:resize_mode="fit" app:rewind_increment="100" app:show_timeout="1000000000" app:surface_type="texture_view" />
+    <TextView android:textSize="20.0sp" android:textColor="@color/basic_primary_text" android:ellipsize="end" android:id="@id/tv_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/view_margin_normal" android:maxLines="2" />
+    <TextView android:textSize="@dimen/text_title" android:textColor="@color/basic_primary_text" android:padding="@dimen/view_margin_normal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="播放节点" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/rv_list" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</LinearLayout>

@@ -1,0 +1,326 @@
+package f.d.a.o.n;
+
+import android.util.Log;
+import androidx.annotation.Nullable;
+import androidx.annotation.VisibleForTesting;
+import androidx.core.util.Pools;
+import androidx.swiperefreshlayout.widget.SwipeRefreshLayout;
+import f.d.a.o.n.a;
+import f.d.a.o.n.c0.a;
+import f.d.a.o.n.c0.e;
+import f.d.a.o.n.c0.f;
+import f.d.a.o.n.c0.h;
+import f.d.a.o.n.c0.i;
+import f.d.a.o.n.i;
+import f.d.a.o.n.q;
+import f.d.a.s.g;
+import f.d.a.u.j.a;
+import java.io.File;
+import java.util.Map;
+import java.util.concurrent.Executor;
+
+/* compiled from: Engine.java */
+/* loaded from: classes.dex */
+public class l implements n, i.a, q.a {
+
+    /* renamed from: i  reason: collision with root package name */
+    public static final boolean f3585i = Log.isLoggable("Engine", 2);
+    public final t a;
+    public final p b;
+
+    /* renamed from: c  reason: collision with root package name */
+    public final i f3586c;
+
+    /* renamed from: d  reason: collision with root package name */
+    public final b f3587d;
+
+    /* renamed from: e  reason: collision with root package name */
+    public final z f3588e;
+
+    /* renamed from: f  reason: collision with root package name */
+    public final c f3589f;
+
+    /* renamed from: g  reason: collision with root package name */
+    public final a f3590g;
+
+    /* renamed from: h  reason: collision with root package name */
+    public final a f3591h;
+
+    /* compiled from: Engine.java */
+    @VisibleForTesting
+    /* loaded from: classes.dex */
+    public static class a {
+        public final i.d a;
+        public final Pools.Pool<i<?>> b = f.d.a.u.j.a.a(SwipeRefreshLayout.SCALE_DOWN_DURATION, new C0034a());
+
+        /* renamed from: c  reason: collision with root package name */
+        public int f3592c;
+
+        /* compiled from: Engine.java */
+        /* renamed from: f.d.a.o.n.l$a$a  reason: collision with other inner class name */
+        /* loaded from: classes.dex */
+        public class C0034a implements a.b<i<?>> {
+            public C0034a() {
+            }
+
+            /* Return type fixed from 'java.lang.Object' to match base method */
+            @Override // f.d.a.u.j.a.b
+            public i<?> a() {
+                a aVar = a.this;
+                return new i<>(aVar.a, aVar.b);
+            }
+        }
+
+        public a(i.d dVar) {
+            this.a = dVar;
+        }
+    }
+
+    /* compiled from: Engine.java */
+    @VisibleForTesting
+    /* loaded from: classes.dex */
+    public static class b {
+        public final f.d.a.o.n.d0.a a;
+        public final f.d.a.o.n.d0.a b;
+
+        /* renamed from: c  reason: collision with root package name */
+        public final f.d.a.o.n.d0.a f3593c;
+
+        /* renamed from: d  reason: collision with root package name */
+        public final f.d.a.o.n.d0.a f3594d;
+
+        /* renamed from: e  reason: collision with root package name */
+        public final n f3595e;
+
+        /* renamed from: f  reason: collision with root package name */
+        public final q.a f3596f;
+
+        /* renamed from: g  reason: collision with root package name */
+        public final Pools.Pool<m<?>> f3597g = f.d.a.u.j.a.a(SwipeRefreshLayout.SCALE_DOWN_DURATION, new a());
+
+        /* compiled from: Engine.java */
+        /* loaded from: classes.dex */
+        public class a implements a.b<m<?>> {
+            public a() {
+            }
+
+            /* Return type fixed from 'java.lang.Object' to match base method */
+            @Override // f.d.a.u.j.a.b
+            public m<?> a() {
+                b bVar = b.this;
+                return new m<>(bVar.a, bVar.b, bVar.f3593c, bVar.f3594d, bVar.f3595e, bVar.f3596f, bVar.f3597g);
+            }
+        }
+
+        public b(f.d.a.o.n.d0.a aVar, f.d.a.o.n.d0.a aVar2, f.d.a.o.n.d0.a aVar3, f.d.a.o.n.d0.a aVar4, n nVar, q.a aVar5) {
+            this.a = aVar;
+            this.b = aVar2;
+            this.f3593c = aVar3;
+            this.f3594d = aVar4;
+            this.f3595e = nVar;
+            this.f3596f = aVar5;
+        }
+    }
+
+    /* compiled from: Engine.java */
+    /* loaded from: classes.dex */
+    public static class c implements i.d {
+        public final a.AbstractC0030a a;
+        public volatile f.d.a.o.n.c0.a b;
+
+        public c(a.AbstractC0030a aVar) {
+            this.a = aVar;
+        }
+
+        public f.d.a.o.n.c0.a a() {
+            if (this.b == null) {
+                synchronized (this) {
+                    if (this.b == null) {
+                        f.d.a.o.n.c0.d dVar = (f.d.a.o.n.c0.d) this.a;
+                        f fVar = (f) dVar.b;
+                        File cacheDir = fVar.a.getCacheDir();
+                        e eVar = null;
+                        if (cacheDir == null) {
+                            cacheDir = null;
+                        } else if (fVar.b != null) {
+                            cacheDir = new File(cacheDir, fVar.b);
+                        }
+                        if (cacheDir != null && (cacheDir.mkdirs() || (cacheDir.exists() && cacheDir.isDirectory()))) {
+                            eVar = new e(cacheDir, dVar.a);
+                        }
+                        this.b = eVar;
+                    }
+                    if (this.b == null) {
+                        this.b = new f.d.a.o.n.c0.b();
+                    }
+                }
+            }
+            return this.b;
+        }
+    }
+
+    /* compiled from: Engine.java */
+    /* loaded from: classes.dex */
+    public class d {
+        public final m<?> a;
+        public final f.d.a.s.f b;
+
+        public d(f.d.a.s.f fVar, m<?> mVar) {
+            this.b = fVar;
+            this.a = mVar;
+        }
+    }
+
+    public l(f.d.a.o.n.c0.i iVar, a.AbstractC0030a aVar, f.d.a.o.n.d0.a aVar2, f.d.a.o.n.d0.a aVar3, f.d.a.o.n.d0.a aVar4, f.d.a.o.n.d0.a aVar5, boolean z) {
+        this.f3586c = iVar;
+        this.f3589f = new c(aVar);
+        a aVar6 = new a(z);
+        this.f3591h = aVar6;
+        synchronized (this) {
+            synchronized (aVar6) {
+                aVar6.f3495d = this;
+            }
+        }
+        this.b = new p();
+        this.a = new t();
+        this.f3587d = new b(aVar2, aVar3, aVar4, aVar5, this, this);
+        this.f3590g = new a(this.f3589f);
+        this.f3588e = new z();
+        ((h) iVar).f3527d = this;
+    }
+
+    public static void d(String str, long j2, f.d.a.o.f fVar) {
+        StringBuilder r = f.b.a.a.a.r(str, " in ");
+        r.append(f.d.a.u.e.a(j2));
+        r.append("ms, key: ");
+        r.append(fVar);
+        r.toString();
+    }
+
+    @Override // f.d.a.o.n.q.a
+    public void a(f.d.a.o.f fVar, q<?> qVar) {
+        a aVar = this.f3591h;
+        synchronized (aVar) {
+            a.b remove = aVar.b.remove(fVar);
+            if (remove != null) {
+                remove.f3496c = null;
+                remove.clear();
+            }
+        }
+        if (qVar.a) {
+            ((h) this.f3586c).f(fVar, qVar);
+        } else {
+            this.f3588e.a(qVar);
+        }
+    }
+
+    public <R> d b(f.d.a.e eVar, Object obj, f.d.a.o.f fVar, int i2, int i3, Class<?> cls, Class<R> cls2, f.d.a.f fVar2, k kVar, Map<Class<?>, f.d.a.o.l<?>> map, boolean z, boolean z2, f.d.a.o.h hVar, boolean z3, boolean z4, boolean z5, boolean z6, f.d.a.s.f fVar3, Executor executor) {
+        long b2 = f3585i ? f.d.a.u.e.b() : 0;
+        if (this.b != null) {
+            o oVar = new o(obj, fVar, i2, i3, map, cls, cls2, hVar);
+            synchronized (this) {
+                q<?> c2 = c(oVar, z3, b2);
+                if (c2 == null) {
+                    return g(eVar, obj, fVar, i2, i3, cls, cls2, fVar2, kVar, map, z, z2, hVar, z3, z4, z5, z6, fVar3, executor, oVar, b2);
+                }
+                ((g) fVar3).n(c2, f.d.a.o.a.MEMORY_CACHE);
+                return null;
+            }
+        }
+        throw null;
+    }
+
+    @Nullable
+    public final q<?> c(o oVar, boolean z, long j2) {
+        q<?> qVar;
+        Object remove;
+        q<?> qVar2;
+        if (!z) {
+            return null;
+        }
+        a aVar = this.f3591h;
+        synchronized (aVar) {
+            a.b bVar = aVar.b.get(oVar);
+            if (bVar == null) {
+                qVar = null;
+            } else {
+                qVar = bVar.get();
+                if (qVar == null) {
+                    aVar.b(bVar);
+                }
+            }
+        }
+        if (qVar != null) {
+            qVar.a();
+        }
+        if (qVar != null) {
+            if (f3585i) {
+                d("Loaded resource from active resources", j2, oVar);
+            }
+            return qVar;
+        }
+        h hVar = (h) this.f3586c;
+        synchronized (hVar) {
+            remove = hVar.a.remove(oVar);
+            if (remove != null) {
+                hVar.f3785c -= (long) hVar.b(remove);
+            }
+        }
+        w wVar = (w) remove;
+        if (wVar == null) {
+            qVar2 = null;
+        } else if (wVar instanceof q) {
+            qVar2 = (q) wVar;
+        } else {
+            qVar2 = new q<>(wVar, true, true, oVar, this);
+        }
+        if (qVar2 != null) {
+            qVar2.a();
+            this.f3591h.a(oVar, qVar2);
+        }
+        if (qVar2 == null) {
+            return null;
+        }
+        if (f3585i) {
+            d("Loaded resource from cache", j2, oVar);
+        }
+        return qVar2;
+    }
+
+    public synchronized void e(m<?> mVar, f.d.a.o.f fVar, q<?> qVar) {
+        if (qVar != null) {
+            if (qVar.a) {
+                this.f3591h.a(fVar, qVar);
+            }
+        }
+        t tVar = this.a;
+        if (tVar != null) {
+            Map<f.d.a.o.f, m<?>> a2 = tVar.a(mVar.p);
+            if (mVar.equals(a2.get(fVar))) {
+                a2.remove(fVar);
+            }
+        } else {
+            throw null;
+        }
+    }
+
+    public void f(w<?> wVar) {
+        if (wVar instanceof q) {
+            ((q) wVar).c();
+            return;
+        }
+        throw new IllegalArgumentException("Cannot release anything but an EngineResource");
+    }
+
+    /* JADX DEBUG: Multi-variable search result rejected for r23v0, resolved type: java.lang.Class<R> */
+    /* JADX WARN: Multi-variable type inference failed */
+    /* JADX WARNING: Removed duplicated region for block: B:29:0x00e8 A[Catch: all -> 0x0112, TryCatch #0 {, blocks: (B:21:0x00d2, B:23:0x00de, B:29:0x00e8, B:30:0x00eb, B:32:0x00ef, B:33:0x00f2, B:35:0x00f6, B:36:0x00f9, B:37:0x00fb), top: B:50:0x00d2 }] */
+    /* JADX WARNING: Removed duplicated region for block: B:30:0x00eb A[Catch: all -> 0x0112, TryCatch #0 {, blocks: (B:21:0x00d2, B:23:0x00de, B:29:0x00e8, B:30:0x00eb, B:32:0x00ef, B:33:0x00f2, B:35:0x00f6, B:36:0x00f9, B:37:0x00fb), top: B:50:0x00d2 }] */
+    /* Code decompiled incorrectly, please refer to instructions dump. */
+    public final <R> f.d.a.o.n.l.d g(f.d.a.e r17, java.lang.Object r18, f.d.a.o.f r19, int r20, int r21, java.lang.Class<?> r22, java.lang.Class<R> r23, f.d.a.f r24, f.d.a.o.n.k r25, java.util.Map<java.lang.Class<?>, f.d.a.o.l<?>> r26, boolean r27, boolean r28, f.d.a.o.h r29, boolean r30, boolean r31, boolean r32, boolean r33, f.d.a.s.f r34, java.util.concurrent.Executor r35, f.d.a.o.n.o r36, long r37) {
+        /*
+        // Method dump skipped, instructions count: 282
+        */
+        throw new UnsupportedOperationException("Method not decompiled: f.d.a.o.n.l.g(f.d.a.e, java.lang.Object, f.d.a.o.f, int, int, java.lang.Class, java.lang.Class, f.d.a.f, f.d.a.o.n.k, java.util.Map, boolean, boolean, f.d.a.o.h, boolean, boolean, boolean, boolean, f.d.a.s.f, java.util.concurrent.Executor, f.d.a.o.n.o, long):f.d.a.o.n.l$d");
+    }
+}

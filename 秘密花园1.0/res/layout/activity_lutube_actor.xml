@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@color/white" android:paddingTop="@dimen/view_margin_large" android:paddingBottom="@dimen/view_margin_large" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/view_margin_xlarge" android:paddingEnd="@dimen/view_margin_large">
+        <ImageView android:id="@id/iv_head" android:layout_width="76.0dip" android:layout_height="76.0dip" android:transitionName="ImageHeader" />
+        <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginStart="@dimen/view_margin_large">
+            <TextView android:textSize="20.0sp" android:textColor="@color/basic_primary_text" android:id="@id/tv_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+            <TextView android:textColor="@color/basic_secondary_text" android:id="@id/tv_count" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/view_margin_normal" android:singleLine="true" />
+        </LinearLayout>
+        <TextView android:textColor="@color/white" android:id="@id/tv_follow" android:background="@drawable/bg_follow" android:paddingTop="@dimen/view_margin_small" android:paddingBottom="@dimen/view_margin_small" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="收藏" android:paddingStart="@dimen/view_margin_xlarge" android:paddingEnd="@dimen/view_margin_xlarge" android:layout_marginEnd="@dimen/view_margin_large" />
+    </LinearLayout>
+    <include layout="@layout/base_refresh_recycler" />
+</LinearLayout>

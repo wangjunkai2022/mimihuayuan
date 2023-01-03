@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:textSize="20sp" android:textColor="@color/basic_primary_text" android:gravity="center" android:id="@+id/tv_title" android:background="@color/white" android:layout_width="match_parent" android:layout_height="48dp" android:text="全国楼风信息"/>
+    <include layout="@layout/include_divide_line"/>
+    <LinearLayout android:orientation="horizontal" android:background="@color/white" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@+id/ll_area" android:padding="@dimen/view_margin_normal" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+            <TextView android:textSize="@dimen/text_title" android:textColor="@color/basic_secondary_text" android:gravity="center" android:layout_gravity="center_vertical" android:id="@+id/tv_area" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="全国"/>
+            <ImageView android:layout_gravity="center_vertical" android:padding="@dimen/view_margin_normal" android:layout_width="30dp" android:layout_height="30dp" android:src="@mipmap/ic_arrow_left" android:tint="@color/basic_secondary_text" android:rotation="270"/>
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@+id/ll_order" android:padding="@dimen/view_margin_normal" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+            <TextView android:textSize="@dimen/text_title" android:textColor="@color/basic_secondary_text" android:gravity="center" android:layout_gravity="center_vertical" android:id="@+id/tv_order" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="最新发布"/>
+            <ImageView android:layout_gravity="center_vertical" android:padding="@dimen/view_margin_normal" android:layout_width="30dp" android:layout_height="30dp" android:src="@mipmap/ic_arrow_left" android:tint="@color/basic_secondary_text" android:rotation="270"/>
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@+id/ll_service" android:padding="@dimen/view_margin_normal" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+            <TextView android:textSize="@dimen/text_title" android:textColor="@color/basic_secondary_text" android:gravity="center" android:layout_gravity="center_vertical" android:id="@+id/tv_service" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="默认节点"/>
+            <ImageView android:layout_gravity="center_vertical" android:padding="@dimen/view_margin_normal" android:layout_width="30dp" android:layout_height="30dp" android:src="@mipmap/ic_arrow_left" android:tint="@color/basic_secondary_text" android:rotation="270"/>
+        </LinearLayout>
+    </LinearLayout>
+    <include layout="@layout/base_refresh_recycler"/>
+</LinearLayout>

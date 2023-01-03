@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:id="@+id/ll_root" android:paddingTop="@dimen/view_margin_small" android:paddingBottom="@dimen/view_margin_small" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/view_margin_normal" android:paddingEnd="@dimen/view_margin_normal">
+    <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.comeback.data.widget.RatioImageView android:id="@+id/iv_img" android:layout_width="match_parent" android:layout_height="wrap_content" android:scaleType="centerCrop" app:radius="@dimen/view_margin_normal" app:ratio="0.57"/>
+        <TextView android:textSize="@dimen/text_detail" android:textColor="@color/white" android:layout_gravity="end|bottom" android:id="@+id/tv_duration" android:background="@drawable/bg_radius_trans" android:paddingTop="@dimen/view_margin_small" android:paddingBottom="@dimen/view_margin_small" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/view_margin_normal" android:text="05:00" android:paddingStart="@dimen/view_margin_normal" android:paddingEnd="@dimen/view_margin_normal"/>
+    </FrameLayout>
+    <TextView android:textSize="@dimen/text_title" android:textStyle="bold" android:textColor="@color/basic_primary_text" android:id="@+id/tv_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/view_margin_normal" android:text="被抓奶子的感觉好舒服" android:singleLine="true"/>
+    <TextView android:textSize="@dimen/text_detail" android:id="@+id/tv_desc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="9.1W次播放 | 2022-11-26"/>
+</LinearLayout>

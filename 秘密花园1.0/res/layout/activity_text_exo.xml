@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:id="@id/activity_main" android:background="#ff000000" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <chuangyuan.ycj.videolibrary.widget.VideoPlayerView android:id="@id/video_view" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent" app:controller_layout_id="@layout/widget_video_control" app:fastforward_increment="1000" app:player_load_layout_id="@layout/widget_video_load_v" app:resize_mode="fit" app:rewind_increment="1000" app:show_timeout="1000000000" app:surface_type="texture_view" />
+    <SeekBar android:layout_gravity="bottom" android:id="@id/seek_bar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="-16.0dip" android:maxHeight="32.0dip" android:max="1000" android:progress="0" android:minHeight="32.0dip" android:thumb="@null" android:paddingStart="0.0dip" android:paddingEnd="0.0dip" />
+    <ImageView android:layout_gravity="center" android:id="@id/iv_play" android:paddingTop="30.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="30.0dip" android:paddingStart="170.0dip" android:paddingEnd="170.0dip" />
+</FrameLayout>

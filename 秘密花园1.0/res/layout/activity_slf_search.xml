@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/rl_title" android:background="@color/slfColorAccent" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <EditText android:textSize="13.0sp" android:textColor="@color/white" android:textColorHint="#ffeeeeee" android:id="@id/search_input" android:background="@drawable/bg_radius_trans_white" android:paddingLeft="9.0dip" android:paddingRight="9.0dip" android:layout_width="fill_parent" android:layout_height="30.0dip" android:layout_marginLeft="15.0dip" android:layout_marginRight="55.0dip" android:hint="输入关键词查找片源" android:singleLine="true" android:drawableLeft="@drawable/icon_search5" android:drawablePadding="7.0dip" android:layout_centerVertical="true" android:imeOptions="actionSearch" android:textCursorDrawable="@drawable/cursor_drawable_orange" />
+        <Button android:textSize="13.0sp" android:textColor="@color/white" android:id="@id/cancel_btn" android:background="@null" android:layout_width="54.0dip" android:layout_height="wrap_content" android:text="取消" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/recycler_view" android:paddingLeft="3.5dip" android:paddingRight="3.5dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/rl_title" android:overScrollMode="never" />
+    <com.scwang.smartrefresh.layout.SmartRefreshLayout android:id="@id/refreshLayout" android:paddingTop="@dimen/view_margin_normal" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/rl_title">
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/rv_list" android:layout_width="fill_parent" android:layout_height="fill_parent" android:overScrollMode="never" />
+    </com.scwang.smartrefresh.layout.SmartRefreshLayout>
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/ll_result_tip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/rl_title">
+        <TextView android:textSize="15.0sp" android:textColor="#ffaaaaaa" android:id="@id/tv_no_result" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="70.0dip" android:text="没有找到相关影片" />
+    </LinearLayout>
+</RelativeLayout>

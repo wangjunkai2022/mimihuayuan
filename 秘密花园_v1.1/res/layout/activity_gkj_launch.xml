@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/ll_node1" android:paddingTop="@dimen/view_margin_xlarge" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <TextView android:textSize="64.0sp" android:textStyle="bold" android:textColor="@color/basic_primary_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="节点一" />
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/view_margin_normal" android:text="（主打漫画推荐）" />
+    </LinearLayout>
+    <include layout="@layout/include_divide_line" />
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/ll_node2" android:paddingBottom="@dimen/view_margin_xlarge" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <TextView android:textSize="64.0sp" android:textStyle="bold" android:textColor="@color/basic_primary_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="节点二" />
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/view_margin_normal" android:text="（主打视频推荐，漫画没有权限）" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@mipmap/icon_xm_hot" android:id="@id/navigation_hot" android:title="热门" />
+    <item android:icon="@mipmap/icon_km_discover" android:id="@id/navigation_channel1" android:title="聚合一" />
+    <item android:icon="@mipmap/icon_km_discover" android:id="@id/navigation_channel2" android:title="聚合二" />
+</menu>

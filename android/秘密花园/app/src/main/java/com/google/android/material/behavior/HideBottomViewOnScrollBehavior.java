@@ -1,0 +1,78 @@
+package com.google.android.material.behavior;
+
+import android.animation.Animator;
+import android.animation.AnimatorListenerAdapter;
+import android.animation.TimeInterpolator;
+import android.content.Context;
+import android.util.AttributeSet;
+import android.view.View;
+import android.view.ViewPropertyAnimator;
+import androidx.coordinatorlayout.widget.CoordinatorLayout;
+import com.google.android.material.animation.AnimationUtils;
+
+/* loaded from: classes.dex */
+public class HideBottomViewOnScrollBehavior<V extends View> extends CoordinatorLayout.Behavior<V> {
+    public static final int ENTER_ANIMATION_DURATION = 225;
+    public static final int EXIT_ANIMATION_DURATION = 175;
+    public static final int STATE_SCROLLED_DOWN = 1;
+    public static final int STATE_SCROLLED_UP = 2;
+    public ViewPropertyAnimator currentAnimator;
+    public int height = 0;
+    public int currentState = 2;
+
+    public HideBottomViewOnScrollBehavior() {
+    }
+
+    private void animateChildTo(V v, int i2, long j2, TimeInterpolator timeInterpolator) {
+        this.currentAnimator = v.animate().translationY((float) i2).setInterpolator(timeInterpolator).setDuration(j2).setListener(new AnimatorListenerAdapter() { // from class: com.google.android.material.behavior.HideBottomViewOnScrollBehavior.1
+            @Override // android.animation.AnimatorListenerAdapter, android.animation.Animator.AnimatorListener
+            public void onAnimationEnd(Animator animator) {
+                HideBottomViewOnScrollBehavior.this.currentAnimator = null;
+            }
+        });
+    }
+
+    @Override // androidx.coordinatorlayout.widget.CoordinatorLayout.Behavior
+    public boolean onLayoutChild(CoordinatorLayout coordinatorLayout, V v, int i2) {
+        this.height = v.getMeasuredHeight();
+        return super.onLayoutChild(coordinatorLayout, v, i2);
+    }
+
+    @Override // androidx.coordinatorlayout.widget.CoordinatorLayout.Behavior
+    public void onNestedScroll(CoordinatorLayout coordinatorLayout, V v, View view, int i2, int i3, int i4, int i5) {
+        if (this.currentState != 1 && i3 > 0) {
+            slideDown(v);
+        } else if (this.currentState != 2 && i3 < 0) {
+            slideUp(v);
+        }
+    }
+
+    @Override // androidx.coordinatorlayout.widget.CoordinatorLayout.Behavior
+    public boolean onStartNestedScroll(CoordinatorLayout coordinatorLayout, V v, View view, View view2, int i2) {
+        return i2 == 2;
+    }
+
+    public void slideDown(V v) {
+        ViewPropertyAnimator viewPropertyAnimator = this.currentAnimator;
+        if (viewPropertyAnimator != null) {
+            viewPropertyAnimator.cancel();
+            v.clearAnimation();
+        }
+        this.currentState = 1;
+        animateChildTo(v, this.height, 175, AnimationUtils.FAST_OUT_LINEAR_IN_INTERPOLATOR);
+    }
+
+    public void slideUp(V v) {
+        ViewPropertyAnimator viewPropertyAnimator = this.currentAnimator;
+        if (viewPropertyAnimator != null) {
+            viewPropertyAnimator.cancel();
+            v.clearAnimation();
+        }
+        this.currentState = 2;
+        animateChildTo(v, 0, 225, AnimationUtils.LINEAR_OUT_SLOW_IN_INTERPOLATOR);
+    }
+
+    public HideBottomViewOnScrollBehavior(Context context, AttributeSet attributeSet) {
+        super(context, attributeSet);
+    }
+}

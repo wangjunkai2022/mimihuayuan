@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.comeback.data.widget.CustomViewPager android:id="@id/view_pager" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <RadioGroup android:gravity="center_horizontal" android:orientation="horizontal" android:id="@id/rg_tab" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="50.0dip">
+        <RadioButton android:textSize="12.0sp" android:textColor="@color/mimei_select" android:gravity="center_horizontal" android:layout_gravity="center_vertical" android:id="@id/rb_comic" android:layout_width="0.0dip" android:layout_height="wrap_content" android:checked="true" android:button="@null" android:text="漫画" android:drawableTop="@drawable/selector_mimei_comic" android:drawablePadding="2.0dip" android:layout_weight="1.0" />
+        <RadioButton android:textSize="12.0sp" android:textColor="@color/mimei_select" android:gravity="center_horizontal" android:layout_gravity="center_vertical" android:id="@id/rb_novel" android:visibility="visible" android:layout_width="0.0dip" android:layout_height="wrap_content" android:button="@null" android:text="小说" android:drawableTop="@drawable/selector_mimei_novel" android:drawablePadding="2.0dip" android:layout_weight="1.0" />
+        <RadioButton android:textSize="12.0sp" android:textColor="@color/mimei_select" android:gravity="center_horizontal" android:layout_gravity="center_vertical" android:id="@id/rb_collect" android:layout_width="0.0dip" android:layout_height="wrap_content" android:button="@null" android:text="收藏" android:drawableTop="@drawable/selector_mimei_collect" android:drawablePadding="2.0dip" android:layout_weight="1.0" />
+    </RadioGroup>
+</LinearLayout>
