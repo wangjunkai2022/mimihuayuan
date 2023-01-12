@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="horizontal" android:id="@+id/ll_root" android:padding="@dimen/view_margin_large" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.comeback.data.widget.RatioImageView android:id="@+id/iv_cover" android:layout_width="128dp" android:layout_height="wrap_content" android:scaleType="centerCrop" app:radius="@dimen/view_margin_normal" app:ratio="0.8"/>
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/view_margin_large">
+        <TextView android:textSize="@dimen/text_title" android:textColor="@color/basic_primary_text" android:id="@+id/tv_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:singleLine="true"/>
+        <TextView android:textColor="@color/basic_third_text" android:id="@+id/tv_author" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/view_margin_small" android:singleLine="true"/>
+        <TextView android:textColor="@color/gkj_color2" android:id="@+id/tv_rank" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/view_margin_small" android:singleLine="true"/>
+        <TextView android:textColor="@color/gkj_color3" android:id="@+id/tv_tag" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/view_margin_small" android:singleLine="true"/>
+    </LinearLayout>
+</LinearLayout>

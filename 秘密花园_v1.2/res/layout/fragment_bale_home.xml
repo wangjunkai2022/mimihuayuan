@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/text_detail" android:textColor="@color/white" android:id="@id/tv_search" android:background="@drawable/bg_radius_trans_white_deep" android:padding="@dimen/view_margin_normal" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="@dimen/view_margin_normal" android:text="请输入关键词查找资源" android:drawablePadding="@dimen/view_margin_normal" android:layout_weight="1.0" android:drawableStart="@mipmap/icon_search_xj" android:paddingStart="@dimen/view_margin_large" android:layout_marginStart="@dimen/view_margin_normal" />
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/iv_screen" android:paddingTop="@dimen/view_margin_small" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/h_screen" android:paddingStart="@dimen/view_margin_normal" android:paddingEnd="@dimen/view_margin_normal" />
+    </LinearLayout>
+    <com.comeback.data.widget.CustomViewPager android:id="@id/view_pager" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.google.android.material.tabs.TabLayout android:id="@id/tab_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" app:tabIndicatorColor="#ffd9991d" app:tabMode="scrollable" app:tabSelectedTextColor="#ffd9991d" app:tabTextAppearance="@style/TabLayoutTextAppearance_16" app:tabTextColor="#ff999999" />
+    </com.comeback.data.widget.CustomViewPager>
+</LinearLayout>

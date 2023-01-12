@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.scwang.smartrefresh.layout.SmartRefreshLayout android:id="@+id/refreshLayout" android:layout_width="match_parent" android:layout_height="match_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior">
+        <androidx.recyclerview.widget.RecyclerView android:id="@+id/rv_list" android:layout_width="match_parent" android:layout_height="match_parent" android:overScrollMode="never"/>
+    </com.scwang.smartrefresh.layout.SmartRefreshLayout>
+    <com.google.android.material.appbar.AppBarLayout android:id="@+id/app_bar_layout" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.google.android.material.appbar.CollapsingToolbarLayout android:layout_width="match_parent" android:layout_height="wrap_content" app:expandedTitleGravity="0x33" app:scrimAnimationDuration="2000" app:scrimVisibleHeightTrigger="40dp" app:titleEnabled="true">
+            <ImageView android:id="@+id/iv_bg" android:layout_width="match_parent" android:layout_height="400dp" android:scaleType="centerCrop" app:layout_collapseMode="2" app:layout_collapseParallaxMultiplier="0.5"/>
+        </com.google.android.material.appbar.CollapsingToolbarLayout>
+        <LinearLayout android:orientation="vertical" android:background="@color/white" android:paddingTop="@dimen/view_margin_large" android:paddingBottom="@dimen/view_margin_normal" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/view_margin_large" android:paddingEnd="@dimen/view_margin_large">
+            <TextView android:textSize="20sp" android:textColor="@color/basic_primary_text" android:id="@+id/tv_title" android:paddingTop="@dimen/view_margin_normal" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+            <TextView android:textSize="@dimen/text_detail" android:textColor="@color/basic_secondary_text" android:id="@+id/tv_detail" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/view_margin_normal"/>
+        </LinearLayout>
+    </com.google.android.material.appbar.AppBarLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

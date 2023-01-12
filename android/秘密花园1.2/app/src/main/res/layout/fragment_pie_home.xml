@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <FrameLayout android:background="@color/white" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/logo_pie_home"/>
+        <ImageView android:layout_gravity="end|center_vertical" android:id="@+id/iv_search" android:padding="@dimen/view_margin_small" android:layout_width="48dp" android:layout_height="48dp" android:src="@mipmap/abb_search" android:layout_marginEnd="@dimen/view_margin_normal"/>
+    </FrameLayout>
+    <com.comeback.data.widget.CustomViewPager android:id="@+id/view_pager" android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.google.android.material.tabs.TabLayout android:id="@+id/tab_layout" android:background="@color/white" android:layout_width="match_parent" android:layout_height="wrap_content" app:tabIndicatorColor="@color/pie_green" app:tabIndicatorHeight="3dp" app:tabMode="1" app:tabSelectedTextColor="@color/basic_primary_text" app:tabTextColor="@color/basic_secondary_text"/>
+    </com.comeback.data.widget.CustomViewPager>
+</LinearLayout>

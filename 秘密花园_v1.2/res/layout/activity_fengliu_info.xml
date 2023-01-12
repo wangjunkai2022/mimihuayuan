@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView android:id="@id/scrollView" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:background="@color/white" android:padding="@dimen/view_margin_large" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/view_margin_normal">
+            <TextView android:textSize="20.0sp" android:textColor="@color/basic_primary_text" android:id="@id/tv_title" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <TextView android:textSize="@dimen/text_detail" android:textColor="@color/basic_secondary_text" android:id="@id/tv_state" android:paddingTop="@dimen/view_margin_large" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <TextView android:textColor="@color/basic_secondary_text" android:id="@id/tv_area" android:paddingTop="@dimen/view_margin_large" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <TextView android:textColor="@color/basic_secondary_text" android:id="@id/tv_age" android:paddingTop="@dimen/view_margin_large" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <TextView android:textColor="@color/basic_secondary_text" android:id="@id/tv_beauty" android:paddingTop="@dimen/view_margin_large" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <TextView android:textColor="@color/basic_secondary_text" android:id="@id/tv_price" android:paddingTop="@dimen/view_margin_large" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <TextView android:textColor="@color/basic_secondary_text" android:id="@id/tv_server" android:paddingTop="@dimen/view_margin_large" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lineSpacingExtra="@dimen/view_margin_small" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:background="@color/white" android:padding="@dimen/view_margin_large" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/view_margin_normal">
+            <TextView android:textSize="20.0sp" android:textColor="@color/basic_primary_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/view_margin_large" android:text="联系方式" android:drawablePadding="@dimen/view_margin_small" android:drawableStart="@drawable/ic_local_phone_black_24dp" />
+            <include layout="@layout/include_divide_line" />
+            <TextView android:background="@drawable/bg_radiu4_yellow" android:padding="@dimen/view_margin_large" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/view_margin_large" android:text="凡是有要求路费/定金/保证金/照片验证/视频验证等任何提前付费的行为，千万不要上当。同时也请注意仙人跳，在寻欢前不要露富和带过于贵重随身物品。本站为分享信息采集于网络，请自行甄别真假。" android:lineSpacingExtra="@dimen/view_margin_small" />
+            <TextView android:textColor="@color/basic_secondary_text" android:id="@id/tv_qq" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/view_margin_large" android:textIsSelectable="true" />
+            <TextView android:textColor="@color/basic_secondary_text" android:id="@id/tv_wechat" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/view_margin_large" android:lineSpacingExtra="@dimen/view_margin_small" android:textIsSelectable="true" />
+            <TextView android:textColor="@color/basic_secondary_text" android:id="@id/tv_phone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/view_margin_large" android:lineSpacingExtra="@dimen/view_margin_small" android:textIsSelectable="true" />
+            <TextView android:textColor="@color/basic_secondary_text" android:id="@id/tv_address" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/view_margin_large" android:lineSpacingExtra="@dimen/view_margin_small" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:background="@color/white" android:padding="@dimen/view_margin_large" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/view_margin_normal">
+            <TextView android:textSize="20.0sp" android:textColor="@color/basic_primary_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/view_margin_large" android:text="详细介绍" android:drawablePadding="@dimen/view_margin_small" android:drawableStart="@drawable/ic_info_outline_black_24dp" />
+            <include layout="@layout/include_divide_line" />
+            <TextView android:textColor="@color/basic_secondary_text" android:id="@id/tv_intro" android:paddingTop="@dimen/view_margin_large" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lineSpacingExtra="@dimen/view_margin_small" />
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/rv_list" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/view_margin_large" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:background="@color/white" android:padding="@dimen/view_margin_large" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/view_margin_normal">
+            <TextView android:textSize="20.0sp" android:textColor="@color/basic_primary_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/view_margin_large" android:text="当地推荐" android:drawablePadding="@dimen/view_margin_small" android:drawableStart="@drawable/ic_recomment_black_24dp" />
+            <include layout="@layout/include_divide_line" />
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/rv_recommend" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/view_margin_large" />
+        </LinearLayout>
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

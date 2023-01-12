@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:id="@id/fl_search" android:background="@color/white" android:paddingTop="30.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/view_margin_large" android:paddingEnd="@dimen/view_margin_large">
+        <TextView android:textSize="@dimen/text_detail" android:textColor="@color/basic_secondary_text" android:background="@drawable/bg_radius_grey" android:paddingTop="@dimen/view_margin_normal" android:paddingBottom="@dimen/view_margin_normal" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="搜你想看" android:drawableLeft="@mipmap/icon_search3" android:drawablePadding="@dimen/view_margin_normal" android:layout_weight="1.0" android:paddingStart="@dimen/view_margin_large" />
+        <ImageView android:id="@id/iv_like" android:paddingTop="@dimen/view_margin_small" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@mipmap/ic_km_like_normal" android:paddingStart="@dimen/view_margin_large" />
+    </LinearLayout>
+    <com.comeback.data.widget.CustomViewPager android:id="@id/view_pager" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.google.android.material.tabs.TabLayout android:id="@id/tab_layout" android:background="@color/white" android:paddingBottom="@dimen/view_margin_small" android:layout_width="fill_parent" android:layout_height="40.0dip" app:tabIndicatorColor="@color/hgColorAccent" app:tabMode="scrollable" app:tabSelectedTextColor="@color/hgColorAccent" app:tabTextAppearance="@style/TabLayoutTextAppearance_18" app:tabTextColor="@color/basic_secondary_text" />
+    </com.comeback.data.widget.CustomViewPager>
+</LinearLayout>

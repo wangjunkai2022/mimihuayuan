@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.comeback.data.widget.CustomViewPager android:id="@+id/view_pager" android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.google.android.material.tabs.TabLayout android:id="@+id/tab_layout" android:layout_width="match_parent" android:layout_height="wrap_content" app:tabGravity="1" app:tabIndicatorColor="#d9991d" app:tabMode="1" app:tabSelectedTextColor="#d9991d" app:tabTextAppearance="@style/TabLayoutTextAppearance_18" app:tabTextColor="#999999"/>
+    </com.comeback.data.widget.CustomViewPager>
+</LinearLayout>

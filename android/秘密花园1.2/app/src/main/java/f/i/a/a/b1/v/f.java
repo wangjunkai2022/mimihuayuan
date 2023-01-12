@@ -1,0 +1,14 @@
+package f.i.a.a.b1.v;
+
+import f.i.a.a.b1.n;
+import java.io.IOException;
+
+/* compiled from: OggSeeker.java */
+/* loaded from: classes.dex */
+public interface f {
+    n a();
+
+    long c(f.i.a.a.b1.d dVar) throws IOException, InterruptedException;
+
+    void d(long j2);
+}

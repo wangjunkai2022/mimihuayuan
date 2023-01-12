@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:background="@color/white" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <RelativeLayout android:orientation="horizontal" android:id="@+id/rl_ikun" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="40dp" android:layout_marginBottom="@dimen/view_margin_small">
+            <ImageView android:id="@+id/iv_ikun" android:paddingRight="@dimen/view_margin_large" android:layout_width="180dp" android:layout_height="80dp" android:src="@mipmap/ikun_logo" android:scaleType="fitCenter"/>
+            <TextView android:textSize="24sp" android:textColor="@color/basic_primary_text" android:id="@+id/tv_ikun" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="ikun资源站" android:layout_toRightOf="@+id/iv_ikun"/>
+            <TextView android:textSize="@dimen/text_detail" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="高清画质、热播影片、高峰不卡、国内CDN、秒拖秒播，资源永久免费！" android:maxLines="2" android:layout_toRightOf="@+id/iv_ikun" android:layout_below="@+id/tv_ikun"/>
+        </RelativeLayout>
+        <include layout="@layout/include_divide_line"/>
+        <RelativeLayout android:orientation="horizontal" android:id="@+id/rl_tk" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="40dp" android:layout_marginBottom="@dimen/view_margin_small">
+            <ImageView android:id="@+id/iv_tk" android:paddingRight="@dimen/view_margin_large" android:layout_width="180dp" android:layout_height="80dp" android:src="@mipmap/tank_logo"/>
+            <TextView android:textSize="24sp" android:textColor="@color/basic_primary_text" android:id="@+id/tv_tk" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="坦克资源网" android:layout_toRightOf="@+id/iv_tk"/>
+            <TextView android:textSize="@dimen/text_detail" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="全网更新最快 全网无广告资源同步更新" android:maxLines="2" android:layout_toRightOf="@+id/iv_tk" android:layout_below="@+id/tv_tk"/>
+        </RelativeLayout>
+        <include layout="@layout/include_divide_line"/>
+        <RelativeLayout android:orientation="horizontal" android:id="@+id/rl_sky" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="40dp" android:layout_marginBottom="@dimen/view_margin_small">
+            <ImageView android:id="@+id/iv_sky" android:paddingRight="@dimen/view_margin_large" android:layout_width="180dp" android:layout_height="80dp" android:src="@mipmap/sky_logo"/>
+            <TextView android:textSize="24sp" android:textColor="@color/basic_primary_text" android:id="@+id/tv_sky" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="天空资源" android:layout_toRightOf="@+id/iv_sky"/>
+            <TextView android:textSize="@dimen/text_detail" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="本站使用国内CDN加速！速度快到无法想象！" android:maxLines="2" android:layout_toRightOf="@+id/iv_sky" android:layout_below="@+id/tv_sky"/>
+        </RelativeLayout>
+        <include layout="@layout/include_divide_line"/>
+        <RelativeLayout android:orientation="horizontal" android:id="@+id/rl_ab" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="40dp" android:layout_marginBottom="@dimen/view_margin_small">
+            <ImageView android:id="@+id/iv_ab" android:paddingRight="@dimen/view_margin_large" android:layout_width="180dp" android:layout_height="80dp" android:src="@mipmap/ab_logo"/>
+            <TextView android:textSize="24sp" android:textColor="@color/basic_primary_text" android:id="@+id/tv_ab" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="爱播资源" android:layout_toRightOf="@+id/iv_ab"/>
+            <TextView android:textSize="@dimen/text_detail" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="这家伙很懒，没有介绍" android:maxLines="2" android:layout_toRightOf="@+id/iv_ab" android:layout_below="@+id/tv_ab"/>
+        </RelativeLayout>
+        <include layout="@layout/include_divide_line"/>
+        <RelativeLayout android:orientation="horizontal" android:id="@+id/rl_lz" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="40dp" android:layout_marginBottom="@dimen/view_margin_small">
+            <ImageView android:id="@+id/iv_lz" android:paddingRight="@dimen/view_margin_large" android:layout_width="180dp" android:layout_height="80dp" android:src="@mipmap/lz_logo"/>
+            <TextView android:textSize="24sp" android:textColor="@color/basic_primary_text" android:id="@+id/tv_lz" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="量子资源" android:layout_toRightOf="@+id/iv_lz"/>
+            <TextView android:textSize="@dimen/text_detail" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="本站使用量子CDN加速，速度快到无法想象，全新上线，欢迎测试！！！" android:maxLines="2" android:layout_toRightOf="@+id/iv_lz" android:layout_below="@+id/tv_lz"/>
+        </RelativeLayout>
+        <include layout="@layout/include_divide_line"/>
+        <RelativeLayout android:orientation="horizontal" android:id="@+id/rl_kd" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="40dp" android:layout_marginBottom="@dimen/view_margin_small">
+            <ImageView android:id="@+id/iv_kd" android:paddingRight="@dimen/view_margin_large" android:layout_width="180dp" android:layout_height="80dp" android:src="@mipmap/kd_logo"/>
+            <TextView android:textSize="24sp" android:textColor="@color/basic_primary_text" android:id="@+id/tv_kd" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="酷点资源" android:layout_toRightOf="@+id/iv_kd"/>
+            <TextView android:textSize="@dimen/text_detail" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="本站使用国内CDN加速，速度快到无法想象" android:maxLines="2" android:layout_toRightOf="@+id/iv_kd" android:layout_below="@+id/tv_kd"/>
+        </RelativeLayout>
+        <include layout="@layout/include_divide_line"/>
+        <RelativeLayout android:orientation="horizontal" android:id="@+id/rl_tom" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="40dp" android:layout_marginBottom="@dimen/view_margin_small">
+            <ImageView android:id="@+id/iv_tom" android:paddingRight="@dimen/view_margin_large" android:layout_width="180dp" android:layout_height="80dp" android:src="@mipmap/tom_logo"/>
+            <TextView android:textSize="24sp" android:textColor="@color/basic_primary_text" android:id="@+id/tv_tom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Tom资源网" android:layout_toRightOf="@+id/iv_tom"/>
+            <TextView android:textSize="@dimen/text_detail" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="这家伙很懒，没有介绍" android:maxLines="2" android:layout_toRightOf="@+id/iv_tom" android:layout_below="@+id/tv_tom"/>
+        </RelativeLayout>
+        <include layout="@layout/include_divide_line"/>
+        <RelativeLayout android:orientation="horizontal" android:id="@+id/rl_senlin" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="40dp" android:layout_marginBottom="@dimen/view_margin_small">
+            <ImageView android:id="@+id/iv_senlin" android:paddingRight="@dimen/view_margin_large" android:layout_width="180dp" android:layout_height="80dp" android:src="@mipmap/senlin_logo" android:scaleType="fitCenter"/>
+            <TextView android:textSize="24sp" android:textColor="@color/basic_primary_text" android:id="@+id/tv_senlin" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="森林资源站" android:layout_toRightOf="@+id/iv_senlin"/>
+            <TextView android:textSize="@dimen/text_detail" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="全网独家无水印资源，欢迎查看！（成人资源）" android:maxLines="2" android:layout_toRightOf="@+id/iv_senlin" android:layout_below="@+id/tv_senlin"/>
+        </RelativeLayout>
+        <include layout="@layout/include_divide_line"/>
+        <RelativeLayout android:orientation="horizontal" android:id="@+id/rl_ly" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="40dp" android:layout_marginBottom="@dimen/view_margin_small">
+            <ImageView android:id="@+id/iv_ly" android:paddingRight="@dimen/view_margin_large" android:layout_width="180dp" android:layout_height="80dp" android:src="@mipmap/ly_logo"/>
+            <TextView android:textSize="24sp" android:textColor="@color/basic_primary_text" android:id="@+id/tv_ly" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="老鸭资源" android:layout_toRightOf="@+id/iv_ly"/>
+            <TextView android:textSize="@dimen/text_detail" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="资源永久免费,资源不含任何广告,无广告永久免费的资源站（成人资源）" android:maxLines="2" android:layout_toRightOf="@+id/iv_ly" android:layout_below="@+id/tv_ly"/>
+        </RelativeLayout>
+        <include layout="@layout/include_divide_line"/>
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

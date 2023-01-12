@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center" android:orientation="vertical" android:background="@color/white" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:id="@+id/tv_hint" android:padding="@dimen/view_margin_large" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="提示：如果视频播放卡顿，请尝试切换服务器节点"/>
+    <RadioGroup android:id="@+id/radio_group" android:padding="@dimen/view_margin_large" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <RadioButton android:textColor="@color/km_select" android:id="@+id/radio_1" android:padding="@dimen/view_margin_normal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="国内节点1" android:buttonTint="@color/km_select"/>
+        <RadioButton android:textColor="@color/km_select" android:id="@+id/radio_2" android:padding="@dimen/view_margin_normal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="国内节点2" android:buttonTint="@color/km_select"/>
+        <RadioButton android:textColor="@color/km_select" android:id="@+id/radio_3" android:padding="@dimen/view_margin_normal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="海外节点" android:buttonTint="@color/km_select"/>
+    </RadioGroup>
+</LinearLayout>

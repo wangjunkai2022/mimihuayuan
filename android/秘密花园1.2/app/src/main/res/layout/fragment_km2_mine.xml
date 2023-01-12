@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageView android:layout_width="match_parent" android:layout_height="wrap_content" android:src="@mipmap/km_mine_bg" android:scaleType="fitXY" android:adjustViewBounds="true"/>
+    <LinearLayout android:orientation="horizontal" android:id="@+id/ll_collect" android:paddingLeft="15dp" android:paddingRight="15dp" android:layout_width="match_parent" android:layout_height="50dp">
+        <TextView android:textColor="@color/basic_primary_text" android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="收藏的视频" android:drawableLeft="@mipmap/ic_km_colletion_select" android:drawablePadding="16dp" android:layout_weight="1"/>
+        <ImageView android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@mipmap/km_detail_btn_arrow_normal"/>
+    </LinearLayout>
+    <View android:background="#f0f0f0" android:layout_width="match_parent" android:layout_height="0.5dp" android:layout_marginLeft="35dp"/>
+    <LinearLayout android:orientation="horizontal" android:id="@+id/ll_star" android:paddingLeft="15dp" android:paddingRight="15dp" android:layout_width="match_parent" android:layout_height="50dp">
+        <TextView android:textColor="@color/basic_primary_text" android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="关注" android:drawableLeft="@mipmap/ic_km_like_selected" android:drawablePadding="16dp" android:layout_weight="1"/>
+        <ImageView android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@mipmap/km_detail_btn_arrow_normal"/>
+    </LinearLayout>
+    <View android:background="#f0f0f0" android:layout_width="match_parent" android:layout_height="0.5dp" android:layout_marginLeft="35dp"/>
+    <TextView android:textSize="18sp" android:textColor="@color/basic_primary_text" android:paddingLeft="@dimen/view_margin_large" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/view_margin_large" android:layout_marginBottom="@dimen/view_margin_large" android:text="资源节点(影响页面展示速度)" android:paddingEnd="@dimen/view_margin_large"/>
+    <RadioGroup android:orientation="horizontal" android:id="@+id/radio_group_host" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="@dimen/view_margin_large" android:paddingEnd="@dimen/view_margin_large">
+        <RadioButton android:textColor="@color/km_select" android:id="@+id/radio_host1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="默认节点" android:buttonTint="@color/km_select"/>
+        <RadioButton android:textColor="@color/km_select" android:id="@+id/radio_host2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="备用节点1" android:buttonTint="@color/km_select"/>
+    </RadioGroup>
+    <TextView android:textSize="18sp" android:textColor="@color/basic_primary_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/view_margin_large" android:layout_marginBottom="@dimen/view_margin_large" android:text="播放节点(影响视频播放速度)" android:paddingStart="@dimen/view_margin_large" android:paddingEnd="@dimen/view_margin_large"/>
+    <RadioGroup android:orientation="horizontal" android:id="@+id/radio_group_play" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="@dimen/view_margin_large" android:paddingEnd="@dimen/view_margin_large">
+        <RadioButton android:textColor="@color/km_select" android:id="@+id/radio_play1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="默认节点" android:buttonTint="@color/km_select"/>
+        <RadioButton android:textColor="@color/km_select" android:id="@+id/radio_play2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="VIP 节点" android:buttonTint="@color/km_select"/>
+    </RadioGroup>
+</LinearLayout>

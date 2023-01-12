@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="128.0dip">
+        <ImageView android:id="@id/iv_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/ranked_watchvideo_img" android:scaleType="centerCrop" />
+        <com.google.android.material.tabs.TabLayout android:layout_gravity="bottom" android:id="@id/tab_layout" android:layout_width="fill_parent" android:layout_height="36.0dip" android:layout_marginStart="@dimen/view_margin_normal" android:layout_marginEnd="@dimen/view_margin_normal" app:tabBackground="@drawable/selector_cucumber_rank2" app:tabIndicatorHeight="0.0dip" app:tabMode="scrollable" app:tabSelectedTextColor="@color/basic_primary_text" app:tabTextColor="@color/white" />
+    </FrameLayout>
+    <com.comeback.data.widget.CustomViewPager android:id="@id/view_pager" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</LinearLayout>

@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android" android:textSize="@dimen/text_title" android:textColor="#d9991d" android:id="@+id/tv_name" android:background="#161823" android:paddingTop="@dimen/view_margin_small" android:paddingBottom="@dimen/view_margin_small" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="人气女优" android:paddingStart="@dimen/view_margin_large"/>

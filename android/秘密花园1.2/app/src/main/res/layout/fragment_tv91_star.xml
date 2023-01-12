@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="#303030" android:layout_width="match_parent" android:layout_height="match_parent">
+    <FrameLayout android:background="#1e1e1e" android:layout_width="match_parent" android:layout_height="48dp">
+        <TextView android:textSize="20sp" android:textColor="@color/white" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="女优分类"/>
+        <ImageView android:layout_gravity="end|center_vertical" android:id="@+id/iv_search" android:padding="@dimen/view_margin_normal" android:layout_width="40dp" android:layout_height="40dp" android:src="@mipmap/icon_search_xj" android:layout_marginEnd="@dimen/view_margin_normal"/>
+    </FrameLayout>
+    <com.scwang.smartrefresh.layout.SmartRefreshLayout android:id="@+id/refreshLayout" android:layout_width="match_parent" android:layout_height="match_parent">
+        <androidx.recyclerview.widget.RecyclerView android:id="@+id/rv_list" android:layout_width="match_parent" android:layout_height="match_parent" android:overScrollMode="never"/>
+    </com.scwang.smartrefresh.layout.SmartRefreshLayout>
+</LinearLayout>

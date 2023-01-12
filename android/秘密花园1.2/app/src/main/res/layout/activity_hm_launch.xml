@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <FrameLayout android:id="@+id/fl_load" android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.wang.avi.AVLoadingIndicatorView android:layout_gravity="center" android:id="@+id/loading" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/view_margin_xlarge" app:indicatorColor="@color/basic_primary_text" app:indicatorName="BallTrianglePathIndicator"/>
+        <TextView android:textSize="@dimen/text_detail" android:textColor="@color/basic_primary_text" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/view_margin_xlarge" android:text="正在更新配置..."/>
+    </FrameLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:paddingTop="@dimen/view_margin_xlarge" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+        <TextView android:textSize="64sp" android:textStyle="bold" android:textColor="@color/basic_primary_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="韩漫"/>
+        <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textSize="24sp" android:textColor="@color/gkj_color2" android:id="@+id/tv_hm1" android:background="@drawable/bg_radius_grey_stoke2" android:paddingTop="@dimen/view_margin_small" android:paddingBottom="@dimen/view_margin_small" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/view_margin_xlarge" android:text="节点一" android:paddingStart="@dimen/view_margin_large" android:paddingEnd="@dimen/view_margin_large"/>
+            <TextView android:textSize="24sp" android:textColor="@color/gkj_color2" android:id="@+id/tv_hm2" android:background="@drawable/bg_radius_grey_stoke2" android:paddingTop="@dimen/view_margin_small" android:paddingBottom="@dimen/view_margin_small" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/view_margin_xlarge" android:text="节点二" android:paddingStart="@dimen/view_margin_large" android:paddingEnd="@dimen/view_margin_large" android:layout_marginStart="@dimen/view_margin_large"/>
+        </LinearLayout>
+    </LinearLayout>
+    <include layout="@layout/include_divide_line"/>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:paddingBottom="@dimen/view_margin_xlarge" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+        <TextView android:textSize="64sp" android:textStyle="bold" android:textColor="@color/basic_primary_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="小说"/>
+        <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textSize="24sp" android:textColor="@color/gkj_color2" android:id="@+id/tv_novel1" android:background="@drawable/bg_radius_grey_stoke2" android:paddingTop="@dimen/view_margin_small" android:paddingBottom="@dimen/view_margin_small" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/view_margin_xlarge" android:text="节点一" android:paddingStart="@dimen/view_margin_large" android:paddingEnd="@dimen/view_margin_large"/>
+            <TextView android:textSize="24sp" android:textColor="@color/gkj_color2" android:id="@+id/tv_novel2" android:background="@drawable/bg_radius_grey_stoke2" android:paddingTop="@dimen/view_margin_small" android:paddingBottom="@dimen/view_margin_small" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/view_margin_xlarge" android:text="节点二" android:paddingStart="@dimen/view_margin_large" android:paddingEnd="@dimen/view_margin_large" android:layout_marginStart="@dimen/view_margin_large"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

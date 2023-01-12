@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@mipmap/tv91_home" android:id="@+id/navigation_home" android:title="首页"/>
+    <item android:icon="@mipmap/tv91_type" android:id="@+id/navigation_type" android:title="类别"/>
+    <item android:icon="@mipmap/tv91_star" android:id="@+id/navigation_star" android:title="女优"/>
+    <item android:icon="@mipmap/tv91_novel" android:id="@+id/navigation_novel" android:title="小说"/>
+</menu>

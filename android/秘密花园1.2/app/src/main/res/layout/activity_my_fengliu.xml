@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="horizontal" android:background="@color/white" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@+id/ll_area" android:padding="@dimen/view_margin_normal" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+            <TextView android:textSize="@dimen/text_title" android:textColor="@color/basic_secondary_text" android:gravity="center" android:layout_gravity="center_vertical" android:id="@+id/tv_area" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="全国"/>
+            <ImageView android:layout_gravity="center_vertical" android:padding="@dimen/view_margin_normal" android:layout_width="30dp" android:layout_height="30dp" android:src="@mipmap/ic_arrow_left" android:tint="@color/basic_secondary_text" android:rotation="270"/>
+        </LinearLayout>
+    </LinearLayout>
+    <include layout="@layout/include_divide_line"/>
+    <FrameLayout android:layout_width="match_parent" android:layout_height="match_parent">
+        <include layout="@layout/base_refresh_recycler"/>
+        <com.google.android.material.floatingactionbutton.FloatingActionButton android:layout_gravity="end|bottom" android:id="@+id/fab" android:background="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/view_margin_large" android:src="@mipmap/abb_search" app:backgroundTint="@color/white" app:elevation="@dimen/view_margin_normal" app:fabSize="0"/>
+    </FrameLayout>
+</LinearLayout>

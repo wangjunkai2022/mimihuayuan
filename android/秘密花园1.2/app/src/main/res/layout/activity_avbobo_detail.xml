@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <chuangyuan.ycj.videolibrary.widget.VideoPlayerView android:id="@+id/video_view" android:background="@android:color/transparent" android:layout_width="match_parent" android:layout_height="220dp" app:fastforward_increment="100" app:player_load_layout_id="@layout/widget_video_load" app:resize_mode="4" app:rewind_increment="100" app:show_timeout="1000000000" app:surface_type="2"/>
+    <androidx.core.widget.NestedScrollView android:background="@color/white" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <RelativeLayout android:orientation="vertical" android:padding="8dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="18sp" android:textStyle="bold" android:textColor="@color/basic_primary_text" android:id="@+id/tv_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2"/>
+                <TextView android:textSize="12sp" android:textColor="@color/basic_secondary_text" android:id="@+id/tv_detail" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:layout_marginBottom="@dimen/view_margin_normal" android:maxLines="1" android:layout_below="@+id/tv_title"/>
+                <TextView android:textColor="@color/kmColorAccent" android:id="@+id/tv_line" android:padding="@dimen/view_margin_normal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="播放线路设置" android:layout_alignParentBottom="true" android:layout_alignParentEnd="true"/>
+            </RelativeLayout>
+            <LinearLayout android:orientation="vertical" android:id="@+id/ll_line" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <RadioGroup android:orientation="horizontal" android:id="@+id/radio_group_type" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <RadioButton android:textSize="@dimen/text_detail" android:textColor="@color/lutube_select" android:id="@+id/radio_type1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="720P" android:buttonTint="@color/lutube_select"/>
+                    <RadioButton android:textSize="@dimen/text_detail" android:textColor="@color/lutube_select" android:id="@+id/radio_type2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="480P" android:buttonTint="@color/lutube_select"/>
+                    <RadioButton android:textSize="@dimen/text_detail" android:textColor="@color/lutube_select" android:id="@+id/radio_type3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="360P" android:buttonTint="@color/lutube_select"/>
+                    <RadioButton android:textSize="@dimen/text_detail" android:textColor="@color/lutube_select" android:id="@+id/radio_type4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="270P" android:buttonTint="@color/lutube_select"/>
+                </RadioGroup>
+                <RadioGroup android:orientation="horizontal" android:id="@+id/radio_group_line" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <RadioButton android:textSize="@dimen/text_detail" android:textColor="@color/lutube_select" android:id="@+id/radio_line1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true" android:text="国内线路" android:buttonTint="@color/lutube_select"/>
+                    <RadioButton android:textSize="@dimen/text_detail" android:textColor="@color/lutube_select" android:id="@+id/radio_line2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="海外线路" android:buttonTint="@color/lutube_select"/>
+                </RadioGroup>
+            </LinearLayout>
+            <TextView android:textSize="@dimen/text_title" android:textColor="@color/basic_primary_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/view_margin_normal" android:text="猜你喜欢" android:paddingStart="@dimen/view_margin_normal"/>
+            <androidx.recyclerview.widget.RecyclerView android:id="@+id/rv_list" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>

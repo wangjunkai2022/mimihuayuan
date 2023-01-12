@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/view_margin_normal" android:layout_marginStart="@dimen/view_margin_small" android:layout_marginEnd="@dimen/view_margin_small">
+    <com.youth.banner.Banner android:id="@+id/banner" android:layout_width="match_parent" android:layout_height="200dp"/>
+</LinearLayout>

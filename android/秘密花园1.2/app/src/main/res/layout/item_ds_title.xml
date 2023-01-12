@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal" android:background="@color/white" android:padding="@dimen/view_margin_normal" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="@dimen/view_margin_normal">
+    <View android:background="@color/kmColorAccent" android:layout_width="3dp" android:layout_height="24dp"/>
+    <TextView android:textSize="18sp" android:textColor="@color/basic_primary_text" android:gravity="center_vertical" android:id="@+id/tv_name" android:layout_width="0dp" android:layout_height="24dp" android:layout_weight="1" android:layout_marginStart="@dimen/view_margin_small"/>
+    <TextView android:gravity="center_vertical" android:id="@+id/tv_more" android:layout_width="wrap_content" android:layout_height="24dp" android:text="更多" android:drawableRight="@mipmap/ic_right_primary"/>
+</LinearLayout>

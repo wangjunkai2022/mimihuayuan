@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/select_main_tab_live" android:id="@+id/navigation_video" android:title="直播"/>
+    <item android:icon="@drawable/select_main_tab_home" android:id="@+id/navigation_av" android:title="首页"/>
+    <item android:icon="@drawable/select_main_tab_papa" android:id="@+id/navigation_type" android:title="啪啪"/>
+</menu>

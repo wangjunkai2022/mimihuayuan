@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <chuangyuan.ycj.videolibrary.widget.VideoPlayerView android:id="@+id/video_view" android:background="@android:color/transparent" android:layout_width="match_parent" android:layout_height="250dp" app:controller_layout_id="@layout/widget_video_control" app:fastforward_increment="100" app:player_load_layout_id="@layout/widget_video_load" app:resize_mode="4" app:rewind_increment="100" app:show_timeout="1000000000" app:surface_type="2"/>
+    <LinearLayout android:orientation="vertical" android:background="@color/white" android:padding="16dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="16sp" android:textColor="@color/basic_primary_text" android:id="@+id/tv_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1"/>
+        <TextView android:textSize="12sp" android:textColor="@color/basic_secondary_text" android:id="@+id/tv_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4dp"/>
+        <TextView android:textSize="12sp" android:textColor="@color/basic_secondary_text" android:id="@+id/tv_detail" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:maxLines="4"/>
+    </LinearLayout>
+    <androidx.recyclerview.widget.RecyclerView android:id="@+id/rv_list" android:layout_width="match_parent" android:layout_height="match_parent"/>
+</LinearLayout>

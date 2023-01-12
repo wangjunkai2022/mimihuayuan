@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/ll_root" android:paddingTop="@dimen/view_margin_large" android:paddingBottom="@dimen/view_margin_large" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/view_margin_normal" android:paddingEnd="@dimen/view_margin_normal"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/tv_tag" android:background="@drawable/bg_radiu2_grey_stoke" android:paddingTop="2.0dip" android:paddingBottom="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="武侠古典" android:paddingStart="@dimen/view_margin_small" android:paddingEnd="@dimen/view_margin_small" />
+    <TextView android:textSize="@dimen/text_title" android:textColor="@color/basic_primary_text" android:id="@id/tv_title" android:layout_width="0.0dip" android:layout_height="wrap_content" android:singleLine="true" android:layout_weight="1.0" android:layout_marginStart="@dimen/view_margin_normal" />
+    <TextView android:textColor="@color/kmColorAccent" android:id="@id/tv_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="7116" android:drawablePadding="@dimen/view_margin_small" android:drawableStart="@mipmap/icon_hot_1" />
+</LinearLayout>

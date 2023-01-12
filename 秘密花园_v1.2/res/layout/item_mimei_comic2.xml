@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/rl_root" android:padding="@dimen/view_margin_small" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.comeback.data.widget.RatioImageView android:id="@id/iv_cover" android:layout_width="fill_parent" android:layout_height="wrap_content" android:scaleType="centerCrop" app:radius="@dimen/view_margin_normal" app:ratio="1.33" />
+    <TextView android:textColor="@color/basic_primary_text" android:id="@id/tv_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/view_margin_small" android:layout_below="@id/iv_cover" />
+    <TextView android:textSize="@dimen/text_detail" android:textColor="@color/basic_third_text" android:id="@id/tv_state" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/view_margin_small" android:layout_below="@id/tv_name" />
+    <TextView android:textSize="@dimen/text_detail" android:textColor="@color/white" android:id="@id/tv_state2" android:background="@drawable/bg_radius4_red" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/view_margin_normal" android:text="连载" android:layout_alignParentEnd="true" />
+</RelativeLayout>

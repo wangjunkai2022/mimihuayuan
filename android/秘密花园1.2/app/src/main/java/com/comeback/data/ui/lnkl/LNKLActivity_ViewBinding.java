@@ -1,0 +1,91 @@
+package com.comeback.data.ui.lnkl;
+
+import android.view.View;
+import android.widget.TextView;
+import androidx.annotation.UiThread;
+import com.comeback.data.base.BaseRefreshActivity_ViewBinding;
+import com.comeback.data.ui.lnkl.LNKLActivity;
+import com.comeback.secret.garden.R;
+import d.c.b;
+import d.c.c;
+import f.c.a.h.d;
+import f.e.a.e;
+import java.util.ArrayList;
+
+/* loaded from: classes.dex */
+public class LNKLActivity_ViewBinding extends BaseRefreshActivity_ViewBinding {
+
+    /* renamed from: c  reason: collision with root package name */
+    public LNKLActivity f1454c;
+
+    /* renamed from: d  reason: collision with root package name */
+    public View f1455d;
+
+    /* loaded from: classes.dex */
+    public class a extends b {
+
+        /* renamed from: c  reason: collision with root package name */
+        public final /* synthetic */ LNKLActivity f1456c;
+
+        public a(LNKLActivity_ViewBinding lNKLActivity_ViewBinding, LNKLActivity lNKLActivity) {
+            this.f1456c = lNKLActivity;
+        }
+
+        @Override // d.c.b
+        public void a(View view) {
+            final LNKLActivity lNKLActivity = this.f1456c;
+            if (lNKLActivity != null) {
+                final ArrayList arrayList = new ArrayList();
+                arrayList.add(e.a("0fXGgvff36TTgZTm"));
+                arrayList.add(e.a("0c7Eg9X936TTgZTm"));
+                arrayList.add(e.a("0NbDgNHJ36/6gZTm"));
+                arrayList.add(e.a("0fXGgvff36/6gZTm"));
+                arrayList.add(e.a("YTCL0e+Vg6M="));
+                arrayList.add(e.a("3/H+ge763L3sga//"));
+                arrayList.add(e.a("0f7qg8vyeGU="));
+                arrayList.add(e.a("0OHOjfzb0ZT1j5b2"));
+                arrayList.add(e.a("09rOgv303LnbgIjM"));
+                arrayList.add(e.a("0uvEguj23I7Cgb3g"));
+                arrayList.add(e.a("0vnegNHU0bTZgL/q"));
+                d dVar = new d() { // from class: f.e.a.j.a0.a
+                    @Override // f.c.a.h.d
+                    public final void a(int i2, int i3, int i4, View view2) {
+                        LNKLActivity.this.t(arrayList, i2, i3, i4, view2);
+                    }
+                };
+                f.c.a.g.a aVar = new f.c.a.g.a(1);
+                aVar.t = lNKLActivity;
+                aVar.a = dVar;
+                f.c.a.i.e eVar = new f.c.a.i.e(aVar);
+                eVar.f(arrayList, null, null);
+                eVar.e();
+                return;
+            }
+            throw null;
+        }
+    }
+
+    @UiThread
+    public LNKLActivity_ViewBinding(LNKLActivity lNKLActivity, View view) {
+        super(lNKLActivity, view);
+        this.f1454c = lNKLActivity;
+        lNKLActivity.tvType = (TextView) c.c(view, R.id.tv_type, e.a("UQsGCA9THkcFMk0XHU0="), TextView.class);
+        View b = c.b(view, R.id.ll_type, e.a("WgcXDAQXGRQcCGIOHR0gB14BCAEPVA=="));
+        this.f1455d = b;
+        b.setOnClickListener(new a(this, lNKLActivity));
+    }
+
+    @Override // com.comeback.data.base.BaseRefreshActivity_ViewBinding, butterknife.Unbinder
+    public void a() {
+        LNKLActivity lNKLActivity = this.f1454c;
+        if (lNKLActivity != null) {
+            this.f1454c = null;
+            lNKLActivity.tvType = null;
+            this.f1455d.setOnClickListener(null);
+            this.f1455d = null;
+            super.a();
+            return;
+        }
+        throw new IllegalStateException(e.a("dQsNAAIdXkBTB1gVHQsHEhcBDwEKAVxXXQ=="));
+    }
+}

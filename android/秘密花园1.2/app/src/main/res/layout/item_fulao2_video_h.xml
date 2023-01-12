@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:id="@+id/ll_root" android:layout_width="128dp" android:layout_height="wrap_content" android:layout_marginEnd="@dimen/view_margin_normal">
+    <com.comeback.data.widget.RatioImageView android:id="@+id/iv_img" android:layout_width="match_parent" android:layout_height="wrap_content" android:scaleType="centerCrop" app:radius="@dimen/view_margin_normal" app:ratio="1.42"/>
+    <TextView android:textSize="@dimen/text_detail" android:textColor="@color/basic_primary_text" android:ellipsize="end" android:id="@+id/tv_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/view_margin_small" android:text="我操了个白嫩巨乳女大生，这回可真是值回票价了～" android:maxLines="2" android:paddingStart="2dp"/>
+</LinearLayout>

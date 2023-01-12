@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:id="@+id/ll_root" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <androidx.cardview.widget.CardView android:layout_width="match_parent" android:layout_height="200dp" android:layout_marginLeft="14dp" android:layout_marginTop="14dp" android:layout_marginRight="14dp" app:cardCornerRadius="10dp" app:cardElevation="0dp" app:cardPreventCornerOverlap="true">
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
+            <ImageView android:id="@+id/ivVideoCover" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="fitXY"/>
+            <ImageView android:id="@+id/ivExclusive" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@mipmap/icon_video_du_jia" android:layout_alignParentLeft="true"/>
+            <ImageView android:id="@+id/ivVip" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@mipmap/icon_vip_jiao_biao" android:layout_alignParentRight="true"/>
+            <ImageView android:id="@+id/ivPlayVideo" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="60dp" android:src="@mipmap/icon_bf" android:layout_centerHorizontal="true"/>
+            <TextView android:textSize="16sp" android:textStyle="bold" android:textColor="@color/white" android:ellipsize="end" android:id="@+id/tvVideoTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="14dp" android:layout_marginRight="10dp" android:layout_marginBottom="12dp" android:maxLines="1" android:layout_toLeftOf="@+id/tvVideoDurtion" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true"/>
+            <TextView android:textSize="12sp" android:textColor="@color/white" android:id="@+id/tvVideoDurtion" android:background="@drawable/bg_xj_trans30" android:padding="4dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="14dp" android:layout_marginBottom="12dp" android:layout_alignParentRight="true" android:layout_alignParentBottom="true"/>
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+    <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="30dp" android:layout_marginTop="10dp" android:layout_marginRight="24dp" android:layout_marginBottom="5dp">
+        <TextView android:textSize="12sp" android:textColor="#aaaaaa" android:gravity="center" android:id="@+id/tvdzan" android:padding="2dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:drawableLeft="@mipmap/icon_dz_gray" android:drawablePadding="5dp"/>
+        <TextView android:textSize="12sp" android:textColor="#aaaaaa" android:gravity="center" android:id="@+id/tvplun" android:padding="2dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="24dp" android:drawableLeft="@mipmap/icon_pinglun_gray" android:drawablePadding="5dp"/>
+        <TextView android:textSize="12sp" android:textColor="#aaaaaa" android:gravity="right" android:id="@+id/tvTime" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="2dp"/>
+    </LinearLayout>
+</LinearLayout>

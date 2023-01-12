@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/ll_root" android:layout_width="fill_parent" android:layout_height="108.0dip" android:layout_marginBottom="@dimen/view_margin_xlarge" android:layout_marginStart="@dimen/view_margin_normal" android:layout_marginEnd="@dimen/view_margin_normal"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.comeback.data.widget.RatioImageView android:id="@id/iv_cover" android:layout_width="88.0dip" android:layout_height="88.0dip" app:radius="80.0dip" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/view_margin_large">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@id/iv_band" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_gold_medal" android:layout_marginEnd="@dimen/view_margin_normal" />
+            <TextView android:textStyle="bold" android:id="@id/tv_num" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <TextView android:textColor="@color/basic_primary_text" android:id="@id/tv_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/view_margin_normal" android:maxLines="2" />
+        <TextView android:textSize="@dimen/text_detail" android:textColor="@color/basic_third_text" android:id="@id/tv_time" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/view_margin_normal" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="#ff161823" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="20.0sp" android:textColor="@color/white" android:gravity="center" android:id="@id/tv_title" android:layout_width="fill_parent" android:layout_height="48.0dip" android:text="全部高清影片" />
+    <com.comeback.data.widget.CustomViewPager android:id="@id/view_pager" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.google.android.material.tabs.TabLayout android:id="@id/tab_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" app:tabIndicatorHeight="0.0dip" app:tabMode="scrollable" app:tabSelectedTextColor="@color/white" app:tabTextAppearance="@style/TabLayoutTextAppearance_18" app:tabTextColor="#ff999999" />
+    </com.comeback.data.widget.CustomViewPager>
+</LinearLayout>

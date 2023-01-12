@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/icon_isiyu_home" android:id="@+id/navigation_home" android:title="首页"/>
+    <item android:icon="@drawable/icon_isiyu_new" android:id="@+id/navigation_new" android:title="最新"/>
+    <item android:icon="@drawable/icon_isiyu_special" android:id="@+id/navigation_special" android:title="系列"/>
+</menu>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal" android:id="@+id/ll_root" android:padding="12dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="5">
+        <TextView android:textSize="@dimen/text_title" android:textColor="@color/basic_primary_text" android:id="@+id/tv_name" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        <TextView android:textSize="@dimen/text_detail" android:textColor="@color/basic_third_text" android:id="@+id/tv_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/view_margin_small"/>
+    </LinearLayout>
+    <ImageView android:id="@+id/iv_down" android:layout_width="0dp" android:layout_height="40dp" android:src="@drawable/maomi_download" android:layout_weight="1" android:scaleX="0.8" android:scaleY="0.8"/>
+    <ImageView android:id="@+id/iv_delete" android:layout_width="0dp" android:layout_height="40dp" android:src="@mipmap/icon_delete_main" android:layout_weight="1" android:scaleX="0.8" android:scaleY="0.8"/>
+</LinearLayout>
