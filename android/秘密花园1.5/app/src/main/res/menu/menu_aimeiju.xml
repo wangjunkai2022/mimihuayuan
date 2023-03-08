@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/ic_home_black_24dp" android:id="@+id/navigation_recommend" android:title="推荐"/>
+    <item android:icon="@drawable/ic_dashboard_black_24dp" android:id="@+id/navigation_hanju" android:title="综合"/>
+    <item android:icon="@drawable/ic_tv_black_24dp" android:id="@+id/navigation_meiju" android:title="美剧"/>
+</menu>

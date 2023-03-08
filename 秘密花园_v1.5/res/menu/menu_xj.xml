@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/drawable_tab_home" android:id="@id/menu_home" android:title="首页" />
+    <item android:icon="@drawable/drawable_tab_fanlei" android:id="@id/menu_chanel" android:title="频道" />
+    <item android:icon="@drawable/drawable_tab_video" android:id="@id/menu_short" android:title="小视频" />
+    <item android:icon="@drawable/drawable_tab_hot" android:id="@id/menu_hot" android:title="热点" />
+</menu>

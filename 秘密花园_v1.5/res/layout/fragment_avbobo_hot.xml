@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.scwang.smartrefresh.layout.SmartRefreshLayout android:id="@id/refreshLayout" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior">
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/rv_list" android:layout_width="fill_parent" android:layout_height="fill_parent" android:overScrollMode="never" />
+    </com.scwang.smartrefresh.layout.SmartRefreshLayout>
+    <com.google.android.material.appbar.AppBarLayout android:orientation="vertical" android:id="@id/app_bar_layout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:background="@color/grey_50" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="48.0dip" app:layout_scrollFlags="enterAlwaysCollapsed|scroll">
+            <include layout="@layout/include_divide_line" />
+            <com.google.android.material.tabs.TabLayout android:id="@id/tab1" android:layout_width="fill_parent" android:layout_height="36.0dip" android:layout_marginTop="@dimen/view_margin_small" android:layout_marginBottom="@dimen/view_margin_small" app:tabBackground="@drawable/selector_abb" app:tabIndicatorColor="@null" app:tabMode="scrollable" app:tabSelectedTextColor="@color/kmColorAccent" app:tabTextColor="@color/basic_third_text" />
+            <com.google.android.material.tabs.TabLayout android:id="@id/tab2" android:layout_width="fill_parent" android:layout_height="36.0dip" android:layout_marginTop="@dimen/view_margin_small" android:layout_marginBottom="@dimen/view_margin_small" app:tabBackground="@drawable/selector_abb" app:tabIndicatorColor="@null" app:tabMode="scrollable" app:tabSelectedTextColor="@color/kmColorAccent" app:tabTextColor="@color/basic_third_text" />
+            <com.google.android.material.tabs.TabLayout android:id="@id/tab3" android:layout_width="fill_parent" android:layout_height="36.0dip" android:layout_marginTop="@dimen/view_margin_small" android:layout_marginBottom="@dimen/view_margin_small" app:tabBackground="@drawable/selector_abb" app:tabIndicatorColor="@null" app:tabMode="scrollable" app:tabSelectedTextColor="@color/kmColorAccent" app:tabTextColor="@color/basic_third_text" />
+            <com.google.android.material.tabs.TabLayout android:id="@id/tab4" android:layout_width="fill_parent" android:layout_height="36.0dip" android:layout_marginTop="@dimen/view_margin_small" android:layout_marginBottom="@dimen/view_margin_small" app:tabBackground="@drawable/selector_abb" app:tabIndicatorColor="@null" app:tabMode="scrollable" app:tabSelectedTextColor="@color/kmColorAccent" app:tabTextColor="@color/basic_third_text" />
+        </LinearLayout>
+    </com.google.android.material.appbar.AppBarLayout>
+    <FrameLayout android:background="@color/white" android:layout_width="fill_parent" android:layout_height="48.0dip" app:layout_scrollFlags="">
+        <TextView android:textSize="20.0sp" android:textStyle="bold" android:textColor="@color/basic_primary_text" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="热点" />
+    </FrameLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

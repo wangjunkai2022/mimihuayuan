@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/ll_root" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.comeback.data.widget.RatioFrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" app:ratio="0.56">
+        <com.comeback.data.widget.RatioImageView android:id="@id/iv_cover" android:layout_width="fill_parent" android:layout_height="wrap_content" android:scaleType="centerCrop" app:ratio="0.56" />
+        <TextView android:textSize="@dimen/text_title" android:textColor="@color/white" android:id="@id/tv_title" android:background="@drawable/bg_jianbian_90" android:paddingTop="@dimen/view_margin_normal" android:paddingBottom="@dimen/view_margin_xlarge" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="2" android:paddingStart="@dimen/view_margin_normal" android:paddingEnd="@dimen/view_margin_normal" />
+    </com.comeback.data.widget.RatioFrameLayout>
+    <TextView android:textColor="@color/basic_third_text" android:id="@id/tv_play_count" android:paddingTop="@dimen/view_margin_normal" android:paddingBottom="@dimen/view_margin_normal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/view_margin_small" android:singleLine="true" android:drawablePadding="@dimen/view_margin_small" android:drawableStart="@mipmap/icon_playcount" android:paddingStart="@dimen/view_margin_large" android:drawableTint="@color/basic_third_text" />
+</LinearLayout>

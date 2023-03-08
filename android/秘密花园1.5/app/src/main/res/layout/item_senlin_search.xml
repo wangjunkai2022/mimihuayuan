@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="48dp" android:layout_marginLeft="14dp" android:layout_marginRight="14dp">
+    <EditText android:textSize="12sp" android:textColor="@color/basic_primary_text" android:textColorHint="@color/basic_third_text" android:gravity="center" android:id="@+id/et_search" android:background="@drawable/shape_home_search" android:paddingLeft="10dp" android:layout_width="match_parent" android:layout_height="30dp" android:hint="请在此处输入影片名或演员名" android:singleLine="true" android:drawableLeft="@mipmap/icon_search_xj" android:drawablePadding="8dp" android:imeOptions="actionSearch"/>
+</LinearLayout>

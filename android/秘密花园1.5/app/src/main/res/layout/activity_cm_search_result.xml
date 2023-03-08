@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:background="#161823" android:layout_width="match_parent" android:layout_height="match_parent">
+    <FrameLayout android:layout_width="match_parent" android:layout_height="48dp">
+        <ImageView android:layout_gravity="center_vertical" android:id="@+id/iv_back" android:layout_width="32dp" android:layout_height="16dp" android:src="@drawable/ic_exo_back" android:tint="#d9991d" android:paddingStart="@dimen/view_margin_normal" android:paddingEnd="@dimen/view_margin_normal"/>
+        <TextView android:textSize="20sp" android:textColor="@color/white" android:layout_gravity="center" android:id="@+id/tv_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="影片分类"/>
+    </FrameLayout>
+    <include layout="@layout/base_refresh_recycler"/>
+</LinearLayout>

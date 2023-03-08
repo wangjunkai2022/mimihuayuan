@@ -1,0 +1,231 @@
+{
+    "code": 200,
+    "data": [
+        {
+            "id": 9,
+            "info": [
+                {
+                    "childGategoryType": "3",
+                    "childId": 0,
+                    "childTitle": "全部",
+                    "childType": "2"
+                },
+                {
+                    "childId": 10,
+                    "childTitle": "裙底偷拍",
+                    "childType": "2"
+                },
+                {
+                    "childId": 11,
+                    "childTitle": "迷奸记",
+                    "childType": "2"
+                },
+                {
+                    "childId": 12,
+                    "childTitle": "邻居偷情",
+                    "childType": "2"
+                },
+                {
+                    "childId": 14,
+                    "childTitle": "演艺圈",
+                    "childType": "2"
+                },
+                {
+                    "childId": 15,
+                    "childTitle": "美女主播",
+                    "childType": "2"
+                },
+                {
+                    "childId": 16,
+                    "childTitle": "户外",
+                    "childType": "2"
+                },
+                {
+                    "childId": 17,
+                    "childTitle": "酒店偷拍",
+                    "childType": "2"
+                },
+                {
+                    "childId": 18,
+                    "childTitle": "萌白酱",
+                    "childType": "2"
+                },
+                {
+                    "childId": 19,
+                    "childTitle": "性感教师",
+                    "childType": "2"
+                }
+            ],
+            "title": "精选系列",
+            "type": "2"
+        },
+        {
+            "id": 20,
+            "info": [
+                {
+                    "childGategoryType": "3",
+                    "childId": 0,
+                    "childTitle": "全部",
+                    "childType": "2"
+                },
+                {
+                    "childId": 30,
+                    "childTitle": "亚洲虾米",
+                    "childType": "2"
+                },
+                {
+                    "childId": 31,
+                    "childTitle": "欧美虾米",
+                    "childType": "2"
+                },
+                {
+                    "childId": 32,
+                    "childTitle": "另类虾米",
+                    "childType": "2"
+                },
+                {
+                    "childId": 33,
+                    "childTitle": "动漫虾米",
+                    "childType": "2"
+                },
+                {
+                    "childId": 48,
+                    "childTitle": "国产虾米",
+                    "childType": "2"
+                },
+                {
+                    "childId": 49,
+                    "childTitle": "中文字幕",
+                    "childType": "2"
+                }
+            ],
+            "title": "激情视频",
+            "type": "2"
+        },
+        {
+            "gategoryType": "0",
+            "id": 21,
+            "info": [
+                {
+                    "childGategoryType": "3",
+                    "childId": 0,
+                    "childTitle": "全部",
+                    "childType": "3"
+                },
+                {
+                    "childGategoryType": "1",
+                    "childId": 23,
+                    "childTitle": "自拍偷拍",
+                    "childType": "3"
+                },
+                {
+                    "childGategoryType": "1",
+                    "childId": 24,
+                    "childTitle": "亚洲色图",
+                    "childType": "3"
+                },
+                {
+                    "childGategoryType": "1",
+                    "childId": 25,
+                    "childTitle": "欧美色图",
+                    "childType": "3"
+                },
+                {
+                    "childGategoryType": "1",
+                    "childId": 26,
+                    "childTitle": "美腿丝袜",
+                    "childType": "3"
+                },
+                {
+                    "childGategoryType": "1",
+                    "childId": 27,
+                    "childTitle": "清纯唯美",
+                    "childType": "3"
+                },
+                {
+                    "childGategoryType": "1",
+                    "childId": 29,
+                    "childTitle": "卡通动漫",
+                    "childType": "3"
+                },
+                {
+                    "childGategoryType": "1",
+                    "childId": 46,
+                    "childTitle": "街拍套图",
+                    "childType": "3"
+                },
+                {
+                    "childGategoryType": "1",
+                    "childId": 47,
+                    "childTitle": "GIF动图",
+                    "childType": "3"
+                }
+            ],
+            "title": "美女写真",
+            "type": "3"
+        },
+        {
+            "gategoryType": "0",
+            "id": 22,
+            "info": [
+                {
+                    "childGategoryType": "3",
+                    "childId": 0,
+                    "childTitle": "全部",
+                    "childType": "4"
+                },
+                {
+                    "childGategoryType": "0",
+                    "childId": 34,
+                    "childTitle": "都市激情",
+                    "childType": "4"
+                },
+                {
+                    "childGategoryType": "0",
+                    "childId": 35,
+                    "childTitle": "人妻交换",
+                    "childType": "4"
+                },
+                {
+                    "childGategoryType": "0",
+                    "childId": 36,
+                    "childTitle": "校园春色",
+                    "childType": "4"
+                },
+                {
+                    "childGategoryType": "0",
+                    "childId": 37,
+                    "childTitle": "家庭乱伦",
+                    "childType": "4"
+                },
+                {
+                    "childGategoryType": "0",
+                    "childId": 38,
+                    "childTitle": "情色笑话",
+                    "childType": "4"
+                },
+                {
+                    "childGategoryType": "0",
+                    "childId": 39,
+                    "childTitle": "性爱技巧",
+                    "childType": "4"
+                },
+                {
+                    "childGategoryType": "0",
+                    "childId": 40,
+                    "childTitle": "武侠古典",
+                    "childType": "4"
+                },
+                {
+                    "childGategoryType": "0",
+                    "childId": 41,
+                    "childTitle": "另类小说",
+                    "childType": "4"
+                }
+            ],
+            "title": "情色小说",
+            "type": "4"
+        }
+    ],
+    "msg": "请求成功"
+}

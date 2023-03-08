@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/ll_root" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/view_margin_normal" android:layout_marginBottom="@dimen/view_margin_small" android:layout_marginStart="@dimen/view_margin_small" android:layout_marginEnd="@dimen/view_margin_small" app:cardCornerRadius="@dimen/view_margin_normal">
+        <LinearLayout android:orientation="vertical" android:paddingBottom="@dimen/view_margin_normal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.comeback.data.widget.RatioFrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" app:ratio="0.5">
+                <com.comeback.data.widget.RatioImageView android:id="@id/iv_img" android:layout_width="fill_parent" android:layout_height="wrap_content" android:scaleType="centerCrop" app:ratio="0.51" />
+                <FrameLayout android:layout_gravity="bottom" android:background="@drawable/bg_jianbian" android:padding="@dimen/view_margin_small" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="@dimen/text_detail" android:textColor="@color/white" android:id="@id/tv_play_count" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="38.8w" android:singleLine="true" android:drawableLeft="@mipmap/icon_playcount" android:drawablePadding="@dimen/view_margin_small" android:drawableTint="@color/white" />
+                    <TextView android:textSize="@dimen/text_detail" android:textColor="@color/white" android:layout_gravity="end" android:id="@id/tv_play_length" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="14:15" android:singleLine="true" android:drawableRight="@mipmap/ic_time" android:drawablePadding="@dimen/view_margin_small" android:drawableTint="@color/white" />
+                </FrameLayout>
+            </com.comeback.data.widget.RatioFrameLayout>
+            <TextView android:textColor="@color/basic_primary_text" android:id="@id/tv_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/view_margin_normal" android:text="被抓奶子的感觉好舒服" android:maxLines="1" android:paddingStart="@dimen/view_margin_small" android:paddingEnd="@dimen/view_margin_small" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

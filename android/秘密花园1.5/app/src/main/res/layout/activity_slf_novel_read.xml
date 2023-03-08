@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:id="@+id/ll_content" android:layout_width="match_parent" android:layout_height="match_parent">
+        <TextView android:textSize="16sp" android:gravity="center" android:id="@+id/tv_name" android:background="@color/white" android:paddingLeft="16dp" android:paddingRight="16dp" android:layout_width="match_parent" android:layout_height="48dp"/>
+        <View android:background="#ccc" android:layout_width="match_parent" android:layout_height="1px"/>
+        <androidx.core.widget.NestedScrollView android:layout_width="match_parent" android:layout_height="match_parent">
+            <TextView android:textSize="16sp" android:id="@+id/tv_detail" android:padding="8dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:lineSpacingExtra="4dp"/>
+        </androidx.core.widget.NestedScrollView>
+    </LinearLayout>
+    <LinearLayout android:layout_gravity="end" android:orientation="vertical" android:id="@+id/ll_folder" android:background="@color/white" android:layout_width="320dp" android:layout_height="match_parent" android:translationX="320dp">
+        <androidx.recyclerview.widget.RecyclerView android:id="@+id/rv_chapter" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    </LinearLayout>
+</FrameLayout>

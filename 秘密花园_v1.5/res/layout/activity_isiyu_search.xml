@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:orientation="horizontal" android:background="@color/colorPrimaryDark" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <EditText android:textSize="@dimen/text_detail" android:textColor="@color/white" android:textColorHint="@color/basic_third_text" android:id="@id/et_search" android:background="@drawable/bg_radius_accent_dark" android:paddingTop="@dimen/view_margin_normal" android:paddingBottom="@dimen/view_margin_normal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/view_margin_normal" android:layout_marginBottom="@dimen/view_margin_normal" android:hint="搜索点什么" android:singleLine="true" android:drawableLeft="@mipmap/icon_search_xj" android:drawablePadding="@dimen/view_margin_normal" android:layout_weight="1.0" android:imeOptions="actionSearch" android:textCursorDrawable="@drawable/cursor_drawable_white" android:paddingStart="@dimen/view_margin_large" android:layout_marginStart="@dimen/view_margin_large" android:layout_marginEnd="@dimen/view_margin_large" />
+        <ImageView android:layout_gravity="end" android:id="@id/iv_cancel" android:padding="12.0dip" android:visibility="gone" android:layout_width="48.0dip" android:layout_height="48.0dip" android:src="@mipmap/ic_cancel" android:tint="@color/basic_secondary_text" android:layout_marginEnd="@dimen/view_margin_large" />
+    </FrameLayout>
+    <com.scwang.smartrefresh.layout.SmartRefreshLayout android:id="@id/refreshLayout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/rv_list" android:layout_width="fill_parent" android:layout_height="fill_parent" android:overScrollMode="never" />
+    </com.scwang.smartrefresh.layout.SmartRefreshLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/ll_recommend" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textColor="@color/basic_third_text" android:paddingTop="@dimen/view_margin_large" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="热门搜索" android:paddingStart="@dimen/view_margin_large" />
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/rv_recommend" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>

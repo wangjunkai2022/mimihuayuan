@@ -1,0 +1,31 @@
+!!brut.androlib.meta.MetaInfo
+apkFileName: 秘密花园_v1.5.apk
+compressionType: false
+doNotCompress:
+- resources.arsc
+- png
+- jpeg
+- jpg
+- webp
+- res/mipmap-xhdpi/launcher_dn.jpg
+isFrameworkApk: false
+packageInfo:
+  forcedPackageId: '127'
+  renameManifestPackage: null
+sdkInfo:
+  minSdkVersion: '21'
+  targetSdkVersion: '29'
+sharedLibrary: false
+sparseResources: false
+unknownFiles:
+  androidsupportmultidexversion.txt: '8'
+  okhttp3/internal/publicsuffix/NOTICE: '8'
+  okhttp3/internal/publicsuffix/publicsuffixes.gz: '8'
+usesFramework:
+  ids:
+  - 1
+  tag: null
+version: 2.7.0
+versionInfo:
+  versionCode: '15'
+  versionName: '1.5'

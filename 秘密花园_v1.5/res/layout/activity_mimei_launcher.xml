@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:background="@color/white" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="@dimen/view_margin_large" android:paddingEnd="@dimen/view_margin_large">
+        <TextView android:textSize="18.0sp" android:textColor="@color/basic_primary_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/view_margin_large" android:layout_marginBottom="@dimen/view_margin_large" android:text="服务器节点(影响页面展示速度)" />
+        <RadioGroup android:orientation="horizontal" android:id="@id/radio_group_host" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <RadioButton android:textColor="@color/mimei_select" android:id="@id/radio_host1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true" android:text="节点1" android:buttonTint="@color/mimei_select" />
+            <RadioButton android:textColor="@color/mimei_select" android:id="@id/radio_host2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="节点2" android:layout_marginStart="@dimen/view_margin_large" android:buttonTint="@color/mimei_select" />
+            <RadioButton android:textColor="@color/mimei_select" android:id="@id/radio_host3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="节点3" android:layout_marginStart="@dimen/view_margin_large" android:buttonTint="@color/mimei_select" />
+        </RadioGroup>
+        <TextView android:textSize="18.0sp" android:textColor="@color/basic_primary_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/view_margin_large" android:layout_marginBottom="@dimen/view_margin_large" android:text="漫画图片节点(影响漫画加载速度)" />
+        <RadioGroup android:orientation="horizontal" android:id="@id/radio_group_image" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <RadioButton android:textColor="@color/mimei_select" android:id="@id/radio_image1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true" android:text="节点1" android:buttonTint="@color/mimei_select" />
+            <RadioButton android:textColor="@color/mimei_select" android:id="@id/radio_image2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="节点2" android:layout_marginStart="@dimen/view_margin_large" android:buttonTint="@color/mimei_select" />
+            <RadioButton android:textColor="@color/mimei_select" android:id="@id/radio_image3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="节点3" android:layout_marginStart="@dimen/view_margin_large" android:buttonTint="@color/mimei_select" />
+        </RadioGroup>
+        <TextView android:textSize="18.0sp" android:textColor="@color/basic_primary_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/view_margin_large" android:layout_marginBottom="@dimen/view_margin_large" android:text="小说节点(影响小说加载速度)" />
+        <RadioGroup android:orientation="horizontal" android:id="@id/radio_group_novel" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <RadioButton android:textColor="@color/mimei_select" android:id="@id/radio_novel1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true" android:text="节点1" android:buttonTint="@color/mimei_select" />
+            <RadioButton android:textColor="@color/mimei_select" android:id="@id/radio_novel2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="节点2" android:layout_marginStart="@dimen/view_margin_large" android:buttonTint="@color/mimei_select" />
+        </RadioGroup>
+        <View android:layout_width="fill_parent" android:layout_height="100.0dip" />
+        <TextView android:textSize="24.0sp" android:textColor="@color/basic_primary_text" android:gravity="center" android:id="@id/tv_login" android:background="@drawable/bg_radius_cucumber2" android:padding="@dimen/view_margin_large" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="进入主页" android:layout_marginStart="@dimen/view_margin_xlarge" android:layout_marginEnd="@dimen/view_margin_xlarge" />
+    </LinearLayout>
+    <FrameLayout android:layout_gravity="center" android:id="@id/fl_progress" android:background="@drawable/bg_xj_trans30" android:padding="@dimen/view_margin_large" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.wang.avi.AVLoadingIndicatorView android:layout_gravity="center_horizontal" android:id="@id/loading" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/view_margin_xlarge" app:indicatorName="BallTrianglePathIndicator" />
+        <TextView android:textSize="@dimen/text_detail" android:textColor="@color/white" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/view_margin_xlarge" android:text="正在获取配置..." />
+    </FrameLayout>
+</FrameLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.comeback.data.widget.CustomViewPager android:id="@id/view_pager" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <RadioGroup android:gravity="center_horizontal" android:orientation="horizontal" android:id="@id/rg_tab" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="50.0dip">
+        <RadioButton android:textSize="12.0sp" android:textColor="@color/selector_iqiyi_tab_txt" android:gravity="center_horizontal" android:layout_gravity="center_vertical" android:id="@id/rb_home" android:layout_width="0.0dip" android:layout_height="wrap_content" android:checked="true" android:button="@null" android:text="首页" android:drawableTop="@drawable/icon_isiyu_home" android:drawablePadding="2.0dip" android:layout_weight="1.0" />
+        <RadioButton android:textSize="12.0sp" android:textColor="@color/selector_iqiyi_tab_txt" android:gravity="center_horizontal" android:layout_gravity="center_vertical" android:id="@id/rb_new" android:layout_width="0.0dip" android:layout_height="wrap_content" android:button="@null" android:text="最新" android:drawableTop="@drawable/icon_isiyu_new" android:drawablePadding="2.0dip" android:layout_weight="1.0" />
+        <RadioButton android:textSize="12.0sp" android:textColor="@color/selector_iqiyi_tab_txt" android:gravity="center_horizontal" android:layout_gravity="center_vertical" android:id="@id/rb_special" android:visibility="visible" android:layout_width="0.0dip" android:layout_height="wrap_content" android:button="@null" android:text="系列" android:drawableTop="@drawable/icon_isiyu_special" android:drawablePadding="2.0dip" android:layout_weight="1.0" />
+    </RadioGroup>
+</LinearLayout>

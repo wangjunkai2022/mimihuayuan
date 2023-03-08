@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RadioGroup android:gravity="center_horizontal" android:orientation="horizontal" android:id="@id/rg_tab" android:background="@color/white" android:padding="@dimen/view_margin_large" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RadioButton android:textSize="12.0sp" android:textColor="@color/km_select" android:gravity="center_horizontal" android:layout_gravity="center_vertical" android:id="@id/rb_recommend" android:layout_width="0.0dip" android:layout_height="wrap_content" android:checked="true" android:button="@null" android:text="推荐榜" android:drawableTop="@mipmap/yx_recommend" android:drawablePadding="@dimen/view_margin_small" android:layout_weight="1.0" />
+        <RadioButton android:textSize="12.0sp" android:textColor="@color/km_select" android:gravity="center_horizontal" android:layout_gravity="center_vertical" android:id="@id/rb_hot" android:layout_width="0.0dip" android:layout_height="wrap_content" android:button="@null" android:text="热播榜" android:drawableTop="@mipmap/yx_hot" android:drawablePadding="@dimen/view_margin_small" android:layout_weight="1.0" />
+        <RadioButton android:textSize="12.0sp" android:textColor="@color/km_select" android:gravity="center_horizontal" android:layout_gravity="center_vertical" android:id="@id/rb_new" android:visibility="visible" android:layout_width="0.0dip" android:layout_height="wrap_content" android:button="@null" android:text="新品榜" android:drawableTop="@mipmap/yx_new" android:drawablePadding="@dimen/view_margin_small" android:layout_weight="1.0" />
+        <RadioButton android:textSize="12.0sp" android:textColor="@color/km_select" android:gravity="center_horizontal" android:layout_gravity="center_vertical" android:id="@id/rb_author" android:layout_width="0.0dip" android:layout_height="wrap_content" android:button="@null" android:text="主播榜" android:drawableTop="@mipmap/yx_author" android:drawablePadding="@dimen/view_margin_small" android:layout_weight="1.0" />
+    </RadioGroup>
+    <View android:layout_width="fill_parent" android:layout_height="@dimen/view_margin_large" />
+    <com.comeback.data.widget.CustomViewPager android:id="@id/view_pager" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+</LinearLayout>

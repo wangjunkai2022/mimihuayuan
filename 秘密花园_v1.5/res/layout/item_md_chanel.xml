@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:id="@id/card_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/view_margin_normal" android:layout_marginBottom="@dimen/view_margin_normal" android:layout_marginStart="@dimen/view_margin_large" android:layout_marginEnd="@dimen/view_margin_large" app:cardCornerRadius="8.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:padding="@dimen/view_margin_normal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.comeback.data.widget.RatioImageView android:id="@id/iv_img" android:layout_width="128.0dip" android:layout_height="128.0dip" android:src="@drawable/bg_ranking_ov_item_one" android:scaleType="centerCrop" app:radius="@dimen/view_margin_normal" />
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/view_margin_large" android:paddingEnd="@dimen/view_margin_large">
+            <TextView android:textSize="24.0sp" android:textStyle="bold" android:textColor="@color/basic_primary_text" android:id="@id/tv_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/view_margin_normal" android:text="本周十大新片" />
+            <include layout="@layout/include_divide_line" />
+            <TextView android:textSize="@dimen/text_title" android:textColor="@color/basic_primary_text" android:id="@id/tv_total" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/view_margin_normal" android:layout_marginBottom="@dimen/view_margin_small" android:text="1073个片儿" />
+            <TextView android:textColor="@color/basic_third_text" android:ellipsize="end" android:id="@id/tv_desc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/view_margin_small" android:layout_marginBottom="@dimen/view_margin_small" android:text="麻豆传媒映画，原创国产视频麻豆传媒映画，原创国产视频麻豆传媒映画，原创国产视频" android:maxLines="2" />
+        </LinearLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView android:id="@id/card_view1" android:layout_width="fill_parent" android:layout_height="120.0dip" android:layout_marginTop="@dimen/view_margin_large" android:layout_marginBottom="@dimen/view_margin_large" android:layout_marginStart="@dimen/view_margin_large" android:layout_marginEnd="@dimen/view_margin_large" app:cardCornerRadius="8.0dip">
+        <ImageView android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/bg_ranking_ov_item_one" android:scaleType="centerCrop" />
+        <TextView android:textSize="20.0sp" android:textStyle="bold" android:textColor="@color/white" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="本周十大新片" />
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView android:id="@id/card_view2" android:layout_width="fill_parent" android:layout_height="120.0dip" android:layout_marginTop="@dimen/view_margin_xlarge" android:layout_marginBottom="@dimen/view_margin_large" android:layout_marginStart="@dimen/view_margin_large" android:layout_marginEnd="@dimen/view_margin_large" app:cardCornerRadius="8.0dip">
+        <ImageView android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/bg_ranking_ov_item_two" android:scaleType="centerCrop" />
+        <TextView android:textSize="20.0sp" android:textStyle="bold" android:textColor="@color/white" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="本周十大无码" />
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView android:id="@id/card_view3" android:layout_width="fill_parent" android:layout_height="120.0dip" android:layout_marginTop="@dimen/view_margin_xlarge" android:layout_marginBottom="@dimen/view_margin_large" android:layout_marginStart="@dimen/view_margin_large" android:layout_marginEnd="@dimen/view_margin_large" app:cardCornerRadius="8.0dip">
+        <ImageView android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/bg_ranking_ov_item_three" android:scaleType="centerCrop" />
+        <TextView android:textSize="20.0sp" android:textStyle="bold" android:textColor="@color/white" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="本周十大有码" />
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView android:id="@id/card_view4" android:layout_width="fill_parent" android:layout_height="120.0dip" android:layout_marginTop="@dimen/view_margin_xlarge" android:layout_marginStart="@dimen/view_margin_large" android:layout_marginEnd="@dimen/view_margin_large" app:cardCornerRadius="8.0dip">
+        <ImageView android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/bg_ranking_ov_item_four" android:scaleType="centerCrop" />
+        <TextView android:textSize="20.0sp" android:textStyle="bold" android:textColor="@color/white" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="本周十大女优" />
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

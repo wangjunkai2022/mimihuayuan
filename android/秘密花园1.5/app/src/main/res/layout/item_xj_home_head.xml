@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/view_margin_large" android:layout_marginBottom="@dimen/view_margin_large">
+        <TextView android:textSize="12sp" android:textColor="@color/basic_third_text" android:gravity="center" android:id="@+id/tv_wm" android:layout_width="0dp" android:layout_height="wrap_content" android:text="无码视频" android:drawableTop="@mipmap/icon_wmsp" android:layout_weight="1"/>
+        <TextView android:textSize="12sp" android:textColor="@color/basic_third_text" android:gravity="center" android:id="@+id/tv_zf" android:layout_width="0dp" android:layout_height="wrap_content" android:text="制服诱惑" android:drawableTop="@mipmap/icon_ghgy" android:layout_weight="1"/>
+        <TextView android:textSize="12sp" android:textColor="@color/basic_third_text" android:gravity="center" android:id="@+id/tv_rq" android:layout_width="0dp" android:layout_height="wrap_content" android:text="人妻熟女" android:drawableTop="@mipmap/icon_lmdn" android:layout_weight="1"/>
+        <TextView android:textSize="12sp" android:textColor="@color/basic_third_text" android:gravity="center" android:id="@+id/tv_cr" android:layout_width="0dp" android:layout_height="wrap_content" android:text="成人动漫" android:drawableTop="@mipmap/icon_jsby" android:layout_weight="1"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/view_margin_large">
+        <TextView android:textSize="12sp" android:textColor="@color/basic_third_text" android:gravity="center" android:id="@+id/tv_js" android:layout_width="0dp" android:layout_height="wrap_content" android:text="角色扮演" android:drawableTop="@mipmap/icon_zfyh" android:layout_weight="1"/>
+        <TextView android:textSize="12sp" android:textColor="@color/basic_third_text" android:gravity="center" android:id="@+id/tv_lm" android:layout_width="0dp" android:layout_height="wrap_content" android:text="辣妹大奶" android:drawableTop="@mipmap/icon_rqsn" android:layout_weight="1"/>
+        <TextView android:textSize="12sp" android:textColor="@color/basic_third_text" android:gravity="center" android:id="@+id/tv_tp" android:layout_width="0dp" android:layout_height="wrap_content" android:text="偷拍自拍" android:drawableTop="@mipmap/icon_snqj" android:layout_weight="1"/>
+        <TextView android:textSize="12sp" android:textColor="@color/basic_third_text" android:gravity="center" android:id="@+id/tv_qb" android:layout_width="0dp" android:layout_height="wrap_content" android:text="全部分类" android:drawableTop="@mipmap/icon_qbfl" android:layout_weight="1"/>
+    </LinearLayout>
+</LinearLayout>

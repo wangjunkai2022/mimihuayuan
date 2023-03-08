@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <FrameLayout android:background="#1f1529" android:layout_width="match_parent" android:layout_height="48dp">
+        <TextView android:textSize="18sp" android:textColor="@color/white" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="精选系列"/>
+        <ImageView android:layout_gravity="end|center_vertical" android:id="@+id/iv_search" android:paddingTop="@dimen/view_margin_normal" android:paddingBottom="@dimen/view_margin_normal" android:layout_width="56dp" android:layout_height="40dp" android:src="@mipmap/icon_search_xj" android:paddingStart="@dimen/view_margin_large" android:paddingEnd="@dimen/view_margin_large"/>
+    </FrameLayout>
+    <include layout="@layout/base_refresh_recycler"/>
+</LinearLayout>

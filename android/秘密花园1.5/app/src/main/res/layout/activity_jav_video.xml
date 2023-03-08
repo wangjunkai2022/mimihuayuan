@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:textSize="20sp" android:textColor="@color/basic_primary_text" android:gravity="center_vertical" android:id="@+id/tv_title" android:layout_width="match_parent" android:layout_height="56dp" android:maxLines="1" android:drawableLeft="@mipmap/ic_arrow_left" android:drawablePadding="@dimen/view_margin_normal" android:paddingStart="@dimen/view_margin_normal" android:paddingEnd="@dimen/view_margin_normal"/>
+    <androidx.core.widget.NestedScrollView android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+                <com.comeback.data.widget.RatioImageView android:id="@+id/iv_cover" android:layout_width="match_parent" android:layout_height="wrap_content" app:ratio="0.67"/>
+                <TextView android:textSize="20sp" android:textColor="@color/white" android:gravity="center_vertical" android:layout_gravity="center" android:id="@+id/tv_play" android:background="@drawable/bg_radius_trans" android:paddingTop="@dimen/view_margin_normal" android:paddingBottom="@dimen/view_margin_normal" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="播放预告片" android:drawableLeft="@mipmap/player_icon_start_play" android:drawablePadding="@dimen/view_margin_normal" android:paddingStart="@dimen/view_margin_xlarge" android:paddingEnd="@dimen/view_margin_xlarge"/>
+            </FrameLayout>
+            <LinearLayout android:orientation="vertical" android:background="@drawable/bg_radius8_grey2" android:padding="@dimen/view_margin_large" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/view_margin_large">
+                <TextView android:id="@+id/tv_uid" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+                <TextView android:id="@+id/tv_date" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/view_margin_small"/>
+                <TextView android:id="@+id/tv_duration" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/view_margin_small"/>
+                <TextView android:id="@+id/tv_shop" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/view_margin_small"/>
+                <TextView android:id="@+id/tv_publisher" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/view_margin_small"/>
+                <TextView android:id="@+id/tv_score" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/view_margin_small"/>
+                <TextView android:id="@+id/tv_actor" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/view_margin_small"/>
+                <TextView android:id="@+id/tv_tag" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/view_margin_small"/>
+            </LinearLayout>
+            <RelativeLayout android:orientation="vertical" android:id="@+id/rl_preview" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/view_margin_large" android:paddingEnd="@dimen/view_margin_large">
+                <TextView android:textSize="20sp" android:textStyle="bold" android:textColor="@color/basic_primary_text" android:id="@+id/tv_no" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="剧照"/>
+                <TextView android:textColor="@color/basic_secondary_text" android:id="@+id/tv_more_img" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/view_margin_small" android:drawableRight="@mipmap/ic_right_primary" android:paddingStart="@dimen/view_margin_xlarge" android:layout_alignParentEnd="true"/>
+                <androidx.recyclerview.widget.RecyclerView android:id="@+id/rv_preview" android:layout_width="match_parent" android:layout_height="140dp" android:layout_marginTop="@dimen/view_margin_normal" android:layout_below="@+id/tv_no"/>
+            </RelativeLayout>
+            <LinearLayout android:orientation="vertical" android:id="@+id/ll_same" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/view_margin_large" android:paddingStart="@dimen/view_margin_large" android:paddingEnd="@dimen/view_margin_large">
+                <TextView android:textSize="20sp" android:textStyle="bold" android:textColor="@color/basic_primary_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="TA(們)還出演過"/>
+                <androidx.recyclerview.widget.RecyclerView android:id="@+id/rv_same" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/view_margin_normal"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@+id/ll_guess" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/view_margin_large" android:paddingStart="@dimen/view_margin_large" android:paddingEnd="@dimen/view_margin_large">
+                <TextView android:textSize="20sp" android:textStyle="bold" android:textColor="@color/basic_primary_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="你可能也喜歡"/>
+                <androidx.recyclerview.widget.RecyclerView android:id="@+id/rv_guess" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/view_margin_normal"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@+id/ll_download" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/view_margin_large" android:paddingStart="@dimen/view_margin_large" android:paddingEnd="@dimen/view_margin_large">
+                <TextView android:textSize="20sp" android:textStyle="bold" android:textColor="@color/basic_primary_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="磁力下载"/>
+                <androidx.recyclerview.widget.RecyclerView android:id="@+id/rv_download" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/view_margin_normal" android:layout_marginBottom="@dimen/view_margin_xlarge"/>
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>

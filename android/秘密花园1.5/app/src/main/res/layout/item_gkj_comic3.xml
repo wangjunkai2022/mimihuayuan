@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:id="@+id/ll_root1" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/view_margin_small" android:layout_marginEnd="@dimen/view_margin_small">
+        <com.comeback.data.widget.RatioImageView android:id="@+id/iv_cover1" android:layout_width="match_parent" android:layout_height="wrap_content" android:scaleType="centerCrop" app:ratio="0.42"/>
+        <TextView android:textSize="@dimen/text_title" android:textColor="@color/basic_primary_text" android:id="@+id/tv_title1" android:layout_width="match_parent" android:layout_height="wrap_content" android:singleLine="true"/>
+        <TextView android:textSize="@dimen/text_detail" android:textColor="@color/basic_third_text" android:id="@+id/tv_intro1" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/view_margin_normal" android:singleLine="true"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:id="@+id/ll_root2" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginTop="@dimen/view_margin_small" android:layout_weight="1" android:layout_marginStart="@dimen/view_margin_small" android:layout_marginEnd="@dimen/view_margin_small">
+            <com.comeback.data.widget.RatioImageView android:id="@+id/iv_cover2" android:layout_width="match_parent" android:layout_height="wrap_content" android:scaleType="centerCrop" app:ratio="1.3"/>
+            <TextView android:textSize="@dimen/text_title" android:textColor="@color/basic_primary_text" android:id="@+id/tv_title2" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/view_margin_small" android:singleLine="true"/>
+            <TextView android:textSize="@dimen/text_detail" android:textColor="@color/basic_third_text" android:id="@+id/tv_intro2" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/view_margin_normal" android:singleLine="true"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@+id/ll_root3" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginTop="@dimen/view_margin_small" android:layout_weight="1" android:layout_marginStart="@dimen/view_margin_small" android:layout_marginEnd="@dimen/view_margin_small">
+            <com.comeback.data.widget.RatioImageView android:id="@+id/iv_cover3" android:layout_width="match_parent" android:layout_height="wrap_content" app:ratio="1.3"/>
+            <TextView android:textSize="@dimen/text_title" android:textColor="@color/basic_primary_text" android:id="@+id/tv_title3" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/view_margin_small" android:singleLine="true"/>
+            <TextView android:textSize="@dimen/text_detail" android:textColor="@color/basic_third_text" android:id="@+id/tv_intro3" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/view_margin_normal" android:singleLine="true"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@+id/ll_root4" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginTop="@dimen/view_margin_small" android:layout_weight="1" android:layout_marginStart="@dimen/view_margin_small" android:layout_marginEnd="@dimen/view_margin_small">
+            <com.comeback.data.widget.RatioImageView android:id="@+id/iv_cover4" android:layout_width="match_parent" android:layout_height="wrap_content" app:ratio="1.3"/>
+            <TextView android:textSize="@dimen/text_title" android:textColor="@color/basic_primary_text" android:id="@+id/tv_title4" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/view_margin_small" android:singleLine="true"/>
+            <TextView android:textSize="@dimen/text_detail" android:textColor="@color/basic_third_text" android:id="@+id/tv_intro4" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/view_margin_normal" android:singleLine="true"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
