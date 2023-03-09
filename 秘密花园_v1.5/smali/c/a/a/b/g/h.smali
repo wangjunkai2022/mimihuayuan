@@ -9540,40 +9540,40 @@
 
 .method public static r(Ljava/lang/String;)Z
     .locals 2
+    #获取包判断是否安装 改为一直已经安装
+    # const/4 v0, 0x0
 
-    const/4 v0, 0x0
+    # .line 1
+    # :try_start_0
+    # sget-object v1, Lcom/comeback/data/App;->b:Lcom/comeback/data/App;
 
-    .line 1
-    :try_start_0
-    sget-object v1, Lcom/comeback/data/App;->b:Lcom/comeback/data/App;
+    # .line 2
+    # invoke-virtual {v1}, Landroid/app/Application;->getPackageManager()Landroid/content/pm/PackageManager;
 
-    .line 2
-    invoke-virtual {v1}, Landroid/app/Application;->getPackageManager()Landroid/content/pm/PackageManager;
+    # move-result-object v1
 
-    move-result-object v1
+    # invoke-virtual {v1, p0, v0}, Landroid/content/pm/PackageManager;->getPackageInfo(Ljava/lang/String;I)Landroid/content/pm/PackageInfo;
 
-    invoke-virtual {v1, p0, v0}, Landroid/content/pm/PackageManager;->getPackageInfo(Ljava/lang/String;I)Landroid/content/pm/PackageInfo;
+    # move-result-object p0
+    # :try_end_0
+    # .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
-    move-result-object p0
-    :try_end_0
-    .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
+    # goto :goto_0
 
-    goto :goto_0
+    # :catch_0
+    # move-exception p0
 
-    :catch_0
-    move-exception p0
+    # .line 3
+    # invoke-virtual {p0}, Ljava/lang/Exception;->printStackTrace()V
 
-    .line 3
-    invoke-virtual {p0}, Ljava/lang/Exception;->printStackTrace()V
+    # const/4 p0, 0x0
 
-    const/4 p0, 0x0
-
-    :goto_0
-    if-eqz p0, :cond_0
+    # :goto_0
+    # if-eqz p0, :cond_0
 
     const/4 v0, 0x1
 
-    :cond_0
+    # :cond_0
     return v0
 .end method
 

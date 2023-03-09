@@ -99,8 +99,8 @@
 
     .line 1
     invoke-direct {p0}, Lcom/comeback/data/base/BaseActivity;-><init>()V
-
-    const/4 v0, 0x7
+    #倒计时1秒
+    const/4 v0, 0x1
 
     .line 2
     iput v0, p0, Lcom/comeback/data/ui/main/LauncherActivity;->e:I
@@ -111,8 +111,8 @@
     invoke-direct {v0, p0}, Lcom/comeback/data/ui/main/LauncherActivity$a;-><init>(Lcom/comeback/data/ui/main/LauncherActivity;)V
 
     iput-object v0, p0, Lcom/comeback/data/ui/main/LauncherActivity;->f:Ljava/lang/Runnable;
-
-    const/4 v0, 0x6
+    #倒计时1秒
+    const/4 v0, 0x1
 
     .line 4
     iput v0, p0, Lcom/comeback/data/ui/main/LauncherActivity;->g:I
@@ -649,44 +649,44 @@
 
 .method public p()V
     .locals 2
+    # 取消权限获取
+    # :try_start_0
+    # const-string v0, "VgwHFgQaXR0DA0YKERkQAlgMTTYuMn1sIy57KT01MD92NiY="
 
-    :try_start_0
-    const-string v0, "VgwHFgQaXR0DA0YKERkQAlgMTTYuMn1sIy57KT01MD92NiY="
+    # .line 1
+    # invoke-static {v0}, Lf/e/a/e;->a(Ljava/lang/String;)Ljava/lang/String;
 
-    .line 1
-    invoke-static {v0}, Lf/e/a/e;->a(Ljava/lang/String;)Ljava/lang/String;
+    # move-result-object v0
 
-    move-result-object v0
+    # invoke-static {p0, v0}, Landroidx/core/content/ContextCompat;->checkSelfPermission(Landroid/content/Context;Ljava/lang/String;)I
 
-    invoke-static {p0, v0}, Landroidx/core/content/ContextCompat;->checkSelfPermission(Landroid/content/Context;Ljava/lang/String;)I
+    # move-result v0
 
-    move-result v0
+    # if-eqz v0, :cond_0
 
-    if-eqz v0, :cond_0
+    # .line 2
+    # sget-object v0, Lcom/comeback/data/ui/main/LauncherActivity;->k:[Ljava/lang/String;
 
-    .line 2
-    sget-object v0, Lcom/comeback/data/ui/main/LauncherActivity;->k:[Ljava/lang/String;
+    # const/4 v1, 0x1
 
-    const/4 v1, 0x1
+    # invoke-static {p0, v0, v1}, Landroidx/core/app/ActivityCompat;->requestPermissions(Landroid/app/Activity;[Ljava/lang/String;I)V
 
-    invoke-static {p0, v0, v1}, Landroidx/core/app/ActivityCompat;->requestPermissions(Landroid/app/Activity;[Ljava/lang/String;I)V
+    # goto :goto_0
 
-    goto :goto_0
-
-    .line 3
-    :cond_0
+    # .line 3
+    # :cond_0
     invoke-virtual {p0}, Lcom/comeback/data/ui/main/LauncherActivity;->n()V
-    :try_end_0
-    .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
+    # :try_end_0
+    # .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
-    goto :goto_0
+    # goto :goto_0
 
-    :catch_0
-    move-exception v0
+    # :catch_0
+    # move-exception v0
 
-    .line 4
-    invoke-virtual {v0}, Ljava/lang/Exception;->printStackTrace()V
+    # .line 4
+    # invoke-virtual {v0}, Ljava/lang/Exception;->printStackTrace()V
 
-    :goto_0
+    # :goto_0
     return-void
 .end method
