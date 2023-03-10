@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="@dimen/text_title" android:textColor="@color/basic_primary_text" android:gravity="center" android:layout_width="fill_parent" android:layout_height="40.0dip" android:text="排行榜" />
+    <include layout="@layout/include_divide_line" />
+    <com.comeback.data.widget.CustomViewPager android:id="@id/view_pager" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.google.android.material.tabs.TabLayout android:id="@id/tab_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" app:tabGravity="center" app:tabIndicatorColor="#ffff4444" app:tabMode="scrollable" app:tabSelectedTextColor="#ffff4444" app:tabTextColor="@color/basic_primary_text" />
+    </com.comeback.data.widget.CustomViewPager>
+</LinearLayout>

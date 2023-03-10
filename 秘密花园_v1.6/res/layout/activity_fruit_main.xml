@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.comeback.data.widget.CustomViewPager android:id="@id/view_pager" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="45.0dip" />
+    <RelativeLayout android:id="@id/bottom_tab_layout" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="67.0dip" android:layout_alignParentBottom="true">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+            <include layout="@layout/include_divide_line" />
+            <View android:background="@color/white" android:layout_width="fill_parent" android:layout_height="52.0dip" />
+        </LinearLayout>
+        <RadioGroup android:gravity="bottom" android:orientation="horizontal" android:id="@id/rg_tab" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="53.0dip" android:layout_marginBottom="7.0dip" android:layout_alignParentBottom="true">
+            <RadioButton android:textSize="9.0sp" android:textColor="@color/basic_primary_text" android:gravity="center" android:id="@id/tab_main_page" android:background="@null" android:layout_width="0.0dip" android:layout_height="wrap_content" android:checked="true" android:button="@null" android:text="首页" android:drawableTop="@drawable/selector_pie_home" android:drawablePadding="4.0dip" android:layout_weight="1.0" />
+            <RadioButton android:textSize="9.0sp" android:gravity="center" android:id="@id/tab_discover" android:background="@null" android:layout_width="0.0dip" android:layout_height="wrap_content" android:button="@null" android:text="发现" android:drawableTop="@drawable/selector_pie_discover" android:drawablePadding="2.0dip" android:layout_weight="1.0" />
+            <RadioButton android:textSize="9.0sp" android:gravity="center" android:id="@id/tab_anchor" android:background="@null" android:layout_width="0.0dip" android:layout_height="wrap_content" android:button="@null" android:text="主播" android:drawableTop="@drawable/selector_pie_anchor" android:layout_weight="1.0" />
+        </RadioGroup>
+    </RelativeLayout>
+</RelativeLayout>

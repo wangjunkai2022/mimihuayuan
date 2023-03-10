@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/selector_nav_bottom_category" android:id="@id/navigation_type" android:title="分类" />
+    <item android:icon="@drawable/selector_nav_bottom_favorite" android:id="@id/navigation_collect" android:title="收藏" />
+</menu>

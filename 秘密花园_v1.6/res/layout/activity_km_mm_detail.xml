@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:layout_gravity="center_vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="88.0dip" />
+    <FrameLayout android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="-64.0dip">
+        <ImageView android:layout_gravity="center_horizontal" android:id="@id/iv_head" android:layout_width="128.0dip" android:layout_height="128.0dip" android:transitionName="ImageHeader" />
+    </FrameLayout>
+    <com.google.android.material.tabs.TabLayout android:id="@id/tab_layout" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content" app:tabGravity="fill" app:tabIndicatorColor="@null" app:tabMode="fixed" app:tabSelectedTextColor="@color/kmColorAccent" app:tabTextColor="@color/basic_secondary_text" />
+    <androidx.core.widget.NestedScrollView android:id="@id/scrollView" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:padding="@dimen/view_margin_large" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textColor="@color/kmColorAccent" android:id="@id/tv_area" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/view_margin_large" />
+            <TextView android:textColor="@color/basic_primary_text" android:id="@id/tv_time" android:paddingTop="@dimen/view_margin_normal" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <TextView android:textColor="@color/basic_primary_text" android:id="@id/tv_count" android:paddingTop="@dimen/view_margin_normal" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <TextView android:textColor="@color/basic_primary_text" android:id="@id/tv_price" android:paddingTop="@dimen/view_margin_normal" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <TextView android:textColor="@color/basic_primary_text" android:id="@id/tv_wechat" android:paddingTop="@dimen/view_margin_normal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textIsSelectable="true" />
+            <TextView android:textColor="@color/basic_primary_text" android:id="@id/tv_qq" android:paddingTop="@dimen/view_margin_normal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textIsSelectable="true" />
+            <TextView android:textColor="@color/basic_primary_text" android:id="@id/tv_phone" android:paddingTop="@dimen/view_margin_normal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textIsSelectable="true" />
+            <TextView android:textSize="@dimen/text_detail" android:textColor="@color/basic_secondary_text" android:id="@id/tv_detail" android:paddingTop="@dimen/view_margin_normal" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <TextView android:textSize="@dimen/text_detail" android:textColor="@color/gkj_color3" android:id="@id/tv_pp" android:paddingTop="@dimen/view_margin_large" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="为了广大用户能够更好地使用本平台，避免大家上当受骗。特此为大家总结防骗指南，希望对大家有所帮助。\n\n 一、如果妹子是自己租公寓或者小区里的房子，先打听一下房租的价格，估算妹子做这生意的大概成本，以此判断是不是坑。另外不熟悉的妹子千万不要选择上门服务，因为没有自己承租地方来做这个生意的，100%都是骗子。\n\n 二、未见面前，拒绝提前支付任何费用，如车费、定金、安全保证金、预付一半费用、付全款后才见面等各种理由的费用，切勿因为已开房或已支付其他费用，因小失大，不停给对方打款，越陷越深。\n\n 三、见面后，确认为所预约的妹子后，再付费给妹子，或当着妹子的面付给中间人，付费后禁止对方以任何理由离开房间，如有必要离开，请随行，或要求对方退款后，方可离开。\n\n 四、见面后，如人照不符或不满意的，可以拒绝接受服务，或给车费让她走。\n\n 五、到店服务的，发现和描述不一致，可直接离开。进店后，问清楚服务项目，确定有服务，选到满意技师，再交费或服务后再交费。模糊介绍服务，未选人先交费，要求办卡才有服务的，立即离开，并联系平台反馈。\n\n 六、拒绝支付任何以平台旗号的费用。\n\n 七、在平台找的妹子，请以帖子标明的价格为准，超出范围，请自行决定，如有损失，自行负责。\n" android:lineSpacingExtra="@dimen/view_margin_small" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/rv_list" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

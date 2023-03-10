@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/ll_root" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/view_margin_normal" android:layout_marginStart="@dimen/view_margin_small" android:layout_marginEnd="@dimen/view_margin_small"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.comeback.data.widget.RatioImageView android:id="@id/iv_img" android:background="@drawable/bg_jianbian" android:layout_width="fill_parent" android:layout_height="wrap_content" android:scaleType="fitXY" app:ratio="1.34" />
+        <LinearLayout android:layout_gravity="bottom" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/view_margin_large">
+            <ImageView android:layout_width="14.0dip" android:layout_height="14.0dip" android:src="@drawable/exo_controls_play" />
+            <TextView android:textSize="10.0sp" android:textColor="@color/white" android:id="@id/tv_play_count" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="1234" />
+        </LinearLayout>
+    </FrameLayout>
+    <TextView android:textColor="@color/basic_primary_text" android:id="@id/tv_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/view_margin_small" android:maxLines="1" android:paddingStart="@dimen/view_margin_small" android:paddingEnd="@dimen/view_margin_small" />
+</LinearLayout>

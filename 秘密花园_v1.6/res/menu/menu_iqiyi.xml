@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/icon_iqiyi_home" android:id="@id/navigation_home" android:title="首页" />
+    <item android:icon="@drawable/icon_iqiyi_choice" android:id="@id/navigation_choice" android:title="精选" />
+</menu>

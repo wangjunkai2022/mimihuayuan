@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditText android:textSize="@dimen/text_detail" android:textColor="@color/basic_primary_text" android:textColorHint="#ff969696" android:gravity="center_vertical" android:id="@id/et_search" android:background="@drawable/bg_radius_grey2" android:layout_width="fill_parent" android:layout_height="32.0dip" android:layout_margin="@dimen/view_margin_normal" android:hint="输入番号、女优名称或片名" android:singleLine="true" android:drawableLeft="@mipmap/icon_search3" android:drawablePadding="@dimen/view_margin_normal" android:imeOptions="actionSearch" android:textCursorDrawable="@drawable/cursor_drawable_pink" android:paddingStart="@dimen/view_margin_large" android:drawableTint="#ff969696" />
+    <include layout="@layout/base_refresh_recycler" />
+</LinearLayout>

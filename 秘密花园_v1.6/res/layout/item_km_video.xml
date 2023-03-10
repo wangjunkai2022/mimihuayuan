@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/iv_img" android:layout_width="fill_parent" android:layout_height="300.0dip" android:scaleType="fitXY" android:adjustViewBounds="true" />
+    <RelativeLayout android:orientation="horizontal" android:id="@id/rl_root" android:background="@color/bg_transparent100" android:layout_width="fill_parent" android:layout_height="48.0dip" android:layout_marginTop="-25.0dip" android:layout_below="@id/iv_img">
+        <com.comeback.data.widget.RatioImageView android:id="@id/iv_logo" android:layout_width="36.0dip" android:layout_height="36.0dip" android:layout_marginTop="6.0dip" android:src="@mipmap/ic_km" android:layout_marginStart="@dimen/view_margin_normal" app:radius="100.0dip" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/ll_head" android:padding="3.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="24.0dip" android:layout_marginStart="@dimen/view_margin_normal" android:layout_toEndOf="@id/iv_logo">
+            <ImageView android:layout_width="18.0dip" android:layout_height="18.0dip" android:src="@mipmap/ic_km_like_selected" />
+            <TextView android:textSize="@dimen/text_detail" android:textColor="@color/white" android:id="@id/video_like_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" android:text="0" android:layout_marginStart="@dimen/view_margin_small" />
+        </LinearLayout>
+        <TextView android:textSize="@dimen/text_detail" android:gravity="center_vertical" android:id="@id/tv_user" android:layout_width="fill_parent" android:layout_height="24.0dip" android:singleLine="true" android:layout_alignParentBottom="true" android:layout_marginStart="@dimen/view_margin_normal" android:layout_toEndOf="@id/iv_logo" />
+    </RelativeLayout>
+</RelativeLayout>

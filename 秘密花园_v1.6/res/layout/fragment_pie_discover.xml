@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:background="@color/white" android:paddingBottom="@dimen/view_margin_normal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/logo_pie_home" />
+        <ImageView android:layout_gravity="end|center" android:id="@id/iv_search" android:padding="@dimen/view_margin_small" android:layout_width="48.0dip" android:layout_height="48.0dip" android:src="@mipmap/abb_search" android:layout_marginEnd="@dimen/view_margin_normal" />
+    </FrameLayout>
+    <androidx.core.widget.NestedScrollView android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:id="@id/ll_recommend" android:padding="@dimen/view_margin_normal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/view_margin_normal">
+                <TextView android:textSize="@dimen/text_title" android:textColor="@color/basic_primary_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="本周推荐" />
+                <TextView android:textSize="@dimen/text_detail" android:textColor="@color/basic_secondary_text" android:gravity="end|center" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="更多" android:drawableRight="@mipmap/ic_right_primary" />
+            </LinearLayout>
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/rv_recommend" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <LinearLayout android:id="@id/ll_new" android:padding="@dimen/view_margin_normal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/view_margin_normal">
+                <TextView android:textSize="@dimen/text_title" android:textColor="@color/basic_primary_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="最新热门" />
+                <TextView android:textSize="@dimen/text_detail" android:textColor="@color/basic_secondary_text" android:gravity="end|center" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="更多" android:drawableRight="@mipmap/ic_right_primary" />
+            </LinearLayout>
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/rv_new" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>
